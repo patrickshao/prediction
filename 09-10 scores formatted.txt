@@ -1,0 +1,380 @@
+Aston Villa 0-2 Wigan 
+Blackburn 0-2 Manchester C 
+Bolton 0-1 Sunderland 
+Chelsea 2-1 Hull 
+Everton 1-6 Arsenal 
+Portsmouth 0-1 Fulham 
+Stoke 2-0 Burnley 
+Wolverhampton 0-2 West Ham 
+Manchester U 1-0 Birmingham 
+Tottenham 2-1 Liverpool 
+Sunderland 1-3 Chelsea 
+Wigan 0-1 Wolverhampton 
+Birmingham 1-0 Portsmouth 
+Burnley 1-0 Manchester U 
+Hull 1-5 Tottenham 
+Liverpool 4-0 Stoke 
+West Ham 2-1 Aston Villa 
+Fulham 3-0 Blackburn 
+Arsenal 4-2 Bolton 
+Manchester C 0-2 Everton 
+Arsenal 4-1 Portsmouth 
+Birmingham 0-0 Stoke 
+Hull 1-0 Bolton 
+Manchester C 1-0 Wolverhampton 
+Sunderland 2-1 Blackburn 
+Wigan 0-5 Manchester U 
+Burnley 1-0 Everton 
+Fulham 0-2 Chelsea 
+West Ham 1-2 Tottenham 
+Liverpool 1-3 Aston Villa 
+Blackburn 0-0 West Ham 
+Bolton 2-3 Liverpool 
+Chelsea 3-0 Burnley 
+Manchester U 2-1 Arsenal 
+Stoke 1-0 Sunderland 
+Tottenham 2-1 Birmingham 
+Wolverhampton 1-1 Hull 
+Aston Villa 2-0 Fulham 
+Everton 2-1 Wigan 
+Portsmouth 0-1 Manchester C 
+Blackburn 3-1 Wolverhampton 
+Liverpool 4-0 Burnley 
+Manchester C 4-2 Arsenal 
+Portsmouth 2-3 Bolton 
+Stoke 1-2 Chelsea 
+Sunderland 4-1 Hull 
+Tottenham 1-3 Manchester U 
+Wigan 1-0 West Ham 
+Birmingham 0-1 Aston Villa 
+Fulham 2-1 Everton 
+Arsenal 4-0 Wigan 
+Aston Villa 2-0 Portsmouth 
+Bolton 1-1 Stoke 
+Burnley 3-1 Sunderland 
+Hull 0-1 Birmingham 
+West Ham 2-3 Liverpool 
+Chelsea 3-0 Tottenham 
+Everton 3-0 Blackburn 
+Manchester U 4-3 Manchester C 
+Wolverhampton 2-1 Fulham 
+Birmingham 1-2 Bolton 
+Blackburn 2-1 Aston Villa 
+Fulham 0-1 Arsenal 
+Liverpool 6-1 Hull 
+Portsmouth 0-1 Everton 
+Stoke 0-2 Manchester U 
+Tottenham 5-0 Burnley 
+Wigan 3-1 Chelsea 
+Sunderland 5-2 Wolverhampton 
+Manchester C 3-1 West Ham 
+Bolton 2-2 Tottenham 
+Burnley 2-1 Birmingham 
+Hull 2-1 Wigan 
+Manchester U 2-2 Sunderland 
+Wolverhampton 0-1 Portsmouth 
+Arsenal 6-2 Blackburn 
+Chelsea 2-0 Liverpool 
+Everton 1-1 Stoke 
+West Ham 2-2 Fulham 
+Aston Villa 1-1 Manchester C 
+Arsenal 3-1 Birmingham 
+Aston Villa 2-1 Chelsea 
+Everton 1-1 Wolverhampton 
+Manchester U 2-1 Bolton 
+Portsmouth 1-2 Tottenham 
+Stoke 2-1 West Ham 
+Sunderland 1-0 Liverpool 
+Blackburn 3-2 Burnley 
+Wigan 1-1 Manchester C 
+Fulham 2-0 Hull 
+Birmingham 2-1 Sunderland 
+Burnley 1-3 Wigan 
+Chelsea 5-0 Blackburn 
+Hull 0-0 Portsmouth 
+Tottenham 0-1 Stoke 
+Wolverhampton 1-1 Aston Villa 
+Bolton 3-2 Everton 
+Liverpool 2-0 Manchester U 
+Manchester C 2-2 Fulham 
+West Ham 2-2 Arsenal 
+Arsenal 3-0 Tottenham 
+Bolton 0-4 Chelsea 
+Burnley 2-0 Hull 
+Everton 1-1 Aston Villa 
+Fulham 3-1 Liverpool 
+Manchester U 2-0 Blackburn 
+Portsmouth 4-0 Wigan 
+Stoke 2-2 Wolverhampton 
+Sunderland 2-2 West Ham 
+Birmingham 0-0 Manchester C 
+Aston Villa 5-1 Bolton 
+Blackburn 3-1 Portsmouth 
+Manchester C 3-3 Burnley 
+Tottenham 2-0 Sunderland 
+Wolverhampton 1-4 Arsenal 
+Chelsea 1-0 Manchester U 
+Hull 2-1 Stoke 
+West Ham 1-2 Everton 
+Wigan 1-1 Fulham 
+Liverpool 2-2 Birmingham 
+Birmingham 1-0 Fulham 
+Burnley 1-1 Aston Villa 
+Chelsea 4-0 Wolverhampton 
+Hull 3-3 West Ham 
+Liverpool 2-2 Manchester C 
+Manchester U 3-0 Everton 
+Sunderland 1-0 Arsenal 
+Bolton 0-2 Blackburn 
+Stoke 1-0 Portsmouth 
+Tottenham 9-1 Wigan 
+Aston Villa 1-1 Tottenham 
+Blackburn 0-0 Stoke 
+Fulham 1-1 Bolton 
+Manchester C 1-1 Hull 
+Portsmouth 1-4 Manchester U 
+West Ham 5-3 Burnley 
+Wigan 1-0 Sunderland 
+Arsenal 0-3 Chelsea 
+Everton 0-2 Liverpool 
+Wolverhampton 0-1 Birmingham 
+Arsenal 2-0 Stoke 
+Aston Villa 3-0 Hull 
+Blackburn 0-0 Liverpool 
+Manchester C 2-1 Chelsea 
+Portsmouth 2-0 Burnley 
+West Ham 0-4 Manchester U 
+Wigan 2-3 Birmingham 
+Wolverhampton 2-1 Bolton 
+Everton 2-2 Tottenham 
+Fulham 1-0 Sunderland 
+Birmingham 1-0 West Ham 
+Bolton 3-3 Manchester C 
+Burnley 1-1 Fulham 
+Chelsea 3-3 Everton 
+Hull 0-0 Blackburn 
+Manchester U 0-1 Aston Villa 
+Stoke 2-2 Wigan 
+Sunderland 1-1 Portsmouth 
+Tottenham 0-1 Wolverhampton 
+Liverpool 1-2 Arsenal 
+Hull 3-2 Everton 
+Birmingham 2-1 Blackburn 
+Bolton 3-1 West Ham 
+Manchester U 3-0 Wolverhampton 
+Sunderland 0-2 Aston Villa 
+Burnley 1-1 Arsenal 
+Chelsea 2-1 Portsmouth 
+Liverpool 2-1 Wigan 
+Tottenham 3-0 Manchester C 
+Stoke 3-2 Fulham 
+Arsenal 3-0 Hull 
+Aston Villa 1-0 Stoke 
+Blackburn 0-2 Tottenham 
+Fulham 3-0 Manchester U 
+Manchester C 4-3 Sunderland 
+Portsmouth 2-0 Liverpool 
+Everton 1-1 Birmingham 
+West Ham 1-1 Chelsea 
+Wolverhampton 2-0 Burnley 
+Wigan 0-0 Bolton 
+Birmingham 0-0 Chelsea 
+Burnley 1-1 Bolton 
+Fulham 0-0 Tottenham 
+Liverpool 2-0 Wolverhampton 
+Manchester C 2-0 Stoke 
+Sunderland 1-1 Everton 
+West Ham 2-0 Portsmouth 
+Wigan 1-1 Blackburn 
+Arsenal 3-0 Aston Villa 
+Hull 1-3 Manchester U 
+Blackburn 2-2 Sunderland 
+Chelsea 2-1 Fulham 
+Everton 2-0 Burnley 
+Stoke 0-1 Birmingham 
+Tottenham 2-0 West Ham 
+Wolverhampton 0-3 Manchester C 
+Aston Villa 0-1 Liverpool 
+Bolton 2-2 Hull 
+Manchester U 5-0 Wigan 
+Portsmouth 1-4 Arsenal 
+Arsenal 2-2 Everton 
+Birmingham 1-1 Manchester U 
+Manchester C 4-1 Blackburn 
+Liverpool 2-0 Tottenham 
+Hull 1-1 Chelsea 
+Fulham 1-0 Portsmouth 
+Sunderland 4-0 Bolton 
+Burnley 1-1 Stoke 
+Wigan 1-2 Aston Villa 
+West Ham 1-3 Wolverhampton 
+Chelsea 7-2 Sunderland 
+Everton 2-0 Manchester C 
+Manchester U 3-0 Burnley 
+Stoke 1-1 Liverpool 
+Tottenham 0-0 Hull 
+Wolverhampton 0-2 Wigan 
+Aston Villa 0-0 West Ham 
+Blackburn 2-0 Fulham 
+Bolton 0-2 Arsenal 
+Portsmouth 1-2 Birmingham 
+Manchester U 4-0 Hull 
+Bolton 1-0 Burnley 
+Portsmouth 1-1 West Ham 
+Tottenham 2-0 Fulham 
+Wolverhampton 0-0 Liverpool 
+Aston Villa 0-0 Arsenal 
+Blackburn 2-1 Wigan 
+Chelsea 3-0 Birmingham 
+Everton 2-0 Sunderland 
+Stoke 1-1 Manchester C 
+Birmingham 1-1 Tottenham 
+Burnley 1-2 Chelsea 
+Fulham 0-2 Aston Villa 
+Hull 2-2 Wolverhampton 
+Liverpool 2-0 Bolton 
+West Ham 0-0 Blackburn 
+Wigan 0-1 Everton 
+Arsenal 1-3 Manchester U 
+Manchester C 2-0 Portsmouth 
+Sunderland 0-0 Stoke 
+Bolton 0-0 Fulham 
+Burnley 2-1 West Ham 
+Hull 2-1 Manchester C 
+Liverpool 1-0 Everton 
+Manchester U 5-0 Portsmouth 
+Stoke 3-0 Blackburn 
+Sunderland 1-1 Wigan 
+Tottenham 0-0 Aston Villa 
+Birmingham 2-1 Wolverhampton 
+Chelsea 2-0 Arsenal 
+Fulham 3-0 Burnley 
+Manchester C 2-0 Bolton 
+Portsmouth 1-1 Sunderland 
+Wigan 1-1 Stoke 
+Arsenal 1-0 Liverpool 
+Aston Villa 1-1 Manchester U 
+Blackburn 1-0 Hull 
+Everton 2-1 Chelsea 
+West Ham 2-0 Birmingham 
+Wolverhampton 1-0 Tottenham 
+Arsenal 2-0 Sunderland 
+Everton 3-1 Manchester U 
+Portsmouth 1-2 Stoke 
+West Ham 3-0 Hull 
+Wolverhampton 0-2 Chelsea 
+Aston Villa 5-2 Burnley 
+Blackburn 3-0 Bolton 
+Fulham 2-1 Birmingham 
+Manchester C 0-0 Liverpool 
+Wigan 0-3 Tottenham 
+Manchester U 3-0 West Ham 
+Birmingham 1-0 Wigan 
+Bolton 1-0 Wolverhampton 
+Burnley 1-2 Portsmouth 
+Chelsea 2-4 Manchester C 
+Stoke 1-3 Arsenal 
+Liverpool 2-1 Blackburn 
+Sunderland 0-0 Fulham 
+Tottenham 2-1 Everton 
+Hull 0-2 Aston Villa 
+Arsenal 3-1 Burnley 
+West Ham 1-2 Bolton 
+Wolverhampton 0-1 Manchester U 
+Everton 5-1 Hull 
+Wigan 1-0 Liverpool 
+Aston Villa 1-1 Sunderland 
+Blackburn 2-1 Birmingham 
+Portsmouth 0-5 Chelsea 
+Fulham 0-1 Stoke 
+Manchester C 0-1 Tottenham 
+Birmingham 2-2 Everton 
+Bolton 4-0 Wigan 
+Burnley 1-2 Wolverhampton 
+Chelsea 4-1 West Ham 
+Hull 1-2 Arsenal 
+Stoke 0-0 Aston Villa 
+Tottenham 3-1 Blackburn 
+Manchester U 3-0 Fulham 
+Sunderland 1-1 Manchester C 
+Liverpool 4-1 Portsmouth 
+Arsenal 2-0 West Ham 
+Aston Villa 2-2 Wolverhampton 
+Everton 2-0 Bolton 
+Portsmouth 3-2 Hull 
+Stoke 1-2 Tottenham 
+Sunderland 3-1 Birmingham 
+Wigan 1-0 Burnley 
+Blackburn 1-1 Chelsea 
+Fulham 1-2 Manchester C 
+Manchester U 2-1 Liverpool 
+Birmingham 1-1 Arsenal 
+Bolton 0-4 Manchester U 
+Chelsea 7-1 Aston Villa 
+Hull 2-0 Fulham 
+Tottenham 2-0 Portsmouth 
+West Ham 0-1 Stoke 
+Wolverhampton 0-0 Everton 
+Burnley 0-1 Blackburn 
+Liverpool 3-0 Sunderland 
+Manchester C 3-0 Wigan 
+Arsenal 1-0 Wolverhampton 
+Bolton 0-1 Aston Villa 
+Burnley 1-6 Manchester C 
+Manchester U 1-2 Chelsea 
+Portsmouth 0-0 Blackburn 
+Stoke 2-0 Hull 
+Sunderland 3-1 Tottenham 
+Birmingham 1-1 Liverpool 
+Everton 2-2 West Ham 
+Fulham 2-1 Wigan 
+Hull 1-4 Burnley 
+West Ham 1-0 Sunderland 
+Blackburn 0-0 Manchester U 
+Liverpool 0-0 Fulham 
+Manchester C 5-1 Birmingham 
+Wolverhampton 0-0 Stoke 
+Chelsea 1-0 Bolton 
+Aston Villa 2-2 Everton 
+Tottenham 2-1 Arsenal 
+Wigan 0-0 Portsmouth 
+Birmingham 0-0 Hull 
+Blackburn 2-3 Everton 
+Fulham 0-0 Wolverhampton 
+Manchester C 0-1 Manchester U 
+Stoke 1-2 Bolton 
+Sunderland 2-1 Burnley 
+Tottenham 2-1 Chelsea 
+Portsmouth 1-2 Aston Villa 
+Wigan 3-2 Arsenal 
+Liverpool 3-0 West Ham 
+Arsenal 0-0 Manchester C 
+Bolton 2-2 Portsmouth 
+Hull 0-1 Sunderland 
+Manchester U 3-1 Tottenham 
+West Ham 3-2 Wigan 
+Wolverhampton 1-1 Blackburn 
+Aston Villa 1-0 Birmingham 
+Burnley 0-4 Liverpool 
+Chelsea 7-0 Stoke 
+Everton 2-1 Fulham 
+Birmingham 2-1 Burnley 
+Manchester C 3-1 Aston Villa 
+Portsmouth 3-1 Wolverhampton 
+Stoke 0-0 Everton 
+Tottenham 1-0 Bolton 
+Fulham 3-2 West Ham 
+Liverpool 0-2 Chelsea 
+Sunderland 0-1 Manchester U 
+Blackburn 2-1 Arsenal 
+Wigan 2-2 Hull 
+Arsenal 4-0 Fulham 
+Aston Villa 0-1 Blackburn 
+Bolton 2-1 Birmingham 
+Burnley 4-2 Tottenham 
+Chelsea 8-0 Wigan 
+Everton 1-0 Portsmouth 
+Hull 0-0 Liverpool 
+Manchester U 4-0 Stoke 
+West Ham 1-1 Manchester C 
+Wolverhampton 2-1 Sunderland 
