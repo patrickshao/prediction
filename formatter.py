@@ -140,9 +140,11 @@ def run(twoDigitYear):
     else:
         tdyp1=''
     tdyp1+=str(twoDigitYear+1)
-    
-    (r,w)=getFiles(tdy+'-'+tdyp1+' scores.txt',tdy+'-'+tdyp1+' scores formatted.txt')
+    fname1=tdy+'-'+tdyp1+' scores.txt'
+    fname2=tdy+'-'+tdyp1+' scores formatted.txt'
+    (r,w)=getFiles(fname1,fname2)
     teams=getPremierTeams(r)
+    (r,w)=getFiles(fname1,fname2)
     parse(r,w,teams)
 
 
