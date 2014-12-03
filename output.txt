@@ -1,0 +1,190 @@
+Arsenal_1–3_Aston Villa
+Arsenal_2–0_Cardiff City
+Arsenal_0–0_Chelsea
+Arsenal_2–0_Crystal Palace
+Arsenal_1–1_Everton
+Arsenal_2–0_Fulham
+Arsenal_2–0_Hull City
+Arsenal_2–0_Liverpool
+Arsenal_1–1_Manchester City
+Arsenal_0–0_Manchester United
+Arsenal_3–0_Newcastle United
+Arsenal_4–1_Norwich City
+Arsenal_2–0_Southampton
+Arsenal_3–1_Stoke City
+Arsenal_4–1_Sunderland
+Arsenal_2–2_Swansea City
+Arsenal_1–0_Tottenham Hotspur
+Arsenal_1–0_West Bromwich Albion
+Arsenal_3–1_West Ham United
+Aston Villa_2–0_Cardiff City
+Aston Villa_1–0_Chelsea
+Aston Villa_0–1_Crystal Palace
+Aston Villa_0–2_Everton
+Aston Villa_1–2_Fulham
+Aston Villa_3–1_Hull City
+Aston Villa_0–1_Liverpool
+Aston Villa_3–2_Manchester City
+Aston Villa_0–3_Manchester United
+Aston Villa_1–2_Newcastle United
+Aston Villa_4–1_Norwich City
+Aston Villa_0–0_Southampton
+Aston Villa_1–4_Stoke City
+Aston Villa_0–0_Sunderland
+Aston Villa_1–1_Swansea City
+Aston Villa_0–2_Tottenham Hotspur
+Aston Villa_4–3_West Bromwich Albion
+Aston Villa_0–2_West Ham United
+Cardiff City_1–2_Chelsea
+Cardiff City_0–3_Crystal Palace
+Cardiff City_0–0_Everton
+Cardiff City_3–1_Fulham
+Cardiff City_0–4_Hull City
+Cardiff City_3–6_Liverpool
+Cardiff City_3–2_Manchester City
+Cardiff City_2–2_Manchester United
+Cardiff City_1–2_Newcastle United
+Cardiff City_2–1_Norwich City
+Cardiff City_0–3_Southampton
+Cardiff City_1–1_Stoke City
+Cardiff City_2–2_Sunderland
+Cardiff City_1–0_Swansea City
+Cardiff City_0–1_Tottenham Hotspur
+Cardiff City_1–0_West Bromwich Albion
+Cardiff City_0–2_West Ham United
+Chelsea_2–1_Crystal Palace
+Chelsea_1–0_Everton
+Chelsea_2–0_Fulham
+Chelsea_2–0_Hull City
+Chelsea_2–1_Liverpool
+Chelsea_2–1_Manchester City
+Chelsea_3–1_Manchester United
+Chelsea_3–0_Newcastle United
+Chelsea_0–0_Norwich City
+Chelsea_3–1_Southampton
+Chelsea_3–0_Stoke City
+Chelsea_1–2_Sunderland
+Chelsea_1–0_Swansea City
+Chelsea_4–0_Tottenham Hotspur
+Chelsea_2–2_West Bromwich Albion
+Chelsea_0–0_West Ham United
+Crystal Palace_0–0_Everton
+Crystal Palace_1–4_Fulham
+Crystal Palace_1–0_Hull City
+Crystal Palace_3–3_Liverpool
+Crystal Palace_0–2_Manchester City
+Crystal Palace_0–2_Manchester United
+Crystal Palace_0–3_Newcastle United
+Crystal Palace_1–1_Norwich City
+Crystal Palace_0–1_Southampton
+Crystal Palace_1–0_Stoke City
+Crystal Palace_3–1_Sunderland
+Crystal Palace_0–2_Swansea City
+Crystal Palace_0–1_Tottenham Hotspur
+Crystal Palace_3–1_West Bromwich Albion
+Crystal Palace_1–0_West Ham United
+Everton_4–1_Fulham
+Everton_2–1_Hull City
+Everton_3–3_Liverpool
+Everton_2–3_Manchester City
+Everton_2–0_Manchester United
+Everton_3–2_Newcastle United
+Everton_2–0_Norwich City
+Everton_2–1_Southampton
+Everton_4–0_Stoke City
+Everton_0–1_Sunderland
+Everton_3–2_Swansea City
+Everton_0–0_Tottenham Hotspur
+Everton_0–0_West Bromwich Albion
+Everton_1–0_West Ham United
+Fulham_2–2_Hull City
+Fulham_2–3_Liverpool
+Fulham_2–4_Manchester City
+Fulham_1–3_Manchester United
+Fulham_1–0_Newcastle United
+Fulham_1–0_Norwich City
+Fulham_0–3_Southampton
+Fulham_1–0_Stoke City
+Fulham_1–4_Sunderland
+Fulham_1–2_Swansea City
+Fulham_1–2_Tottenham Hotspur
+Fulham_1–1_West Bromwich Albion
+Fulham_2–1_West Ham United
+Hull City_3–1_Liverpool
+Hull City_0–2_Manchester City
+Hull City_2–3_Manchester United
+Hull City_1–4_Newcastle United
+Hull City_1–0_Norwich City
+Hull City_0–1_Southampton
+Hull City_0–0_Stoke City
+Hull City_1–0_Sunderland
+Hull City_1–0_Swansea City
+Hull City_1–1_Tottenham Hotspur
+Hull City_2–0_West Bromwich Albion
+Hull City_1–0_West Ham United
+Liverpool_3–2_Manchester City
+Liverpool_1–0_Manchester United
+Liverpool_2–1_Newcastle United
+Liverpool_5–1_Norwich City
+Liverpool_0–1_Southampton
+Liverpool_1–0_Stoke City
+Liverpool_2–1_Sunderland
+Liverpool_4–3_Swansea City
+Liverpool_4–0_Tottenham Hotspur
+Liverpool_4–1_West Bromwich Albion
+Liverpool_4–1_West Ham United
+Manchester City_4–1_Manchester United
+Manchester City_4–0_Newcastle United
+Manchester City_7–0_Norwich City
+Manchester City_4–1_Southampton
+Manchester City_1–0_Stoke City
+Manchester City_2–2_Sunderland
+Manchester City_3–0_Swansea City
+Manchester City_6–0_Tottenham Hotspur
+Manchester City_3–1_West Bromwich Albion
+Manchester City_2–0_West Ham United
+Manchester United_0–1_Newcastle United
+Manchester United_4–0_Norwich City
+Manchester United_1–1_Southampton
+Manchester United_3–2_Stoke City
+Manchester United_0–1_Sunderland
+Manchester United_2–0_Swansea City
+Manchester United_1–2_Tottenham Hotspur
+Manchester United_1–2_West Bromwich Albion
+Manchester United_3–1_West Ham United
+Newcastle United_2–1_Norwich City
+Newcastle United_1–1_Southampton
+Newcastle United_5–1_Stoke City
+Newcastle United_0–3_Sunderland
+Newcastle United_1–2_Swansea City
+Newcastle United_0–4_Tottenham Hotspur
+Newcastle United_2–1_West Bromwich Albion
+Newcastle United_0–0_West Ham United
+Norwich City_1–0_Southampton
+Norwich City_1–1_Stoke City
+Norwich City_2–0_Sunderland
+Norwich City_1–1_Swansea City
+Norwich City_1–0_Tottenham Hotspur
+Norwich City_0–1_West Bromwich Albion
+Norwich City_3–1_West Ham United
+Southampton_2–2_Stoke City
+Southampton_1–1_Sunderland
+Southampton_2–0_Swansea City
+Southampton_2–3_Tottenham Hotspur
+Southampton_1–0_West Bromwich Albion
+Southampton_0–0_West Ham United
+Stoke City_2–0_Sunderland
+Stoke City_1–1_Swansea City
+Stoke City_0–1_Tottenham Hotspur
+Stoke City_0–0_West Bromwich Albion
+Stoke City_3–1_West Ham United
+Sunderland_1–3_Swansea City
+Sunderland_1–2_Tottenham Hotspur
+Sunderland_2–0_West Bromwich Albion
+Sunderland_1–2_West Ham United
+Swansea City_1–3_Tottenham Hotspur
+Swansea City_1–2_West Bromwich Albion
+Swansea City_0–0_West Ham United
+Tottenham Hotspur_1–1_West Bromwich Albion
+Tottenham Hotspur_0–3_West Ham United
+West Bromwich Albion_1–0_West Ham United
