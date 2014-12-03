@@ -2,6 +2,8 @@
 #first stab at text parsing
 
 import string
+#Premiership
+#Championship
 
 #opening files.
 def getFiles (read, write):
@@ -15,7 +17,7 @@ def getFiles (read, write):
     w=open(write,'w')
     return (r,w)
 
-def getPremierTeams(r):
+def getPremierTeams(r,leaguename):
     """
     finds the team names of all of the teams participating in the premier league of
     a given year.
@@ -24,13 +26,16 @@ def getPremierTeams(r):
 
     return: list of strings. all of the teams' names.
     """
-    start=False
+    start=0
     teams=[]
     for line in r:
         line=line.strip()
-        if start==False:
+        if start==0:
+            if line==leaguename:
+                start=1
+        elif start==1:
             if line=="Round 1":
-                start=True
+                start=2
         else:
             if line=="Round 2":
                 break
@@ -69,7 +74,7 @@ def getPremierTeams(r):
 globalteams=['Chelsea','Manchester U','Arsenal','Tottenham','Manchester C','Aston Villa',
        'Liverpool','Everton','Birmingham','Blackburn','Stoke','Fulham','Sunderland',
        'Bolton','Wolverhampton','Wigan','West Ham','Burnley','Hull','Portsmouth']
-def parse (r,w,teams):
+def parse (r,w,pteams,cteams):
     """
     r: file object to be read from
     w: file object to be written to
@@ -79,15 +84,17 @@ def parse (r,w,teams):
     count = 0
     regseas=0
     for line in r:
-        d=parseline(line,teams)
-        if line[0]=='_':
-            regseas=count
-        elif d!=None:
+        d=parseline(line,pteams+cteams)
+        if d!=None:
             (t1,s,t2)=d
-            print d
-            w.write(t1+'_'+s+'_'+t2+'\n')
+            tag='c'
+            if t1 in pteams and t2 in pteams:
+                regseas+=1
+                tag='p'
+            #print t1+'_'+s+'_'+t2+'_'+tag
+            w.write(t1+'_'+s+'_'+t2+'_'+tag+'\n')
             count +=1
-    print count
+    print regseas, count
 
 def parseline(line,teamlist):
     """
@@ -113,6 +120,9 @@ def parseline(line,teamlist):
             firstname+=(word+' ')
     firstname=firstname.strip()
     #print firstname
+    score=(wordlist[scoreindex]).strip()
+    if (len(score)<3) or (score[0] not in string.digits) or (score[-1] not in string.digits) or (score[1] != '-'):
+        return None
     if firstname not in teamlist:
         return None
     secondname=""
@@ -120,6 +130,8 @@ def parseline(line,teamlist):
         word=wordlist[i]
         if word=='':
             continue
+        elif word[0]=='[':
+            break
         else:
             secondname+=(word+ ' ')
     secondname=secondname.strip()
@@ -127,24 +139,45 @@ def parseline(line,teamlist):
     if secondname not in teamlist:
         return None
     return (firstname,wordlist[scoreindex],secondname)
-        
 
-def run(twoDigitYear):
-    if twoDigitYear<10:
+def getFilePrefix(yr1):
+    if yr1<10:
         tdy='0'
     else:
         tdy=''
-    tdy+=str(twoDigitYear)
-    if twoDigitYear<9:
+    tdy+=str(yr1)
+    if yr1<9:
         tdyp1='0'
     else:
         tdyp1=''
-    tdyp1+=str(twoDigitYear+1)
-    fname1=tdy+'-'+tdyp1+' scores.txt'
-    fname2=tdy+'-'+tdyp1+' scores formatted.txt'
+    tdyp1+=str(yr1+1)
+    return (tdy+'-'+tdyp1)
+
+def writeTeams(year):
+    prefix=getFilePrefix(year)
+    r=open(prefix+" scores.txt")
+    w=open(prefix+" teams.txt",'w')
+    teams=getPremierTeams(r,'Premiership')
+    for team in teams:
+        print team
+        w.write(team+'\n')
+    r.close()
+    w.close()
+    return teams
+    
+
+def run(year):
+    pteams=writeTeams(year)
+    prefix=getFilePrefix(year)
+    fname1=prefix+' scores.txt'
+    fname2=prefix+' scores formatted.txt'
+    r=open(fname1)
+    cteams=getPremierTeams(r,'Championship')
+    print cteams
+    r.close()
     (r,w)=getFiles(fname1,fname2)
-    teams=getPremierTeams(r)
-    (r,w)=getFiles(fname1,fname2)
-    parse(r,w,teams)
+    parse(r,w,pteams,cteams)
+    r.close()
+    w.close()
 
 

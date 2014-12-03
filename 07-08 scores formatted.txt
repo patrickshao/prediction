@@ -1,0 +1,983 @@
+Sunderland_1-0_Tottenham Hotspur_p
+West Ham United_0-2_Manchester City_p
+Derby County_2-2_Portsmouth_p
+Middlesbrough_1-2_Blackburn Rovers_p
+Everton_2-1_Wigan Athletic_p
+Bolton Wanderers_1-3_Newcastle United_p
+Aston Villa_1-2_Liverpool_p
+Arsenal_2-1_Fulham_p
+Chelsea_3-2_Birmingham City_p
+Manchester United_0-0_Reading_p
+Tottenham Hotspur_1-3_Everton_p
+Fulham_2-1_Bolton Wanderers_p
+Manchester City_1-0_Derby County_p
+Portsmouth_1-1_Manchester United_p
+Birmingham City_2-2_Sunderland_p
+Wigan Athletic_1-0_Middlesbrough_p
+Reading_1-2_Chelsea_p
+Blackburn Rovers_0-4_Aston Villa_p
+Newcastle United_1-1_Arsenal_p
+Liverpool_4-0_West Ham United_p
+Portsmouth_3-1_Bolton Wanderers_p
+Wigan Athletic_3-0_Sunderland_p
+Birmingham City_0-1_West Ham United_p
+Fulham_1-2_Middlesbrough_p
+Tottenham Hotspur_4-0_Derby County_p
+Reading_1-0_Everton_p
+Newcastle United_0-0_Aston Villa_p
+Manchester City_1-0_Manchester United_p
+Blackburn Rovers_1-1_Arsenal_p
+Liverpool_1-1_Chelsea_p
+Sunderland_0-2_Liverpool_p
+West Ham United_1-1_Wigan Athletic_p
+Bolton Wanderers_3-0_Reading_p
+Derby County_1-2_Birmingham City_p
+Aston Villa_2-1_Fulham_p
+Arsenal_1-0_Manchester City_p
+Chelsea_1-0_Portsmouth_p
+Everton_1-1_Blackburn Rovers_p
+Middlesbrough_2-2_Newcastle United_p
+Manchester United_1-0_Tottenham Hotspur_p
+Fulham_3-3_Tottenham Hotspur_p
+Bolton Wanderers_1-2_Everton_p
+Newcastle United_1-0_Wigan Athletic_p
+Middlesbrough_2-0_Birmingham City_p
+Liverpool_6-0_Derby County_p
+Reading_0-3_West Ham United_p
+Manchester United_1-0_Sunderland_p
+Arsenal_3-1_Portsmouth_p
+Blackburn Rovers_1-0_Manchester City_p
+Aston Villa_2-0_Chelsea_p
+Tottenham Hotspur_1-3_Arsenal_p
+Wigan Athletic_1-1_Fulham_p
+Portsmouth_0-0_Liverpool_p
+Chelsea_0-0_Blackburn Rovers_p
+Everton_0-1_Manchester United_p
+Sunderland_2-1_Reading_p
+West Ham United_3-0_Middlesbrough_p
+Birmingham City_1-0_Bolton Wanderers_p
+Manchester City_1-0_Aston Villa_p
+Derby County_1-0_Newcastle United_p
+Liverpool_0-0_Birmingham City_p
+Arsenal_5-0_Derby County_p
+Reading_2-1_Wigan Athletic_p
+Middlesbrough_2-2_Sunderland_p
+Fulham_3-3_Manchester City_p
+Newcastle United_3-1_West Ham United_p
+Aston Villa_2-0_Everton_p
+Blackburn Rovers_0-1_Portsmouth_p
+Bolton Wanderers_1-1_Tottenham Hotspur_p
+Manchester United_2-0_Chelsea_p
+Manchester City_3-1_Newcastle United_p
+West Ham United_0-1_Arsenal_p
+Wigan Athletic_0-1_Liverpool_p
+Chelsea_0-0_Fulham_p
+Sunderland_1-2_Blackburn Rovers_p
+Portsmouth_7-4_Reading_p
+Derby County_1-1_Bolton Wanderers_p
+Birmingham City_0-1_Manchester United_p
+Everton_2-0_Middlesbrough_p
+Tottenham Hotspur_4-4_Aston Villa_p
+Aston Villa_1-0_West Ham United_p
+Arsenal_3-2_Sunderland_p
+Reading_1-0_Derby County_p
+Manchester City_3-1_Middlesbrough_p
+Liverpool_2-2_Tottenham Hotspur_p
+Bolton Wanderers_0-1_Chelsea_p
+Blackburn Rovers_2-1_Birmingham City_p
+Fulham_0-2_Portsmouth_p
+Newcastle United_3-2_Everton_p
+Arsenal_2-0_Bolton Wanderers_p
+Aston Villa_1-4_Manchester United_p
+Manchester City_1-0_Birmingham City_p
+Everton_1-2_Liverpool_p
+Wigan Athletic_0-2_Portsmouth_p
+Blackburn Rovers_4-2_Reading_p
+Middlesbrough_0-2_Chelsea_p
+Fulham_0-0_Derby County_p
+West Ham United_3-1_Sunderland_p
+Newcastle United_3-1_Tottenham Hotspur_p
+Birmingham City_3-2_Wigan Athletic_p
+Chelsea_6-0_Manchester City_p
+Manchester United_4-1_Middlesbrough_p
+Reading_2-1_Newcastle United_p
+Sunderland_1-1_Fulham_p
+Portsmouth_0-0_West Ham United_p
+Bolton Wanderers_1-1_Aston Villa_p
+Derby County_0-2_Everton_p
+Tottenham Hotspur_1-2_Blackburn Rovers_p
+Liverpool_1-1_Arsenal_p
+Arsenal_2-2_Manchester United_p
+Newcastle United_1-4_Portsmouth_p
+Wigan Athletic_0-2_Chelsea_p
+Aston Villa_2-0_Derby County_p
+Everton_3-1_Birmingham City_p
+Fulham_3-1_Reading_p
+Middlesbrough_1-1_Tottenham Hotspur_p
+Blackburn Rovers_0-0_Liverpool_p
+West Ham United_1-1_Bolton Wanderers_p
+Manchester City_1-0_Sunderland_p
+Sunderland_1-1_Newcastle United_p
+Derby County_0-5_West Ham United_p
+Liverpool_2-0_Fulham_p
+Birmingham City_1-2_Aston Villa_p
+Chelsea_1-1_Everton_p
+Manchester United_2-0_Blackburn Rovers_p
+Bolton Wanderers_0-0_Middlesbrough_p
+Tottenham Hotspur_4-0_Wigan Athletic_p
+Portsmouth_0-0_Manchester City_p
+Reading_1-3_Arsenal_p
+Everton_7-1_Sunderland_p
+Derby County_0-2_Chelsea_p
+Arsenal_2-0_Wigan Athletic_p
+Newcastle United_0-3_Liverpool_p
+Birmingham City_0-2_Portsmouth_p
+Bolton Wanderers_1-0_Manchester United_p
+Manchester City_2-1_Reading_p
+Middlesbrough_0-3_Aston Villa_p
+Fulham_2-2_Blackburn Rovers_p
+West Ham United_1-1_Tottenham Hotspur_p
+Chelsea_1-0_West Ham United_p
+Wigan Athletic_1-1_Manchester City_p
+Portsmouth_0-0_Everton_p
+Blackburn Rovers_3-1_Newcastle United_p
+Reading_1-1_Middlesbrough_p
+Sunderland_1-0_Derby County_p
+Aston Villa_1-2_Arsenal_p
+Liverpool_4-0_Bolton Wanderers_p
+Tottenham Hotspur_2-3_Birmingham City_p
+Manchester United_2-0_Fulham_p
+Aston Villa_1-3_Portsmouth_p
+Chelsea_2-0_Sunderland_p
+Manchester United_4-1_Derby County_p
+Everton_3-0_Fulham_p
+Newcastle United_2-1_Birmingham City_p
+Reading_3-1_Liverpool_p
+Middlesbrough_2-1_Arsenal_p
+Tottenham Hotspur_2-1_Manchester City_p
+Bolton Wanderers_4-1_Wigan Athletic_p
+Blackburn Rovers_0-1_West Ham United_p
+Birmingham City_1-1_Reading_p
+Derby County_0-1_Middlesbrough_p
+Manchester City_4-2_Bolton Wanderers_p
+Portsmouth_0-1_Tottenham Hotspur_p
+Sunderland_1-1_Aston Villa_p
+West Ham United_0-2_Everton_p
+Wigan Athletic_5-3_Blackburn Rovers_p
+Fulham_0-1_Newcastle United_p
+Liverpool_0-1_Manchester United_p
+Arsenal_1-0_Chelsea_p
+Arsenal_2-1_Tottenham Hotspur_p
+Middlesbrough_1-2_West Ham United_p
+Reading_2-1_Sunderland_p
+Aston Villa_1-1_Manchester City_p
+Liverpool_4-1_Portsmouth_p
+Bolton Wanderers_3-0_Birmingham City_p
+Fulham_1-1_Wigan Athletic_p
+Manchester United_2-1_Everton_p
+Newcastle United_2-2_Derby County_p
+Blackburn Rovers_0-1_Chelsea_p
+Chelsea_4-4_Aston Villa_p
+West Ham United_1-1_Reading_p
+Tottenham Hotspur_5-1_Fulham_p
+Sunderland_0-4_Manchester United_p
+Derby County_1-2_Liverpool_p
+Everton_2-0_Bolton Wanderers_p
+Wigan Athletic_1-0_Newcastle United_p
+Birmingham City_3-0_Middlesbrough_p
+Portsmouth_0-0_Arsenal_p
+Manchester City_2-2_Blackburn Rovers_p
+West Ham United_2-1_Manchester United_p
+Chelsea_2-1_Newcastle United_p
+Portsmouth_0-1_Middlesbrough_p
+Wigan Athletic_1-2_Aston Villa_p
+Tottenham Hotspur_6-4_Reading_p
+Sunderland_3-1_Bolton Wanderers_p
+Birmingham City_1-1_Fulham_p
+Everton_1-4_Arsenal_p
+Derby County_1-2_Blackburn Rovers_p
+Manchester City_0-0_Liverpool_p
+Fulham_1-2_Chelsea_p
+Arsenal_2-0_West Ham United_p
+Manchester United_1-0_Birmingham City_p
+Middlesbrough_0-2_Everton_p
+Reading_0-2_Portsmouth_p
+Aston Villa_2-1_Tottenham Hotspur_p
+Newcastle United_0-2_Manchester City_p
+Blackburn Rovers_1-0_Sunderland_p
+Bolton Wanderers_1-0_Derby County_p
+Liverpool_1-1_Wigan Athletic_p
+West Ham United_2-1_Fulham_p
+Middlesbrough_1-1_Liverpool_p
+Everton_1-0_Manchester City_p
+Derby County_0-1_Wigan Athletic_p
+Aston Villa_3-1_Reading_p
+Arsenal_1-1_Birmingham City_p
+Chelsea_2-0_Tottenham Hotspur_p
+Manchester United_6-0_Newcastle United_p
+Sunderland_2-0_Portsmouth_p
+Bolton Wanderers_1-2_Blackburn Rovers_p
+Fulham_0-3_Arsenal_p
+Portsmouth_3-1_Derby County_p
+Birmingham City_0-1_Chelsea_p
+Blackburn Rovers_1-1_Middlesbrough_p
+Reading_0-2_Manchester United_p
+Tottenham Hotspur_2-0_Sunderland_p
+Newcastle United_0-0_Bolton Wanderers_p
+Wigan Athletic_1-2_Everton_p
+Manchester City_1-1_West Ham United_p
+Liverpool_2-2_Aston Villa_p
+Aston Villa_1-1_Blackburn Rovers_p
+Arsenal_3-0_Newcastle United_p
+Sunderland_2-0_Birmingham City_p
+Middlesbrough_1-0_Wigan Athletic_p
+Bolton Wanderers_0-0_Fulham_p
+Derby County_1-1_Manchester City_p
+Chelsea_1-0_Reading_p
+West Ham United_1-0_Liverpool_p
+Everton_0-0_Tottenham Hotspur_p
+Manchester United_2-0_Portsmouth_p
+Birmingham City_1-1_Derby County_p
+Blackburn Rovers_0-0_Everton_p
+Liverpool_3-0_Sunderland_p
+Manchester City_1-3_Arsenal_p
+Portsmouth_1-1_Chelsea_p
+Reading_0-2_Bolton Wanderers_p
+Tottenham Hotspur_1-1_Manchester United_p
+Wigan Athletic_1-0_West Ham United_p
+Fulham_2-1_Aston Villa_p
+Newcastle United_1-1_Middlesbrough_p
+Aston Villa_4-1_Newcastle United_p
+Bolton Wanderers_0-1_Portsmouth_p
+Derby County_0-3_Tottenham Hotspur_p
+Everton_1-0_Reading_p
+Middlesbrough_1-0_Fulham_p
+Sunderland_2-0_Wigan Athletic_p
+West Ham United_1-1_Birmingham City_p
+Manchester United_1-2_Manchester City_p
+Chelsea_0-0_Liverpool_p
+Arsenal_2-0_Blackburn Rovers_p
+Birmingham City_2-2_Arsenal_p
+Fulham_0-1_West Ham United_p
+Liverpool_3-2_Middlesbrough_p
+Newcastle United_1-5_Manchester United_p
+Portsmouth_1-0_Sunderland_p
+Wigan Athletic_2-0_Derby County_p
+Blackburn Rovers_4-1_Bolton Wanderers_p
+Reading_1-2_Aston Villa_p
+Manchester City_0-2_Everton_p
+Tottenham Hotspur_4-4_Chelsea_p
+Arsenal_1-1_Aston Villa_p
+Birmingham City_4-1_Tottenham Hotspur_p
+Derby County_0-0_Sunderland_p
+Fulham_0-3_Manchester United_p
+Manchester City_0-0_Wigan Athletic_p
+Middlesbrough_0-1_Reading_p
+Newcastle United_0-1_Blackburn Rovers_p
+West Ham United_0-4_Chelsea_p
+Bolton Wanderers_1-3_Liverpool_p
+Everton_3-1_Portsmouth_p
+Blackburn Rovers_1-1_Fulham_p
+Liverpool_3-0_Newcastle United_p
+Reading_2-0_Manchester City_p
+Sunderland_0-1_Everton_p
+Tottenham Hotspur_4-0_West Ham United_p
+Wigan Athletic_0-0_Arsenal_p
+Aston Villa_1-1_Middlesbrough_p
+Chelsea_6-1_Derby County_p
+Portsmouth_4-2_Birmingham City_p
+Manchester United_2-0_Bolton Wanderers_p
+Arsenal_1-1_Middlesbrough_p
+Derby County_0-1_Manchester United_p
+Liverpool_2-1_Reading_p
+Portsmouth_2-0_Aston Villa_p
+Sunderland_0-1_Chelsea_p
+West Ham United_2-1_Blackburn Rovers_p
+Fulham_1-0_Everton_p
+Manchester City_2-1_Tottenham Hotspur_p
+Wigan Athletic_1-0_Bolton Wanderers_p
+Birmingham City_1-1_Newcastle United_p
+Aston Villa_0-1_Sunderland_p
+Blackburn Rovers_3-1_Wigan Athletic_p
+Bolton Wanderers_0-0_Manchester City_p
+Everton_1-1_West Ham United_p
+Middlesbrough_1-0_Derby County_p
+Newcastle United_2-0_Fulham_p
+Reading_2-1_Birmingham City_p
+Tottenham Hotspur_2-0_Portsmouth_p
+Manchester United_3-0_Liverpool_p
+Chelsea_2-1_Arsenal_p
+Birmingham City_3-1_Manchester City_p
+Bolton Wanderers_2-3_Arsenal_p
+Derby County_2-2_Fulham_p
+Manchester United_4-0_Aston Villa_p
+Portsmouth_2-0_Wigan Athletic_p
+Reading_0-0_Blackburn Rovers_p
+Sunderland_2-1_West Ham United_p
+Chelsea_1-0_Middlesbrough_p
+Liverpool_1-0_Everton_p
+Tottenham Hotspur_1-4_Newcastle United_p
+Arsenal_1-1_Liverpool_p
+Aston Villa_4-0_Bolton Wanderers_p
+Blackburn Rovers_1-1_Tottenham Hotspur_p
+Fulham_1-3_Sunderland_p
+Manchester City_0-2_Chelsea_p
+Newcastle United_3-0_Reading_p
+Wigan Athletic_2-0_Birmingham City_p
+Everton_1-0_Derby County_p
+Middlesbrough_2-2_Manchester United_p
+West Ham United_0-1_Portsmouth_p
+Birmingham City_1-1_Everton_p
+Bolton Wanderers_1-0_West Ham United_p
+Derby County_0-6_Aston Villa_p
+Portsmouth_0-0_Newcastle United_p
+Reading_0-2_Fulham_p
+Sunderland_1-2_Manchester City_p
+Tottenham Hotspur_1-1_Middlesbrough_p
+Liverpool_3-1_Blackburn Rovers_p
+Manchester United_2-1_Arsenal_p
+Chelsea_1-1_Wigan Athletic_p
+Everton_0-1_Chelsea_p
+Arsenal_2-0_Reading_p
+Blackburn Rovers_1-1_Manchester United_p
+Fulham_0-2_Liverpool_p
+Middlesbrough_0-1_Bolton Wanderers_p
+West Ham United_2-1_Derby County_p
+Aston Villa_5-1_Birmingham City_p
+Manchester City_3-1_Portsmouth_p
+Newcastle United_2-0_Sunderland_p
+Birmingham City_2-2_Liverpool_p
+Chelsea_2-1_Manchester United_p
+Manchester City_2-3_Fulham_p
+Sunderland_3-2_Middlesbrough_p
+Tottenham Hotspur_1-1_Bolton Wanderers_p
+West Ham United_2-2_Newcastle United_p
+Everton_2-2_Aston Villa_p
+Portsmouth_0-1_Blackburn Rovers_p
+Derby County_2-6_Arsenal_p
+Blackburn Rovers_3-1_Derby County_p
+Bolton Wanderers_2-0_Sunderland_p
+Fulham_2-0_Birmingham City_p
+Manchester United_4-1_West Ham United_p
+Middlesbrough_2-0_Portsmouth_p
+Reading_0-1_Tottenham Hotspur_p
+Arsenal_1-0_Everton_p
+Liverpool_1-0_Manchester City_p
+Newcastle United_0-2_Chelsea_p
+Birmingham City_4-1_Blackburn Rovers_p
+Chelsea_1-1_Bolton Wanderers_p
+Derby County_0-4_Reading_p
+Everton_3-1_Newcastle United_p
+Middlesbrough_8-1_Manchester City_p
+Portsmouth_0-1_Fulham_p
+Sunderland_0-1_Arsenal_p
+Tottenham Hotspur_0-2_Liverpool_p
+West Ham United_2-2_Aston Villa_p
+Wigan Athletic_0-2_Manchester United_p
+Watford_2-0_Crystal Palace_c
+Aston Villa_0-2_Manchester United_p
+Bristol City_1-2_Middlesbrough_c
+Barnsley_2-1_Blackpool_c
+Burnley_0-2_Arsenal_c
+Newcastle United_4-1_Stoke City_c
+Arsenal_3-0_Newcastle United_p
+Derby County_1-4_Preston North End_c
+Portsmouth_2-1_Plymouth Argyle_c
+Watford_1-4_Wolverhampton Wanderers_c
+Wigan Athletic_1-2_Chelsea_p
+Manchester United_3-1_Tottenham Hotspur_p
+Sheffield United_2-1_Manchester City_c
+Cardiff City_2-0_Wolverhampton Wanderers_c
+Coventry City_0-5_West Bromwich Albion_c
+Liverpool_1-2_Barnsley_c
+Manchester United_4-0_Arsenal_p
+Preston North End_0-1_Portsmouth_c
+Sheffield United_0-0_Middlesbrough_c
+Middlesbrough_1-0_Sheffield United_c
+Barnsley_1-0_Chelsea_c
+Manchester United_0-1_Portsmouth_p
+Middlesbrough_0-2_Cardiff City_c
+West Bromwich Albion_0-1_Portsmouth_c
+Barnsley_0-1_Cardiff City_c
+Portsmouth_1-0_Cardiff City_c
+Manchester United_0-0_Portsmouth_p
+Derby County_2-2_Blackpool_c
+Wigan Athletic_0-1_Hull City_c
+Bristol City_1-2_Manchester City_c
+Newcastle United_2-0_Barnsley_c
+Arsenal_2-0_Newcastle United_p
+Burnley_0-1_Portsmouth_c
+Manchester City_1-0_Norwich City_c
+Reading_2-4_Liverpool_p
+Aston Villa_0-1_Leicester City_c
+Blackburn Rovers_3-0_Birmingham City_p
+Fulham_1-2_Bolton Wanderers_p
+Hull City_0-4_Chelsea_c
+Manchester United_0-2_Coventry City_c
+Sheffield Wednesday_0-3_Everton_c
+Bolton Wanderers_0-1_Manchester City_p
+Chelsea_4-3_Leicester City_c
+Liverpool_2-1_Cardiff City_c
+Portsmouth_1-2_Blackburn Rovers_p
+Sheffield United_0-3_Arsenal_c
+Blackburn Rovers_2-3_Arsenal_p
+Chelsea_2-0_Liverpool_p
+Chelsea_2-1_Everton_p
+Everton_0-1_Chelsea_p
+Burnley_2-1_West Bromwich Albion_c
+Southampton_1-4_Crystal Palace_c
+Bristol City_2-2_Queens Park Rangers_c
+Charlton Athletic_1-1_Scunthorpe United_c
+Cardiff City_0-1_Stoke City_c
+Ipswich Town_4-1_Sheffield Wednesday_c
+Hull City_2-3_Plymouth Argyle_c
+Preston North End_0-0_Norwich City_c
+Sheffield United_2-2_Colchester United_c
+Barnsley_1-4_Coventry City_c
+Leicester City_0-1_Blackpool_c
+Wolverhampton Wanderers_1-2_Watford_c
+Crystal Palace_2-2_Leicester City_c
+Colchester United_2-2_Barnsley_c
+West Bromwich Albion_2-0_Preston North End_c
+Blackpool_1-1_Bristol City_c
+Scunthorpe United_2-0_Burnley_c
+Queens Park Rangers_0-2_Cardiff City_c
+Plymouth Argyle_1-1_Ipswich Town_c
+Norwich City_2-1_Southampton_c
+Coventry City_1-1_Hull City_c
+Watford_1-0_Sheffield United_c
+Stoke City_2-1_Charlton Athletic_c
+Sheffield Wednesday_1-3_Wolverhampton Wanderers_c
+Barnsley_3-2_Plymouth Argyle_c
+Charlton Athletic_3-2_Sheffield Wednesday_c
+Southampton_3-2_Stoke City_c
+Bristol City_2-1_Scunthorpe United_c
+Cardiff City_0-1_Coventry City_c
+Preston North End_0-3_Colchester United_c
+Leicester City_4-1_Watford_c
+Wolverhampton Wanderers_2-1_Blackpool_c
+Hull City_2-1_Norwich City_c
+Sheffield United_1-0_West Bromwich Albion_c
+Ipswich Town_1-0_Crystal Palace_c
+Burnley_0-2_Queens Park Rangers_c
+Sheffield Wednesday_0-1_Bristol City_c
+Crystal Palace_0-1_Charlton Athletic_c
+Colchester United_2-3_Burnley_c
+Plymouth Argyle_0-0_Leicester City_c
+West Bromwich Albion_2-0_Barnsley_c
+Stoke City_0-0_Wolverhampton Wanderers_c
+Watford_2-0_Ipswich Town_c
+Scunthorpe United_3-2_Sheffield United_c
+Queens Park Rangers_0-3_Southampton_c
+Norwich City_1-2_Cardiff City_c
+Coventry City_2-1_Preston North End_c
+Blackpool_2-1_Hull City_c
+Sheffield United_3-1_Wolverhampton Wanderers_c
+Norwich City_1-0_Crystal Palace_c
+Colchester United_2-2_Charlton Athletic_c
+Preston North End_1-0_Sheffield Wednesday_c
+Leicester City_1-1_Queens Park Rangers_c
+Burnley_2-2_Blackpool_c
+Hull City_1-1_Stoke City_c
+West Bromwich Albion_4-0_Ipswich Town_c
+Coventry City_0-3_Bristol City_c
+Barnsley_2-0_Scunthorpe United_c
+Plymouth Argyle_2-2_Cardiff City_c
+Watford_3-2_Southampton_c
+Scunthorpe United_2-1_Preston North End_c
+Sheffield Wednesday_0-2_Burnley_c
+Stoke City_0-0_Barnsley_c
+Blackpool_2-2_Sheffield United_c
+Wolverhampton Wanderers_0-1_Hull City_c
+Bristol City_1-1_West Bromwich Albion_c
+Queens Park Rangers_0-2_Plymouth Argyle_c
+Crystal Palace_1-1_Coventry City_c
+Charlton Athletic_2-0_Norwich City_c
+Cardiff City_1-2_Watford_c
+Southampton_1-1_Colchester United_c
+Ipswich Town_3-1_Leicester City_c
+Cardiff City_2-2_Preston North End_c
+Southampton_2-3_Barnsley_c
+Scunthorpe United_2-3_West Bromwich Albion_c
+Crystal Palace_3-2_Sheffield United_c
+Blackpool_2-2_Colchester United_c
+Stoke City_3-2_Plymouth Argyle_c
+Queens Park Rangers_1-1_Watford_c
+Bristol City_2-2_Burnley_c
+Sheffield Wednesday_1-0_Hull City_c
+Wolverhampton Wanderers_2-0_Norwich City_c
+Charlton Athletic_2-0_Leicester City_c
+Ipswich Town_4-1_Coventry City_c
+Hull City_3-1_Ipswich Town_c
+Colchester United_0-1_Scunthorpe United_c
+Preston North End_0-0_Bristol City_c
+Coventry City_1-1_Charlton Athletic_c
+Barnsley_1-1_Cardiff City_c
+Sheffield United_1-2_Southampton_c
+Leicester City_1-1_Stoke City_c
+Burnley_1-1_Crystal Palace_c
+Plymouth Argyle_1-1_Wolverhampton Wanderers_c
+Watford_1-1_Blackpool_c
+Norwich City_0-1_Sheffield Wednesday_c
+West Bromwich Albion_5-1_Queens Park Rangers_c
+Burnley_2-2_Ipswich Town_c
+Norwich City_0-0_Scunthorpe United_c
+Watford_2-1_Sheffield Wednesday_c
+Coventry City_3-1_Blackpool_c
+Hull City_1-2_Charlton Athletic_c
+Plymouth Argyle_1-0_Crystal Palace_c
+Leicester City_0-0_Wolverhampton Wanderers_c
+Barnsley_3-0_Bristol City_c
+Preston North End_5-1_Southampton_c
+Sheffield United_3-3_Cardiff City_c
+Colchester United_4-2_Queens Park Rangers_c
+West Bromwich Albion_1-1_Stoke City_c
+Cardiff City_2-1_Burnley_c
+Scunthorpe United_1-3_Watford_c
+Wolverhampton Wanderers_1-0_Coventry City_c
+Crystal Palace_1-1_Hull City_c
+Sheffield Wednesday_0-2_Leicester City_c
+Southampton_3-2_West Bromwich Albion_c
+Ipswich Town_2-1_Preston North End_c
+Blackpool_0-0_Plymouth Argyle_c
+Stoke City_2-1_Colchester United_c
+Charlton Athletic_1-1_Barnsley_c
+Bristol City_2-0_Sheffield United_c
+Queens Park Rangers_1-0_Norwich City_c
+Plymouth Argyle_1-0_Coventry City_c
+Colchester United_3-2_West Bromwich Albion_c
+Sheffield United_1-1_Preston North End_c
+Wolverhampton Wanderers_2-0_Charlton Athletic_c
+Norwich City_1-3_Bristol City_c
+Blackpool_1-1_Crystal Palace_c
+Watford_1-0_Hull City_c
+Queens Park Rangers_1-1_Ipswich Town_c
+Barnsley_1-1_Burnley_c
+Stoke City_2-4_Sheffield Wednesday_c
+Scunthorpe United_0-0_Leicester City_c
+Southampton_1-0_Cardiff City_c
+Hull City_3-0_Barnsley_c
+Burnley_2-1_Norwich City_c
+Charlton Athletic_1-2_Plymouth Argyle_c
+Coventry City_0-3_Watford_c
+Crystal Palace_1-3_Stoke City_c
+Preston North End_0-0_Queens Park Rangers_c
+Leicester City_0-1_Sheffield United_c
+West Bromwich Albion_2-1_Blackpool_c
+Ipswich Town_3-1_Colchester United_c
+Sheffield Wednesday_1-2_Scunthorpe United_c
+Bristol City_2-1_Southampton_c
+Cardiff City_2-3_Wolverhampton Wanderers_c
+Charlton Athletic_0-1_Queens Park Rangers_c
+Bristol City_1-0_Stoke City_c
+Cardiff City_1-1_Scunthorpe United_c
+Coventry City_1-0_Colchester United_c
+Hull City_1-1_Sheffield United_c
+Ipswich Town_3-0_Wolverhampton Wanderers_c
+Leicester City_2-0_Barnsley_c
+Preston North End_2-0_Plymouth Argyle_c
+Sheffield Wednesday_2-1_Blackpool_c
+West Bromwich Albion_2-0_Norwich City_c
+Burnley_2-3_Southampton_c
+Crystal Palace_0-2_Watford_c
+Barnsley_1-0_Preston North End_c
+Colchester United_1-1_Leicester City_c
+Plymouth Argyle_1-2_Sheffield Wednesday_c
+Queens Park Rangers_2-0_Hull City_c
+Scunthorpe United_0-0_Crystal Palace_c
+Sheffield United_0-0_Burnley_c
+Southampton_0-1_Charlton Athletic_c
+Stoke City_1-3_Coventry City_c
+Watford_0-3_West Bromwich Albion_c
+Wolverhampton Wanderers_1-1_Bristol City_c
+Norwich City_2-2_Ipswich Town_c
+Blackpool_0-1_Cardiff City_c
+Barnsley_2-1_Blackpool_c
+Bristol City_0-1_Charlton Athletic_c
+Burnley_0-1_Hull City_c
+Cardiff City_1-1_Crystal Palace_c
+Colchester United_1-1_Plymouth Argyle_c
+Norwich City_1-3_Watford_c
+Preston North End_1-1_Leicester City_c
+Queens Park Rangers_1-2_Coventry City_c
+Scunthorpe United_2-3_Stoke City_c
+Sheffield United_3-1_Ipswich Town_c
+Southampton_0-0_Wolverhampton Wanderers_c
+West Bromwich Albion_1-1_Sheffield Wednesday_c
+Blackpool_1-0_Scunthorpe United_c
+Charlton Athletic_3-0_Cardiff City_c
+Crystal Palace_1-1_Queens Park Rangers_c
+Hull City_3-0_Preston North End_c
+Ipswich Town_6-0_Bristol City_c
+Leicester City_0-1_Burnley_c
+Plymouth Argyle_3-0_Norwich City_c
+Sheffield Wednesday_5-0_Southampton_c
+Stoke City_0-1_Sheffield United_c
+Watford_2-2_Colchester United_c
+Wolverhampton Wanderers_1-0_Barnsley_c
+Coventry City_0-4_West Bromwich Albion_c
+Barnsley_3-2_Watford_c
+Bristol City_0-2_Leicester City_c
+Burnley_0-0_Stoke City_c
+Cardiff City_1-0_Ipswich Town_c
+Colchester United_1-2_Crystal Palace_c
+Norwich City_2-0_Coventry City_c
+Preston North End_0-2_Charlton Athletic_c
+Queens Park Rangers_0-0_Sheffield Wednesday_c
+Scunthorpe United_1-2_Hull City_c
+Sheffield United_0-1_Plymouth Argyle_c
+Southampton_1-0_Blackpool_c
+West Bromwich Albion_0-0_Wolverhampton Wanderers_c
+Leicester City_0-0_Cardiff City_c
+Blackpool_1-3_Norwich City_c
+Charlton Athletic_0-3_Sheffield United_c
+Coventry City_1-1_Scunthorpe United_c
+Crystal Palace_2-1_Preston North End_c
+Hull City_0-0_Bristol City_c
+Ipswich Town_2-0_Southampton_c
+Sheffield Wednesday_1-0_Barnsley_c
+Stoke City_3-1_Queens Park Rangers_c
+Watford_1-2_Burnley_c
+Plymouth Argyle_1-2_West Bromwich Albion_c
+Wolverhampton Wanderers_1-0_Colchester United_c
+Blackpool_1-0_Queens Park Rangers_c
+Charlton Athletic_1-3_Burnley_c
+Coventry City_0-1_Sheffield United_c
+Crystal Palace_1-1_West Bromwich Albion_c
+Hull City_2-2_Cardiff City_c
+Ipswich Town_0-0_Barnsley_c
+Leicester City_1-2_Southampton_c
+Plymouth Argyle_3-0_Scunthorpe United_c
+Sheffield Wednesday_1-2_Colchester United_c
+Stoke City_2-1_Norwich City_c
+Watford_1-2_Bristol City_c
+Wolverhampton Wanderers_1-0_Preston North End_c
+Scunthorpe United_1-1_Blackpool_c
+Barnsley_1-0_Wolverhampton Wanderers_c
+Bristol City_2-0_Ipswich Town_c
+Burnley_1-1_Leicester City_c
+Cardiff City_0-2_Charlton Athletic_c
+Colchester United_2-3_Watford_c
+Norwich City_2-1_Plymouth Argyle_c
+Preston North End_3-0_Hull City_c
+Queens Park Rangers_1-2_Crystal Palace_c
+Sheffield United_0-3_Stoke City_c
+Southampton_0-0_Sheffield Wednesday_c
+West Bromwich Albion_2-4_Coventry City_c
+Barnsley_0-0_Crystal Palace_c
+Cardiff City_4-1_Colchester United_c
+Charlton Athletic_3-1_Ipswich Town_c
+Leicester City_1-2_West Bromwich Albion_c
+Norwich City_1-0_Sheffield United_c
+Plymouth Argyle_1-1_Bristol City_c
+Preston North End_0-1_Blackpool_c
+Scunthorpe United_2-2_Queens Park Rangers_c
+Southampton_4-0_Hull City_c
+Wolverhampton Wanderers_2-3_Burnley_c
+Stoke City_0-0_Watford_c
+Sheffield Wednesday_1-1_Coventry City_c
+Blackpool_2-3_Stoke City_c
+Bristol City_1-0_Cardiff City_c
+Burnley_2-3_Preston North End_c
+Colchester United_1-1_Norwich City_c
+Coventry City_1-1_Southampton_c
+Crystal Palace_2-1_Sheffield Wednesday_c
+Hull City_2-0_Leicester City_c
+Ipswich Town_3-2_Scunthorpe United_c
+Queens Park Rangers_0-0_Wolverhampton Wanderers_c
+Sheffield United_1-0_Barnsley_c
+Watford_0-1_Plymouth Argyle_c
+West Bromwich Albion_4-2_Charlton Athletic_c
+Blackpool_4-0_Coventry City_c
+Bristol City_3-2_Barnsley_c
+Cardiff City_1-0_Sheffield United_c
+Charlton Athletic_1-1_Hull City_c
+Crystal Palace_2-1_Plymouth Argyle_c
+Ipswich Town_0-0_Burnley_c
+Queens Park Rangers_2-1_Colchester United_c
+Scunthorpe United_0-1_Norwich City_c
+Sheffield Wednesday_0-1_Watford_c
+Southampton_0-1_Preston North End_c
+Stoke City_3-1_West Bromwich Albion_c
+Wolverhampton Wanderers_1-1_Leicester City_c
+Barnsley_3-3_Stoke City_c
+Burnley_1-1_Sheffield Wednesday_c
+Colchester United_1-1_Southampton_c
+Coventry City_0-2_Crystal Palace_c
+Hull City_2-0_Wolverhampton Wanderers_c
+Leicester City_2-0_Ipswich Town_c
+Norwich City_1-1_Charlton Athletic_c
+Plymouth Argyle_2-1_Queens Park Rangers_c
+Preston North End_0-1_Scunthorpe United_c
+Sheffield United_1-1_Blackpool_c
+Watford_2-2_Cardiff City_c
+West Bromwich Albion_4-1_Bristol City_c
+Barnsley_2-2_Southampton_c
+Burnley_0-1_Bristol City_c
+Colchester United_0-2_Blackpool_c
+Coventry City_2-1_Ipswich Town_c
+Leicester City_1-1_Charlton Athletic_c
+Norwich City_1-1_Wolverhampton Wanderers_c
+Plymouth Argyle_2-2_Stoke City_c
+Preston North End_1-2_Cardiff City_c
+Sheffield United_0-1_Crystal Palace_c
+Watford_2-4_Queens Park Rangers_c
+West Bromwich Albion_5-0_Scunthorpe United_c
+Hull City_1-0_Sheffield Wednesday_c
+Blackpool_3-0_Burnley_c
+Bristol City_2-1_Coventry City_c
+Cardiff City_1-0_Plymouth Argyle_c
+Charlton Athletic_1-2_Colchester United_c
+Crystal Palace_1-1_Norwich City_c
+Ipswich Town_2-0_West Bromwich Albion_c
+Queens Park Rangers_3-1_Leicester City_c
+Scunthorpe United_2-2_Barnsley_c
+Sheffield Wednesday_2-1_Preston North End_c
+Southampton_0-3_Watford_c
+Stoke City_1-1_Hull City_c
+Wolverhampton Wanderers_0-0_Sheffield United_c
+Barnsley_1-3_Norwich City_c
+Bristol City_1-1_Colchester United_c
+Burnley_1-0_Plymouth Argyle_c
+Cardiff City_1-0_Sheffield Wednesday_c
+Charlton Athletic_4-1_Blackpool_c
+Hull City_1-3_West Bromwich Albion_c
+Ipswich Town_1-1_Stoke City_c
+Leicester City_2-0_Coventry City_c
+Preston North End_1-0_Watford_c
+Sheffield United_2-1_Queens Park Rangers_c
+Southampton_1-0_Scunthorpe United_c
+Wolverhampton Wanderers_0-3_Crystal Palace_c
+Blackpool_1-1_Ipswich Town_c
+Coventry City_1-2_Burnley_c
+Crystal Palace_2-0_Bristol City_c
+Norwich City_0-0_Leicester City_c
+Plymouth Argyle_1-1_Southampton_c
+Queens Park Rangers_2-0_Barnsley_c
+Scunthorpe United_0-2_Wolverhampton Wanderers_c
+Sheffield Wednesday_2-0_Sheffield United_c
+Stoke City_3-1_Preston North End_c
+Watford_1-1_Charlton Athletic_c
+West Bromwich Albion_3-3_Cardiff City_c
+Colchester United_1-3_Hull City_c
+Bristol City_1-0_Blackpool_c
+Burnley_2-0_Scunthorpe United_c
+Leicester City_1-0_Crystal Palace_c
+Barnsley_1-0_Colchester United_c
+Cardiff City_3-1_Queens Park Rangers_c
+Charlton Athletic_1-0_Stoke City_c
+Hull City_1-0_Coventry City_c
+Ipswich Town_0-0_Plymouth Argyle_c
+Preston North End_2-1_West Bromwich Albion_c
+Sheffield United_1-1_Watford_c
+Southampton_0-1_Norwich City_c
+Wolverhampton Wanderers_2-1_Sheffield Wednesday_c
+Blackpool_2-1_Leicester City_c
+Colchester United_2-2_Sheffield United_c
+Coventry City_4-0_Barnsley_c
+Crystal Palace_1-1_Southampton_c
+Norwich City_1-0_Preston North End_c
+Plymouth Argyle_0-1_Hull City_c
+Queens Park Rangers_3-0_Bristol City_c
+Scunthorpe United_1-0_Charlton Athletic_c
+Sheffield Wednesday_1-2_Ipswich Town_c
+Stoke City_2-1_Cardiff City_c
+Watford_3-0_Wolverhampton Wanderers_c
+West Bromwich Albion_2-1_Burnley_c
+Charlton Athletic_2-0_Crystal Palace_c
+Barnsley_2-1_West Bromwich Albion_c
+Bristol City_2-1_Sheffield Wednesday_c
+Burnley_1-1_Colchester United_c
+Cardiff City_1-2_Norwich City_c
+Hull City_2-2_Blackpool_c
+Ipswich Town_1-2_Watford_c
+Leicester City_0-1_Plymouth Argyle_c
+Preston North End_1-0_Coventry City_c
+Sheffield United_0-0_Scunthorpe United_c
+Southampton_2-3_Queens Park Rangers_c
+Wolverhampton Wanderers_2-4_Stoke City_c
+Blackpool_0-0_Wolverhampton Wanderers_c
+Colchester United_2-1_Preston North End_c
+Coventry City_0-0_Cardiff City_c
+Crystal Palace_0-1_Ipswich Town_c
+Norwich City_1-1_Hull City_c
+Plymouth Argyle_3-0_Barnsley_c
+Queens Park Rangers_2-4_Burnley_c
+Scunthorpe United_0-1_Bristol City_c
+Sheffield Wednesday_0-0_Charlton Athletic_c
+Stoke City_3-2_Southampton_c
+Watford_1-0_Leicester City_c
+West Bromwich Albion_0-0_Sheffield United_c
+Charlton Athletic_2-2_Watford_c
+Ipswich Town_2-1_Blackpool_c
+Hull City_1-1_Colchester United_c
+Leicester City_4-0_Norwich City_c
+Bristol City_1-1_Crystal Palace_c
+Southampton_0-2_Plymouth Argyle_c
+Barnsley_0-0_Queens Park Rangers_c
+Burnley_2-0_Coventry City_c
+Preston North End_2-0_Stoke City_c
+Wolverhampton Wanderers_2-1_Scunthorpe United_c
+Cardiff City_0-0_West Bromwich Albion_c
+Sheffield United_2-2_Sheffield Wednesday_c
+Blackpool_5-3_Charlton Athletic_c
+Colchester United_1-2_Bristol City_c
+Coventry City_2-0_Leicester City_c
+Crystal Palace_0-2_Wolverhampton Wanderers_c
+Norwich City_1-0_Barnsley_c
+Plymouth Argyle_3-1_Burnley_c
+Queens Park Rangers_1-1_Sheffield United_c
+Scunthorpe United_1-1_Southampton_c
+Sheffield Wednesday_1-0_Cardiff City_c
+Stoke City_1-0_Ipswich Town_c
+Watford_0-0_Preston North End_c
+West Bromwich Albion_1-2_Hull City_c
+Barnsley_0-0_Sheffield Wednesday_c
+Bristol City_2-1_Hull City_c
+Burnley_2-2_Watford_c
+Cardiff City_0-1_Leicester City_c
+Colchester United_0-1_Wolverhampton Wanderers_c
+Norwich City_1-2_Blackpool_c
+Preston North End_0-1_Crystal Palace_c
+Scunthorpe United_2-1_Coventry City_c
+Sheffield United_0-2_Charlton Athletic_c
+Southampton_1-1_Ipswich Town_c
+West Bromwich Albion_3-0_Plymouth Argyle_c
+Queens Park Rangers_3-0_Stoke City_c
+Stoke City_3-2_Scunthorpe United_c
+Blackpool_1-1_Barnsley_c
+Charlton Athletic_1-1_Bristol City_c
+Crystal Palace_0-0_Cardiff City_c
+Hull City_2-0_Burnley_c
+Ipswich Town_1-1_Sheffield United_c
+Leicester City_0-1_Preston North End_c
+Plymouth Argyle_4-1_Colchester United_c
+Sheffield Wednesday_0-1_West Bromwich Albion_c
+Watford_1-1_Norwich City_c
+Wolverhampton Wanderers_2-2_Southampton_c
+Coventry City_0-0_Queens Park Rangers_c
+Blackpool_2-2_Southampton_c
+Charlton Athletic_1-2_Preston North End_c
+Coventry City_1-0_Norwich City_c
+Crystal Palace_2-1_Colchester United_c
+Hull City_2-0_Scunthorpe United_c
+Leicester City_0-0_Bristol City_c
+Plymouth Argyle_0-1_Sheffield United_c
+Sheffield Wednesday_2-1_Queens Park Rangers_c
+Stoke City_1-1_Burnley_c
+Ipswich Town_1-1_Cardiff City_c
+Watford_0-3_Barnsley_c
+Wolverhampton Wanderers_0-1_West Bromwich Albion_c
+Barnsley_4-1_Ipswich Town_c
+Bristol City_0-0_Watford_c
+Burnley_1-0_Charlton Athletic_c
+Colchester United_1-2_Sheffield Wednesday_c
+Norwich City_0-1_Stoke City_c
+Preston North End_2-1_Wolverhampton Wanderers_c
+Queens Park Rangers_3-2_Blackpool_c
+Scunthorpe United_1-0_Plymouth Argyle_c
+Sheffield United_2-1_Coventry City_c
+Southampton_1-0_Leicester City_c
+Cardiff City_1-0_Hull City_c
+West Bromwich Albion_1-1_Crystal Palace_c
+Blackpool_0-0_Preston North End_c
+Bristol City_1-2_Plymouth Argyle_c
+Burnley_1-3_Wolverhampton Wanderers_c
+Colchester United_1-1_Cardiff City_c
+Coventry City_0-0_Sheffield Wednesday_c
+Crystal Palace_2-0_Barnsley_c
+Hull City_5-0_Southampton_c
+Ipswich Town_2-0_Charlton Athletic_c
+Queens Park Rangers_3-1_Scunthorpe United_c
+Sheffield United_2-0_Norwich City_c
+Watford_0-0_Stoke City_c
+West Bromwich Albion_1-4_Leicester City_c
+Charlton Athletic_1-1_West Bromwich Albion_c
+Barnsley_0-1_Sheffield United_c
+Cardiff City_2-1_Bristol City_c
+Leicester City_0-2_Hull City_c
+Norwich City_5-1_Colchester United_c
+Plymouth Argyle_1-1_Watford_c
+Preston North End_2-1_Burnley_c
+Scunthorpe United_1-2_Ipswich Town_c
+Sheffield Wednesday_2-2_Crystal Palace_c
+Southampton_0-0_Coventry City_c
+Stoke City_1-1_Blackpool_c
+Wolverhampton Wanderers_3-3_Queens Park Rangers_c
+Bristol City_2-1_Norwich City_c
+Burnley_2-1_Barnsley_c
+Cardiff City_1-0_Southampton_c
+Charlton Athletic_2-3_Wolverhampton Wanderers_c
+Coventry City_3-1_Plymouth Argyle_c
+Crystal Palace_0-0_Blackpool_c
+Hull City_3-0_Watford_c
+Ipswich Town_0-0_Queens Park Rangers_c
+Leicester City_1-0_Scunthorpe United_c
+Preston North End_3-1_Sheffield United_c
+Sheffield Wednesday_1-1_Stoke City_c
+West Bromwich Albion_4-3_Colchester United_c
+Colchester United_2-0_Ipswich Town_c
+Norwich City_2-0_Burnley_c
+Plymouth Argyle_1-2_Charlton Athletic_c
+Queens Park Rangers_2-2_Preston North End_c
+Scunthorpe United_1-1_Sheffield Wednesday_c
+Sheffield United_3-0_Leicester City_c
+Southampton_2-0_Bristol City_c
+Watford_2-1_Coventry City_c
+Stoke City_1-2_Crystal Palace_c
+Blackpool_1-3_West Bromwich Albion_c
+Barnsley_1-3_Hull City_c
+Wolverhampton Wanderers_3-0_Cardiff City_c
+Bristol City_0-0_Wolverhampton Wanderers_c
+Burnley_1-2_Sheffield United_c
+Cardiff City_3-1_Blackpool_c
+Charlton Athletic_1-1_Southampton_c
+Coventry City_1-2_Stoke City_c
+Crystal Palace_2-0_Scunthorpe United_c
+Hull City_1-1_Queens Park Rangers_c
+Leicester City_1-1_Colchester United_c
+Preston North End_1-2_Barnsley_c
+West Bromwich Albion_1-1_Watford_c
+Ipswich Town_2-1_Norwich City_c
+Sheffield Wednesday_1-1_Plymouth Argyle_c
+Barnsley_0-1_Leicester City_c
+Blackpool_2-1_Sheffield Wednesday_c
+Colchester United_1-5_Coventry City_c
+Norwich City_1-2_West Bromwich Albion_c
+Plymouth Argyle_2-2_Preston North End_c
+Queens Park Rangers_1-0_Charlton Athletic_c
+Scunthorpe United_3-2_Cardiff City_c
+Sheffield United_2-0_Hull City_c
+Southampton_0-1_Burnley_c
+Stoke City_2-1_Bristol City_c
+Watford_0-2_Crystal Palace_c
+Wolverhampton Wanderers_1-1_Ipswich Town_c
+Barnsley_3-0_Charlton Athletic_c
+Burnley_3-3_Cardiff City_c
+Colchester United_0-1_Stoke City_c
+Coventry City_1-1_Wolverhampton Wanderers_c
+Hull City_2-1_Crystal Palace_c
+Leicester City_1-3_Sheffield Wednesday_c
+Norwich City_3-0_Queens Park Rangers_c
+Plymouth Argyle_3-0_Blackpool_c
+Preston North End_2-2_Ipswich Town_c
+Sheffield United_2-1_Bristol City_c
+Watford_0-1_Scunthorpe United_c
+West Bromwich Albion_1-1_Southampton_c
+Blackpool_1-1_Watford_c
+Bristol City_3-0_Preston North End_c
+Cardiff City_3-0_Barnsley_c
+Charlton Athletic_4-1_Coventry City_c
+Crystal Palace_5-0_Burnley_c
+Ipswich Town_1-0_Hull City_c
+Queens Park Rangers_0-2_West Bromwich Albion_c
+Scunthorpe United_3-3_Colchester United_c
+Sheffield Wednesday_4-1_Norwich City_c
+Southampton_3-2_Sheffield United_c
+Stoke City_0-0_Leicester City_c
+Wolverhampton Wanderers_1-0_Plymouth Argyle_c
+Crystal Palace_1-2_Bristol City_c
+Watford_0-2_Hull City_c
+Bristol City_2-1_Crystal Palace_c
+Hull City_4-1_Watford_c
+Hull City_1-0_Bristol City_c

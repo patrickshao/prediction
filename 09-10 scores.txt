@@ -1,3 +1,4 @@
+Premiership
 Final Table:
 
  1.Chelsea                 38  27  5  6 103-32  86  Champions
@@ -1283,7 +1284,8 @@ WBA           1-1 Newcastle
 [Aug 9]
 Coventry      2-1 Ipswich
 
-Round 2 [Aug 15]
+Round 2 
+[Aug 15]
 Barnsley      0-2 Coventry
 Blackpool     1-1 Cardiff
 Bristol C     1-0 Crystal P
@@ -1545,7 +1547,7 @@ Derby         2-1 Reading
 Newcastle     3-0 Swansea       
 Nottingham    4-1 Doncaster     
 Peterborough  2-2 Middlesbrough 
-Plymouth      abd Barnsley      [abandoned at 1-4 in 58' due to waterlogged pitch]
+Plymouth      abd Barnsley
 QPR           2-2 Coventry      
 Scunthorpe    1-1 Leicester     
 Sheffield W   0-4 WBA           
@@ -3852,10 +3854,10 @@ Barrow        1-6 Rushden & D
 Cambridge     7-0 Forest Green
 Chester       2-0 Histon        [annulled]
 Ebbsfleet     0-2 Oxford
-Gateshead     0-0 Hayes & Y     [abandoned at 0-0 in 75' after a
-Grays         1-1 Mansfield      Gateshead player broke his leg;
-Kettering     2-0 Altrincham     result stood; Gateshead 1 point
-Kidderminster 0-2 Eastbourne     deducted]
+Gateshead     0-0 Hayes & Y     
+Grays         1-1 Mansfield    
+Kettering     2-0 Altrincham     
+Kidderminster 0-2 Eastbourne     
 Salisbury     1-1 Luton
 Tamworth      2-2 Wimbledon
 York          2-0 Crawley

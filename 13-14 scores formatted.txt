@@ -1,0 +1,383 @@
+Arsenal_1-3_Aston Villa_p
+Liverpool_1-0_Stoke_p
+Norwich_2-2_Everton_p
+Sunderland_0-1_Fulham_p
+Swansea_1-4_Manchester U_p
+West Bromwich_0-1_Southampton_p
+West Ham_2-0_Cardiff_p
+Chelsea_2-0_Hull_p
+Crystal P_0-1_Tottenham_p
+Manchester C_4-0_Newcastle_p
+Aston Villa_0-1_Liverpool_p
+Everton_0-0_West Bromwich_p
+Fulham_1-3_Arsenal_p
+Hull_1-0_Norwich_p
+Newcastle_0-0_West Ham_p
+Southampton_1-1_Sunderland_p
+Stoke_2-1_Crystal P_p
+Cardiff_3-2_Manchester C_p
+Tottenham_1-0_Swansea_p
+Manchester U_0-0_Chelsea_p
+Chelsea_2-1_Aston Villa_p
+Manchester C_2-0_Hull_p
+Cardiff_0-0_Everton_p
+Newcastle_1-0_Fulham_p
+Norwich_1-0_Southampton_p
+West Ham_0-1_Stoke_p
+Crystal P_3-1_Sunderland_p
+Liverpool_1-0_Manchester U_p
+West Bromwich_0-2_Swansea_p
+Arsenal_1-0_Tottenham_p
+Aston Villa_1-2_Newcastle_p
+Everton_1-0_Chelsea_p
+Fulham_1-1_West Bromwich_p
+Hull_1-1_Cardiff_p
+Manchester U_2-0_Crystal P_p
+Stoke_0-0_Manchester C_p
+Sunderland_1-3_Arsenal_p
+Tottenham_2-0_Norwich_p
+Southampton_0-0_West Ham_p
+Swansea_2-2_Liverpool_p
+Chelsea_2-0_Fulham_p
+Liverpool_0-1_Southampton_p
+Newcastle_2-3_Hull_p
+Norwich_0-1_Aston Villa_p
+West Bromwich_3-0_Sunderland_p
+West Ham_2-3_Everton_p
+Arsenal_3-1_Stoke_p
+Cardiff_0-1_Tottenham_p
+Crystal P_0-2_Swansea_p
+Manchester C_4-1_Manchester U_p
+Aston Villa_3-2_Manchester C_p
+Fulham_1-2_Cardiff_p
+Hull_1-0_West Ham_p
+Manchester U_1-2_West Bromwich_p
+Southampton_2-0_Crystal P_p
+Swansea_1-2_Arsenal_p
+Tottenham_1-1_Chelsea_p
+Stoke_0-1_Norwich_p
+Sunderland_1-3_Liverpool_p
+Everton_3-2_Newcastle_p
+Cardiff_1-2_Newcastle_p
+Fulham_1-0_Stoke_p
+Hull_0-0_Aston Villa_p
+Liverpool_3-1_Crystal P_p
+Manchester C_3-1_Everton_p
+Sunderland_1-2_Manchester U_p
+Norwich_1-3_Chelsea_p
+Southampton_2-0_Swansea_p
+Tottenham_0-3_West Ham_p
+West Bromwich_1-1_Arsenal_p
+Arsenal_4-1_Norwich_p
+Chelsea_4-1_Cardiff_p
+Everton_2-1_Hull_p
+Manchester U_1-1_Southampton_p
+Newcastle_2-2_Liverpool_p
+Stoke_0-0_West Bromwich_p
+Swansea_4-0_Sunderland_p
+West Ham_1-3_Manchester C_p
+Aston Villa_0-2_Tottenham_p
+Crystal P_1-4_Fulham_p
+Aston Villa_0-2_Everton_p
+Crystal P_0-2_Arsenal_p
+Liverpool_4-1_West Bromwich_p
+Manchester U_3-2_Stoke_p
+Norwich_0-0_Cardiff_p
+Southampton_2-0_Fulham_p
+Chelsea_2-1_Manchester C_p
+Sunderland_2-1_Newcastle_p
+Swansea_0-0_West Ham_p
+Tottenham_1-0_Hull_p
+Arsenal_2-0_Liverpool_p
+Fulham_1-3_Manchester U_p
+Hull_1-0_Sunderland_p
+Manchester C_7-0_Norwich_p
+Newcastle_2-0_Chelsea_p
+Stoke_1-1_Southampton_p
+West Bromwich_2-0_Crystal P_p
+West Ham_0-0_Aston Villa_p
+Cardiff_1-0_Swansea_p
+Everton_0-0_Tottenham_p
+Aston Villa_2-0_Cardiff_p
+Chelsea_2-2_West Bromwich_p
+Crystal P_0-0_Everton_p
+Liverpool_4-0_Fulham_p
+Norwich_3-1_West Ham_p
+Southampton_4-1_Hull_p
+Manchester U_1-0_Arsenal_p
+Sunderland_1-0_Manchester C_p
+Swansea_3-3_Stoke_p
+Tottenham_0-1_Newcastle_p
+Arsenal_2-0_Southampton_p
+Everton_3-3_Liverpool_p
+Fulham_1-2_Swansea_p
+Hull_0-1_Crystal P_p
+Newcastle_2-1_Norwich_p
+Stoke_2-0_Sunderland_p
+West Ham_0-3_Chelsea_p
+Cardiff_2-2_Manchester U_p
+Manchester C_6-0_Tottenham_p
+West Bromwich_2-2_Aston Villa_p
+Aston Villa_0-0_Sunderland_p
+Cardiff_0-3_Arsenal_p
+Everton_4-0_Stoke_p
+Newcastle_2-1_West Bromwich_p
+Norwich_1-0_Crystal P_p
+West Ham_3-0_Fulham_p
+Chelsea_3-1_Southampton_p
+Hull_3-1_Liverpool_p
+Manchester C_3-0_Swansea_p
+Tottenham_2-2_Manchester U_p
+Crystal P_1-0_West Ham_p
+Arsenal_2-0_Hull_p
+Fulham_1-2_Tottenham_p
+Liverpool_5-1_Norwich_p
+Manchester U_0-1_Everton_p
+Southampton_2-3_Aston Villa_p
+Stoke_0-0_Cardiff_p
+Sunderland_3-4_Chelsea_p
+Swansea_3-0_Newcastle_p
+West Bromwich_2-3_Manchester C_p
+Crystal P_2-0_Cardiff_p
+Liverpool_4-1_West Ham_p
+Manchester U_0-1_Newcastle_p
+Southampton_1-1_Manchester C_p
+Stoke_3-2_Chelsea_p
+Sunderland_1-2_Tottenham_p
+West Bromwich_0-2_Norwich_p
+Arsenal_1-1_Everton_p
+Fulham_2-0_Aston Villa_p
+Swansea_1-1_Hull_p
+Cardiff_1-0_West Bromwich_p
+Chelsea_2-1_Crystal P_p
+Everton_4-1_Fulham_p
+Hull_0-0_Stoke_p
+Manchester C_6-3_Arsenal_p
+Newcastle_1-1_Southampton_p
+West Ham_0-0_Sunderland_p
+Aston Villa_0-3_Manchester U_p
+Norwich_1-1_Swansea_p
+Tottenham_0-5_Liverpool_p
+Crystal P_0-3_Newcastle_p
+Fulham_2-4_Manchester C_p
+Liverpool_3-1_Cardiff_p
+Manchester U_3-1_West Ham_p
+Stoke_2-1_Aston Villa_p
+Sunderland_0-0_Norwich_p
+West Bromwich_1-1_Hull_p
+Southampton_2-3_Tottenham_p
+Swansea_1-2_Everton_p
+Arsenal_0-0_Chelsea_p
+Aston Villa_0-1_Crystal P_p
+Cardiff_0-3_Southampton_p
+Chelsea_1-0_Swansea_p
+Everton_0-1_Sunderland_p
+Hull_2-3_Manchester U_p
+Manchester C_2-1_Liverpool_p
+Newcastle_5-1_Stoke_p
+Norwich_1-2_Fulham_p
+Tottenham_1-1_West Bromwich_p
+West Ham_1-3_Arsenal_p
+Aston Villa_1-1_Swansea_p
+Cardiff_2-2_Sunderland_p
+Hull_6-0_Fulham_p
+Manchester C_1-0_Crystal P_p
+Norwich_0-1_Manchester U_p
+West Ham_3-3_West Bromwich_p
+Chelsea_2-1_Liverpool_p
+Everton_2-1_Southampton_p
+Newcastle_0-1_Arsenal_p
+Tottenham_3-0_Stoke_p
+Swansea_2-3_Manchester C_p
+Arsenal_2-0_Cardiff_p
+Crystal P_1-1_Norwich_p
+Fulham_2-1_West Ham_p
+Liverpool_2-0_Hull_p
+Southampton_0-3_Chelsea_p
+Stoke_1-1_Everton_p
+Sunderland_0-1_Aston Villa_p
+West Bromwich_1-0_Newcastle_p
+Manchester U_1-2_Tottenham_p
+Cardiff_0-2_West Ham_p
+Everton_2-0_Norwich_p
+Fulham_1-4_Sunderland_p
+Hull_0-2_Chelsea_p
+Manchester U_2-0_Swansea_p
+Southampton_1-0_West Bromwich_p
+Tottenham_2-0_Crystal P_p
+Newcastle_0-2_Manchester C_p
+Stoke_3-5_Liverpool_p
+Aston Villa_1-2_Arsenal_p
+Arsenal_2-0_Fulham_p
+Crystal P_1-0_Stoke_p
+Liverpool_2-2_Aston Villa_p
+Manchester C_4-2_Cardiff_p
+Norwich_1-0_Hull_p
+Sunderland_2-2_Southampton_p
+West Ham_1-3_Newcastle_p
+Chelsea_3-1_Manchester U_p
+Swansea_1-3_Tottenham_p
+West Bromwich_1-1_Everton_p
+Crystal P_1-0_Hull_p
+Liverpool_4-0_Everton_p
+Manchester U_2-0_Cardiff_p
+Norwich_0-0_Newcastle_p
+Southampton_2-2_Arsenal_p
+Swansea_2-0_Fulham_p
+Aston Villa_4-3_West Bromwich_p
+Chelsea_0-0_West Ham_p
+Sunderland_1-0_Stoke_p
+Tottenham_1-5_Manchester C_p
+Cardiff_2-1_Norwich_p
+Everton_2-1_Aston Villa_p
+Fulham_0-3_Southampton_p
+Hull_1-1_Tottenham_p
+Newcastle_0-3_Sunderland_p
+Stoke_2-1_Manchester U_p
+West Ham_2-0_Swansea_p
+Arsenal_2-0_Crystal P_p
+West Bromwich_1-1_Liverpool_p
+Manchester C_0-1_Chelsea_p
+Aston Villa_0-2_West Ham_p
+Chelsea_3-0_Newcastle_p
+Crystal P_3-1_West Bromwich_p
+Liverpool_5-1_Arsenal_p
+Norwich_0-0_Manchester C_p
+Southampton_2-2_Stoke_p
+Sunderland_0-2_Hull_p
+Swansea_3-0_Cardiff_p
+Manchester U_2-2_Fulham_p
+Tottenham_1-0_Everton_p
+Cardiff_0-0_Aston Villa_p
+Hull_0-1_Southampton_p
+West Bromwich_1-1_Chelsea_p
+West Ham_2-0_Norwich_p
+Arsenal_0-0_Manchester U_p
+Fulham_2-3_Liverpool_p
+Newcastle_0-4_Tottenham_p
+Stoke_1-1_Swansea_p
+Everton_2-3_Crystal P_p
+Manchester C_2-2_Sunderland_p
+Arsenal_4-1_Sunderland_p
+Cardiff_0-4_Hull_p
+Chelsea_1-0_Everton_p
+Crystal P_0-2_Manchester U_p
+Manchester C_1-0_Stoke_p
+West Bromwich_1-1_Fulham_p
+West Ham_3-1_Southampton_p
+Liverpool_4-3_Swansea_p
+Newcastle_1-0_Aston Villa_p
+Norwich_1-0_Tottenham_p
+Everton_1-0_West Ham_p
+Fulham_1-3_Chelsea_p
+Hull_1-4_Newcastle_p
+Southampton_0-3_Liverpool_p
+Stoke_1-0_Arsenal_p
+Aston Villa_4-1_Norwich_p
+Swansea_1-1_Crystal P_p
+Tottenham_1-0_Cardiff_p
+Manchester U_0-3_Manchester C_p
+Sunderland_2-0_West Bromwich_p
+Cardiff_3-1_Fulham_p
+Chelsea_4-0_Tottenham_p
+Crystal P_0-1_Southampton_p
+Norwich_1-1_Stoke_p
+West Bromwich_0-3_Manchester U_p
+Arsenal_2-2_Swansea_p
+Newcastle_0-3_Everton_p
+Liverpool_2-1_Sunderland_p
+West Ham_2-1_Hull_p
+Manchester C_4-0_Aston Villa_p
+Aston Villa_1-0_Chelsea_p
+Everton_2-1_Cardiff_p
+Fulham_1-0_Newcastle_p
+Hull_0-2_Manchester C_p
+Southampton_4-2_Norwich_p
+Stoke_3-1_West Ham_p
+Sunderland_0-0_Crystal P_p
+Swansea_1-2_West Bromwich_p
+Manchester U_0-3_Liverpool_p
+Tottenham_0-1_Arsenal_p
+Cardiff_3-6_Liverpool_p
+Chelsea_6-0_Arsenal_p
+Everton_3-2_Swansea_p
+Hull_2-0_West Bromwich_p
+Manchester C_5-0_Fulham_p
+Newcastle_1-0_Crystal P_p
+Norwich_2-0_Sunderland_p
+West Ham_0-2_Manchester U_p
+Aston Villa_1-4_Stoke_p
+Tottenham_3-2_Southampton_p
+Arsenal_1-1_Manchester C_p
+Crystal P_1-0_Chelsea_p
+Manchester U_4-1_Aston Villa_p
+Southampton_4-0_Newcastle_p
+Stoke_1-0_Hull_p
+Swansea_3-0_Norwich_p
+West Bromwich_3-3_Cardiff_p
+Fulham_1-3_Everton_p
+Liverpool_4-0_Tottenham_p
+Sunderland_1-2_West Ham_p
+Aston Villa_1-2_Fulham_p
+Cardiff_0-3_Crystal P_p
+Chelsea_3-0_Stoke_p
+Hull_1-0_Swansea_p
+Manchester C_4-1_Southampton_p
+Newcastle_0-4_Manchester U_p
+Norwich_0-1_West Bromwich_p
+Everton_3-0_Arsenal_p
+West Ham_1-2_Liverpool_p
+Tottenham_5-1_Sunderland_p
+Crystal P_1-0_Aston Villa_p
+Fulham_1-0_Norwich_p
+Southampton_0-1_Cardiff_p
+Stoke_1-0_Newcastle_p
+Sunderland_0-1_Everton_p
+West Bromwich_3-3_Tottenham_p
+Liverpool_3-2_Manchester C_p
+Swansea_0-1_Chelsea_p
+Arsenal_3-1_West Ham_p
+Manchester U_3-1_Hull_p
+Aston Villa_0-0_Southampton_p
+Cardiff_1-1_Stoke_p
+Chelsea_1-2_Sunderland_p
+Newcastle_1-2_Swansea_p
+Tottenham_3-1_Fulham_p
+West Ham_0-1_Crystal P_p
+Everton_2-0_Manchester U_p
+Hull_0-3_Arsenal_p
+Norwich_2-3_Liverpool_p
+Manchester C_3-1_West Bromwich_p
+Fulham_2-2_Hull_p
+Manchester U_4-0_Norwich_p
+Southampton_2-0_Everton_p
+Stoke_0-1_Tottenham_p
+Swansea_4-1_Aston Villa_p
+West Bromwich_1-0_West Ham_p
+Crystal P_0-2_Manchester C_p
+Liverpool_0-2_Chelsea_p
+Sunderland_4-0_Cardiff_p
+Arsenal_3-0_Newcastle_p
+Aston Villa_3-1_Hull_p
+Everton_2-3_Manchester C_p
+Manchester U_0-1_Sunderland_p
+Newcastle_3-0_Cardiff_p
+Stoke_4-1_Fulham_p
+Swansea_0-1_Southampton_p
+West Ham_2-0_Tottenham_p
+Arsenal_1-0_West Bromwich_p
+Chelsea_0-0_Norwich_p
+Crystal P_3-3_Liverpool_p
+Cardiff_1-2_Chelsea_p
+Fulham_2-2_Crystal P_p
+Hull_0-2_Everton_p
+Liverpool_2-1_Newcastle_p
+Manchester C_2-0_West Ham_p
+Norwich_0-2_Arsenal_p
+Southampton_1-1_Manchester U_p
+Sunderland_1-3_Swansea_p
+Tottenham_3-0_Aston Villa_p
+West Bromwich_1-2_Stoke_p
+Sunderland_1-0_Southampton_p
+Arsenal_2-1_Liverpool_p
+Arsenal_4-1_Everton_p

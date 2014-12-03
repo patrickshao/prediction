@@ -1,398 +1,935 @@
-Aston Villa_0-2_Wigan
-Blackburn_0-2_Manchester C
-Bolton_0-1_Sunderland
-Chelsea_2-1_Hull
-Everton_1-6_Arsenal
-Portsmouth_0-1_Fulham
-Stoke_2-0_Burnley
-Wolverhampton_0-2_West Ham
-Manchester U_1-0_Birmingham
-Tottenham_2-1_Liverpool
-Sunderland_1-3_Chelsea
-Wigan_0-1_Wolverhampton
-Birmingham_1-0_Portsmouth
-Burnley_1-0_Manchester U
-Hull_1-5_Tottenham
-Liverpool_4-0_Stoke
-West Ham_2-1_Aston Villa
-Fulham_3-0_Blackburn
-Arsenal_4-2_Bolton
-Manchester C_0-2_Everton
-Arsenal_4-1_Portsmouth
-Birmingham_0-0_Stoke
-Hull_1-0_Bolton
-Manchester C_1-0_Wolverhampton
-Sunderland_2-1_Blackburn
-Wigan_0-5_Manchester U
-Burnley_1-0_Everton
-Fulham_0-2_Chelsea
-West Ham_1-2_Tottenham
-Liverpool_1-3_Aston Villa
-Blackburn_0-0_West Ham
-Bolton_2-3_Liverpool
-Chelsea_3-0_Burnley
-Manchester U_2-1_Arsenal
-Stoke_1-0_Sunderland
-Tottenham_2-1_Birmingham
-Wolverhampton_1-1_Hull
-Aston Villa_2-0_Fulham
-Everton_2-1_Wigan
-Portsmouth_0-1_Manchester C
-Blackburn_3-1_Wolverhampton
-Liverpool_4-0_Burnley
-Manchester C_4-2_Arsenal
-Portsmouth_2-3_Bolton
-Stoke_1-2_Chelsea
-Sunderland_4-1_Hull
-Tottenham_1-3_Manchester U
-Wigan_1-0_West Ham
-Birmingham_0-1_Aston Villa
-Fulham_2-1_Everton
-Arsenal_4-0_Wigan
-Aston Villa_2-0_Portsmouth
-Bolton_1-1_Stoke
-Burnley_3-1_Sunderland
-Hull_0-1_Birmingham
-West Ham_2-3_Liverpool
-Chelsea_3-0_Tottenham
-Everton_3-0_Blackburn
-Manchester U_4-3_Manchester C
-Wolverhampton_2-1_Fulham
-Birmingham_1-2_Bolton
-Blackburn_2-1_Aston Villa
-Fulham_0-1_Arsenal
-Liverpool_6-1_Hull
-Portsmouth_0-1_Everton
-Stoke_0-2_Manchester U
-Tottenham_5-0_Burnley
-Wigan_3-1_Chelsea
-Sunderland_5-2_Wolverhampton
-Manchester C_3-1_West Ham
-Bolton_2-2_Tottenham
-Burnley_2-1_Birmingham
-Hull_2-1_Wigan
-Manchester U_2-2_Sunderland
-Wolverhampton_0-1_Portsmouth
-Arsenal_6-2_Blackburn
-Chelsea_2-0_Liverpool
-Everton_1-1_Stoke
-West Ham_2-2_Fulham
-Aston Villa_1-1_Manchester C
-Arsenal_3-1_Birmingham
-Aston Villa_2-1_Chelsea
-Everton_1-1_Wolverhampton
-Manchester U_2-1_Bolton
-Portsmouth_1-2_Tottenham
-Stoke_2-1_West Ham
-Sunderland_1-0_Liverpool
-Blackburn_3-2_Burnley
-Wigan_1-1_Manchester C
-Fulham_2-0_Hull
-Birmingham_2-1_Sunderland
-Burnley_1-3_Wigan
-Chelsea_5-0_Blackburn
-Hull_0-0_Portsmouth
-Tottenham_0-1_Stoke
-Wolverhampton_1-1_Aston Villa
-Bolton_3-2_Everton
-Liverpool_2-0_Manchester U
-Manchester C_2-2_Fulham
-West Ham_2-2_Arsenal
-Arsenal_3-0_Tottenham
-Bolton_0-4_Chelsea
-Burnley_2-0_Hull
-Everton_1-1_Aston Villa
-Fulham_3-1_Liverpool
-Manchester U_2-0_Blackburn
-Portsmouth_4-0_Wigan
-Stoke_2-2_Wolverhampton
-Sunderland_2-2_West Ham
-Birmingham_0-0_Manchester C
-Aston Villa_5-1_Bolton
-Blackburn_3-1_Portsmouth
-Manchester C_3-3_Burnley
-Tottenham_2-0_Sunderland
-Wolverhampton_1-4_Arsenal
-Chelsea_1-0_Manchester U
-Hull_2-1_Stoke
-West Ham_1-2_Everton
-Wigan_1-1_Fulham
-Liverpool_2-2_Birmingham
-Birmingham_1-0_Fulham
-Burnley_1-1_Aston Villa
-Chelsea_4-0_Wolverhampton
-Hull_3-3_West Ham
-Liverpool_2-2_Manchester C
-Manchester U_3-0_Everton
-Sunderland_1-0_Arsenal
-Bolton_0-2_Blackburn
-Stoke_1-0_Portsmouth
-Tottenham_9-1_Wigan
-Aston Villa_1-1_Tottenham
-Blackburn_0-0_Stoke
-Fulham_1-1_Bolton
-Manchester C_1-1_Hull
-Portsmouth_1-4_Manchester U
-West Ham_5-3_Burnley
-Wigan_1-0_Sunderland
-Arsenal_0-3_Chelsea
-Everton_0-2_Liverpool
-Wolverhampton_0-1_Birmingham
-Arsenal_2-0_Stoke
-Aston Villa_3-0_Hull
-Blackburn_0-0_Liverpool
-Manchester C_2-1_Chelsea
-Portsmouth_2-0_Burnley
-West Ham_0-4_Manchester U
-Wigan_2-3_Birmingham
-Wolverhampton_2-1_Bolton
-Everton_2-2_Tottenham
-Fulham_1-0_Sunderland
-Birmingham_1-0_West Ham
-Bolton_3-3_Manchester C
-Burnley_1-1_Fulham
-Chelsea_3-3_Everton
-Hull_0-0_Blackburn
-Manchester U_0-1_Aston Villa
-Stoke_2-2_Wigan
-Sunderland_1-1_Portsmouth
-Tottenham_0-1_Wolverhampton
-Liverpool_1-2_Arsenal
-Hull_3-2_Everton
-Birmingham_2-1_Blackburn
-Bolton_3-1_West Ham
-Manchester U_3-0_Wolverhampton
-Sunderland_0-2_Aston Villa
-Burnley_1-1_Arsenal
-Chelsea_2-1_Portsmouth
-Liverpool_2-1_Wigan
-Tottenham_3-0_Manchester C
-Stoke_3-2_Fulham
-Arsenal_3-0_Hull
-Aston Villa_1-0_Stoke
-Blackburn_0-2_Tottenham
-Fulham_3-0_Manchester U
-Manchester C_4-3_Sunderland
-Portsmouth_2-0_Liverpool
-Everton_1-1_Birmingham
-West Ham_1-1_Chelsea
-Wolverhampton_2-0_Burnley
-Wigan_0-0_Bolton
-Birmingham_0-0_Chelsea
-Burnley_1-1_Bolton
-Fulham_0-0_Tottenham
-Liverpool_2-0_Wolverhampton
-Manchester C_2-0_Stoke
-Sunderland_1-1_Everton
-West Ham_2-0_Portsmouth
-Wigan_1-1_Blackburn
-Arsenal_3-0_Aston Villa
-Hull_1-3_Manchester U
-Blackburn_2-2_Sunderland
-Chelsea_2-1_Fulham
-Everton_2-0_Burnley
-Stoke_0-1_Birmingham
-Tottenham_2-0_West Ham
-Wolverhampton_0-3_Manchester C
-Aston Villa_0-1_Liverpool
-Bolton_2-2_Hull
-Manchester U_5-0_Wigan
-Portsmouth_1-4_Arsenal
-Arsenal_2-2_Everton
-Birmingham_1-1_Manchester U
-Manchester C_4-1_Blackburn
-Liverpool_2-0_Tottenham
-Hull_1-1_Chelsea
-Fulham_1-0_Portsmouth
-Sunderland_4-0_Bolton
-Burnley_1-1_Stoke
-Wigan_1-2_Aston Villa
-West Ham_1-3_Wolverhampton
-Chelsea_7-2_Sunderland
-Everton_2-0_Manchester C
-Manchester U_3-0_Burnley
-Stoke_1-1_Liverpool
-Tottenham_0-0_Hull
-Wolverhampton_0-2_Wigan
-Aston Villa_0-0_West Ham
-Blackburn_2-0_Fulham
-Bolton_0-2_Arsenal
-Portsmouth_1-2_Birmingham
-Manchester U_4-0_Hull
-Bolton_1-0_Burnley
-Portsmouth_1-1_West Ham
-Tottenham_2-0_Fulham
-Wolverhampton_0-0_Liverpool
-Aston Villa_0-0_Arsenal
-Blackburn_2-1_Wigan
-Chelsea_3-0_Birmingham
-Everton_2-0_Sunderland
-Stoke_1-1_Manchester C
-Birmingham_1-1_Tottenham
-Burnley_1-2_Chelsea
-Fulham_0-2_Aston Villa
-Hull_2-2_Wolverhampton
-Liverpool_2-0_Bolton
-West Ham_0-0_Blackburn
-Wigan_0-1_Everton
-Arsenal_1-3_Manchester U
-Manchester C_2-0_Portsmouth
-Sunderland_0-0_Stoke
-Bolton_0-0_Fulham
-Burnley_2-1_West Ham
-Hull_2-1_Manchester C
-Liverpool_1-0_Everton
-Manchester U_5-0_Portsmouth
-Stoke_3-0_Blackburn
-Sunderland_1-1_Wigan
-Tottenham_0-0_Aston Villa
-Birmingham_2-1_Wolverhampton
-Chelsea_2-0_Arsenal
-Fulham_3-0_Burnley
-Manchester C_2-0_Bolton
-Portsmouth_1-1_Sunderland
-Wigan_1-1_Stoke
-Arsenal_1-0_Liverpool
-Aston Villa_1-1_Manchester U
-Blackburn_1-0_Hull
-Everton_2-1_Chelsea
-West Ham_2-0_Birmingham
-Wolverhampton_1-0_Tottenham
-Arsenal_2-0_Sunderland
-Everton_3-1_Manchester U
-Portsmouth_1-2_Stoke
-West Ham_3-0_Hull
-Wolverhampton_0-2_Chelsea
-Aston Villa_5-2_Burnley
-Blackburn_3-0_Bolton
-Fulham_2-1_Birmingham
-Manchester C_0-0_Liverpool
-Wigan_0-3_Tottenham
-Manchester U_3-0_West Ham
-Birmingham_1-0_Wigan
-Bolton_1-0_Wolverhampton
-Burnley_1-2_Portsmouth
-Chelsea_2-4_Manchester C
-Stoke_1-3_Arsenal
-Liverpool_2-1_Blackburn
-Sunderland_0-0_Fulham
-Tottenham_2-1_Everton
-Hull_0-2_Aston Villa
-Arsenal_3-1_Burnley
-West Ham_1-2_Bolton
-Wolverhampton_0-1_Manchester U
-Everton_5-1_Hull
-Wigan_1-0_Liverpool
-Aston Villa_1-1_Sunderland
-Blackburn_2-1_Birmingham
-Portsmouth_0-5_Chelsea
-Fulham_0-1_Stoke
-Manchester C_0-1_Tottenham
-Birmingham_2-2_Everton
-Bolton_4-0_Wigan
-Burnley_1-2_Wolverhampton
-Chelsea_4-1_West Ham
-Hull_1-2_Arsenal
-Stoke_0-0_Aston Villa
-Tottenham_3-1_Blackburn
-Manchester U_3-0_Fulham
-Sunderland_1-1_Manchester C
-Liverpool_4-1_Portsmouth
-Arsenal_2-0_West Ham
-Aston Villa_2-2_Wolverhampton
-Everton_2-0_Bolton
-Portsmouth_3-2_Hull
-Stoke_1-2_Tottenham
-Sunderland_3-1_Birmingham
-Wigan_1-0_Burnley
-Blackburn_1-1_Chelsea
-Fulham_1-2_Manchester C
-Manchester U_2-1_Liverpool
-Birmingham_1-1_Arsenal
-Bolton_0-4_Manchester U
-Chelsea_7-1_Aston Villa
-Hull_2-0_Fulham
-Tottenham_2-0_Portsmouth
-West Ham_0-1_Stoke
-Wolverhampton_0-0_Everton
-Burnley_0-1_Blackburn
-Liverpool_3-0_Sunderland
-Manchester C_3-0_Wigan
-Arsenal_1-0_Wolverhampton
-Bolton_0-1_Aston Villa
-Burnley_1-6_Manchester C
-Manchester U_1-2_Chelsea
-Portsmouth_0-0_Blackburn
-Stoke_2-0_Hull
-Sunderland_3-1_Tottenham
-Birmingham_1-1_Liverpool
-Everton_2-2_West Ham
-Fulham_2-1_Wigan
-Hull_1-4_Burnley
-West Ham_1-0_Sunderland
-Blackburn_0-0_Manchester U
-Liverpool_0-0_Fulham
-Manchester C_5-1_Birmingham
-Wolverhampton_0-0_Stoke
-Chelsea_1-0_Bolton
-Aston Villa_2-2_Everton
-Tottenham_2-1_Arsenal
-Wigan_0-0_Portsmouth
-Birmingham_0-0_Hull
-Blackburn_2-3_Everton
-Fulham_0-0_Wolverhampton
-Manchester C_0-1_Manchester U
-Stoke_1-2_Bolton
-Sunderland_2-1_Burnley
-Tottenham_2-1_Chelsea
-Portsmouth_1-2_Aston Villa
-Wigan_3-2_Arsenal
-Liverpool_3-0_West Ham
-Arsenal_0-0_Manchester C
-Bolton_2-2_Portsmouth
-Hull_0-1_Sunderland
-Manchester U_3-1_Tottenham
-West Ham_3-2_Wigan
-Wolverhampton_1-1_Blackburn
-Aston Villa_1-0_Birmingham
-Burnley_0-4_Liverpool
-Chelsea_7-0_Stoke
-Everton_2-1_Fulham
-Birmingham_2-1_Burnley
-Manchester C_3-1_Aston Villa
-Portsmouth_3-1_Wolverhampton
-Stoke_0-0_Everton
-Tottenham_1-0_Bolton
-Fulham_3-2_West Ham
-Liverpool_0-2_Chelsea
-Sunderland_0-1_Manchester U
-Blackburn_2-1_Arsenal
-Wigan_2-2_Hull
-Arsenal_4-0_Fulham
-Aston Villa_0-1_Blackburn
-Bolton_2-1_Birmingham
-Burnley_4-2_Tottenham
-Chelsea_8-0_Wigan
-Everton_1-0_Portsmouth
-Hull_0-0_Liverpool
-Manchester U_4-0_Stoke
-West Ham_1-1_Manchester C
-Wolverhampton_2-1_Sunderland
-Portsmouth_2-1_Sunderland
-Aston Villa_0-3_Chelsea
-Chelsea_1-0_Portsmouth
-Sunderland_2-0_Birmingham
-Hull_0-4_Everton
-Manchester U_1-0_Wolverhampton
-Portsmouth_4-0_Stoke
-Tottenham_2-0_Everton
-Arsenal_2-1_Liverpool
-Chelsea_4-0_Bolton
-Manchester U_2-0_Tottenham
-Portsmouth_2-4_Aston Villa
-Manchester C_3-0_Arsenal
-Blackburn_0-1_Aston Villa
-Manchester C_2-1_Manchester U
-Aston Villa_6-4_Blackburn
-Manchester U_3-1_Manchester C
-Aston Villa_1-2_Manchester U
+Aston Villa_0-2_Wigan_p
+Blackburn_0-2_Manchester C_p
+Bolton_0-1_Sunderland_p
+Chelsea_2-1_Hull_p
+Everton_1-6_Arsenal_p
+Portsmouth_0-1_Fulham_p
+Stoke_2-0_Burnley_p
+Wolverhampton_0-2_West Ham_p
+Manchester U_1-0_Birmingham_p
+Tottenham_2-1_Liverpool_p
+Sunderland_1-3_Chelsea_p
+Wigan_0-1_Wolverhampton_p
+Birmingham_1-0_Portsmouth_p
+Burnley_1-0_Manchester U_p
+Hull_1-5_Tottenham_p
+Liverpool_4-0_Stoke_p
+West Ham_2-1_Aston Villa_p
+Fulham_3-0_Blackburn_p
+Arsenal_4-2_Bolton_p
+Manchester C_0-2_Everton_p
+Arsenal_4-1_Portsmouth_p
+Birmingham_0-0_Stoke_p
+Hull_1-0_Bolton_p
+Manchester C_1-0_Wolverhampton_p
+Sunderland_2-1_Blackburn_p
+Wigan_0-5_Manchester U_p
+Burnley_1-0_Everton_p
+Fulham_0-2_Chelsea_p
+West Ham_1-2_Tottenham_p
+Liverpool_1-3_Aston Villa_p
+Blackburn_0-0_West Ham_p
+Bolton_2-3_Liverpool_p
+Chelsea_3-0_Burnley_p
+Manchester U_2-1_Arsenal_p
+Stoke_1-0_Sunderland_p
+Tottenham_2-1_Birmingham_p
+Wolverhampton_1-1_Hull_p
+Aston Villa_2-0_Fulham_p
+Everton_2-1_Wigan_p
+Portsmouth_0-1_Manchester C_p
+Blackburn_3-1_Wolverhampton_p
+Liverpool_4-0_Burnley_p
+Manchester C_4-2_Arsenal_p
+Portsmouth_2-3_Bolton_p
+Stoke_1-2_Chelsea_p
+Sunderland_4-1_Hull_p
+Tottenham_1-3_Manchester U_p
+Wigan_1-0_West Ham_p
+Birmingham_0-1_Aston Villa_p
+Fulham_2-1_Everton_p
+Arsenal_4-0_Wigan_p
+Aston Villa_2-0_Portsmouth_p
+Bolton_1-1_Stoke_p
+Burnley_3-1_Sunderland_p
+Hull_0-1_Birmingham_p
+West Ham_2-3_Liverpool_p
+Chelsea_3-0_Tottenham_p
+Everton_3-0_Blackburn_p
+Manchester U_4-3_Manchester C_p
+Wolverhampton_2-1_Fulham_p
+Birmingham_1-2_Bolton_p
+Blackburn_2-1_Aston Villa_p
+Fulham_0-1_Arsenal_p
+Liverpool_6-1_Hull_p
+Portsmouth_0-1_Everton_p
+Stoke_0-2_Manchester U_p
+Tottenham_5-0_Burnley_p
+Wigan_3-1_Chelsea_p
+Sunderland_5-2_Wolverhampton_p
+Manchester C_3-1_West Ham_p
+Bolton_2-2_Tottenham_p
+Burnley_2-1_Birmingham_p
+Hull_2-1_Wigan_p
+Manchester U_2-2_Sunderland_p
+Wolverhampton_0-1_Portsmouth_p
+Arsenal_6-2_Blackburn_p
+Chelsea_2-0_Liverpool_p
+Everton_1-1_Stoke_p
+West Ham_2-2_Fulham_p
+Aston Villa_1-1_Manchester C_p
+Arsenal_3-1_Birmingham_p
+Aston Villa_2-1_Chelsea_p
+Everton_1-1_Wolverhampton_p
+Manchester U_2-1_Bolton_p
+Portsmouth_1-2_Tottenham_p
+Stoke_2-1_West Ham_p
+Sunderland_1-0_Liverpool_p
+Blackburn_3-2_Burnley_p
+Wigan_1-1_Manchester C_p
+Fulham_2-0_Hull_p
+Birmingham_2-1_Sunderland_p
+Burnley_1-3_Wigan_p
+Chelsea_5-0_Blackburn_p
+Hull_0-0_Portsmouth_p
+Tottenham_0-1_Stoke_p
+Wolverhampton_1-1_Aston Villa_p
+Bolton_3-2_Everton_p
+Liverpool_2-0_Manchester U_p
+Manchester C_2-2_Fulham_p
+West Ham_2-2_Arsenal_p
+Arsenal_3-0_Tottenham_p
+Bolton_0-4_Chelsea_p
+Burnley_2-0_Hull_p
+Everton_1-1_Aston Villa_p
+Fulham_3-1_Liverpool_p
+Manchester U_2-0_Blackburn_p
+Portsmouth_4-0_Wigan_p
+Stoke_2-2_Wolverhampton_p
+Sunderland_2-2_West Ham_p
+Birmingham_0-0_Manchester C_p
+Aston Villa_5-1_Bolton_p
+Blackburn_3-1_Portsmouth_p
+Manchester C_3-3_Burnley_p
+Tottenham_2-0_Sunderland_p
+Wolverhampton_1-4_Arsenal_p
+Chelsea_1-0_Manchester U_p
+Hull_2-1_Stoke_p
+West Ham_1-2_Everton_p
+Wigan_1-1_Fulham_p
+Liverpool_2-2_Birmingham_p
+Birmingham_1-0_Fulham_p
+Burnley_1-1_Aston Villa_p
+Chelsea_4-0_Wolverhampton_p
+Hull_3-3_West Ham_p
+Liverpool_2-2_Manchester C_p
+Manchester U_3-0_Everton_p
+Sunderland_1-0_Arsenal_p
+Bolton_0-2_Blackburn_p
+Stoke_1-0_Portsmouth_p
+Tottenham_9-1_Wigan_p
+Aston Villa_1-1_Tottenham_p
+Blackburn_0-0_Stoke_p
+Fulham_1-1_Bolton_p
+Manchester C_1-1_Hull_p
+Portsmouth_1-4_Manchester U_p
+West Ham_5-3_Burnley_p
+Wigan_1-0_Sunderland_p
+Arsenal_0-3_Chelsea_p
+Everton_0-2_Liverpool_p
+Wolverhampton_0-1_Birmingham_p
+Arsenal_2-0_Stoke_p
+Aston Villa_3-0_Hull_p
+Blackburn_0-0_Liverpool_p
+Manchester C_2-1_Chelsea_p
+Portsmouth_2-0_Burnley_p
+West Ham_0-4_Manchester U_p
+Wigan_2-3_Birmingham_p
+Wolverhampton_2-1_Bolton_p
+Everton_2-2_Tottenham_p
+Fulham_1-0_Sunderland_p
+Birmingham_1-0_West Ham_p
+Bolton_3-3_Manchester C_p
+Burnley_1-1_Fulham_p
+Chelsea_3-3_Everton_p
+Hull_0-0_Blackburn_p
+Manchester U_0-1_Aston Villa_p
+Stoke_2-2_Wigan_p
+Sunderland_1-1_Portsmouth_p
+Tottenham_0-1_Wolverhampton_p
+Liverpool_1-2_Arsenal_p
+Hull_3-2_Everton_p
+Birmingham_2-1_Blackburn_p
+Bolton_3-1_West Ham_p
+Manchester U_3-0_Wolverhampton_p
+Sunderland_0-2_Aston Villa_p
+Burnley_1-1_Arsenal_p
+Chelsea_2-1_Portsmouth_p
+Liverpool_2-1_Wigan_p
+Tottenham_3-0_Manchester C_p
+Stoke_3-2_Fulham_p
+Arsenal_3-0_Hull_p
+Aston Villa_1-0_Stoke_p
+Blackburn_0-2_Tottenham_p
+Fulham_3-0_Manchester U_p
+Manchester C_4-3_Sunderland_p
+Portsmouth_2-0_Liverpool_p
+Everton_1-1_Birmingham_p
+West Ham_1-1_Chelsea_p
+Wolverhampton_2-0_Burnley_p
+Wigan_0-0_Bolton_p
+Birmingham_0-0_Chelsea_p
+Burnley_1-1_Bolton_p
+Fulham_0-0_Tottenham_p
+Liverpool_2-0_Wolverhampton_p
+Manchester C_2-0_Stoke_p
+Sunderland_1-1_Everton_p
+West Ham_2-0_Portsmouth_p
+Wigan_1-1_Blackburn_p
+Arsenal_3-0_Aston Villa_p
+Hull_1-3_Manchester U_p
+Blackburn_2-2_Sunderland_p
+Chelsea_2-1_Fulham_p
+Everton_2-0_Burnley_p
+Stoke_0-1_Birmingham_p
+Tottenham_2-0_West Ham_p
+Wolverhampton_0-3_Manchester C_p
+Aston Villa_0-1_Liverpool_p
+Bolton_2-2_Hull_p
+Manchester U_5-0_Wigan_p
+Portsmouth_1-4_Arsenal_p
+Arsenal_2-2_Everton_p
+Birmingham_1-1_Manchester U_p
+Manchester C_4-1_Blackburn_p
+Liverpool_2-0_Tottenham_p
+Hull_1-1_Chelsea_p
+Fulham_1-0_Portsmouth_p
+Sunderland_4-0_Bolton_p
+Burnley_1-1_Stoke_p
+Wigan_1-2_Aston Villa_p
+West Ham_1-3_Wolverhampton_p
+Chelsea_7-2_Sunderland_p
+Everton_2-0_Manchester C_p
+Manchester U_3-0_Burnley_p
+Stoke_1-1_Liverpool_p
+Tottenham_0-0_Hull_p
+Wolverhampton_0-2_Wigan_p
+Aston Villa_0-0_West Ham_p
+Blackburn_2-0_Fulham_p
+Bolton_0-2_Arsenal_p
+Portsmouth_1-2_Birmingham_p
+Manchester U_4-0_Hull_p
+Bolton_1-0_Burnley_p
+Portsmouth_1-1_West Ham_p
+Tottenham_2-0_Fulham_p
+Wolverhampton_0-0_Liverpool_p
+Aston Villa_0-0_Arsenal_p
+Blackburn_2-1_Wigan_p
+Chelsea_3-0_Birmingham_p
+Everton_2-0_Sunderland_p
+Stoke_1-1_Manchester C_p
+Birmingham_1-1_Tottenham_p
+Burnley_1-2_Chelsea_p
+Fulham_0-2_Aston Villa_p
+Hull_2-2_Wolverhampton_p
+Liverpool_2-0_Bolton_p
+West Ham_0-0_Blackburn_p
+Wigan_0-1_Everton_p
+Arsenal_1-3_Manchester U_p
+Manchester C_2-0_Portsmouth_p
+Sunderland_0-0_Stoke_p
+Bolton_0-0_Fulham_p
+Burnley_2-1_West Ham_p
+Hull_2-1_Manchester C_p
+Liverpool_1-0_Everton_p
+Manchester U_5-0_Portsmouth_p
+Stoke_3-0_Blackburn_p
+Sunderland_1-1_Wigan_p
+Tottenham_0-0_Aston Villa_p
+Birmingham_2-1_Wolverhampton_p
+Chelsea_2-0_Arsenal_p
+Fulham_3-0_Burnley_p
+Manchester C_2-0_Bolton_p
+Portsmouth_1-1_Sunderland_p
+Wigan_1-1_Stoke_p
+Arsenal_1-0_Liverpool_p
+Aston Villa_1-1_Manchester U_p
+Blackburn_1-0_Hull_p
+Everton_2-1_Chelsea_p
+West Ham_2-0_Birmingham_p
+Wolverhampton_1-0_Tottenham_p
+Arsenal_2-0_Sunderland_p
+Everton_3-1_Manchester U_p
+Portsmouth_1-2_Stoke_p
+West Ham_3-0_Hull_p
+Wolverhampton_0-2_Chelsea_p
+Aston Villa_5-2_Burnley_p
+Blackburn_3-0_Bolton_p
+Fulham_2-1_Birmingham_p
+Manchester C_0-0_Liverpool_p
+Wigan_0-3_Tottenham_p
+Manchester U_3-0_West Ham_p
+Birmingham_1-0_Wigan_p
+Bolton_1-0_Wolverhampton_p
+Burnley_1-2_Portsmouth_p
+Chelsea_2-4_Manchester C_p
+Stoke_1-3_Arsenal_p
+Liverpool_2-1_Blackburn_p
+Sunderland_0-0_Fulham_p
+Tottenham_2-1_Everton_p
+Hull_0-2_Aston Villa_p
+Arsenal_3-1_Burnley_p
+West Ham_1-2_Bolton_p
+Wolverhampton_0-1_Manchester U_p
+Everton_5-1_Hull_p
+Wigan_1-0_Liverpool_p
+Aston Villa_1-1_Sunderland_p
+Blackburn_2-1_Birmingham_p
+Portsmouth_0-5_Chelsea_p
+Fulham_0-1_Stoke_p
+Manchester C_0-1_Tottenham_p
+Birmingham_2-2_Everton_p
+Bolton_4-0_Wigan_p
+Burnley_1-2_Wolverhampton_p
+Chelsea_4-1_West Ham_p
+Hull_1-2_Arsenal_p
+Stoke_0-0_Aston Villa_p
+Tottenham_3-1_Blackburn_p
+Manchester U_3-0_Fulham_p
+Sunderland_1-1_Manchester C_p
+Liverpool_4-1_Portsmouth_p
+Arsenal_2-0_West Ham_p
+Aston Villa_2-2_Wolverhampton_p
+Everton_2-0_Bolton_p
+Portsmouth_3-2_Hull_p
+Stoke_1-2_Tottenham_p
+Sunderland_3-1_Birmingham_p
+Wigan_1-0_Burnley_p
+Blackburn_1-1_Chelsea_p
+Fulham_1-2_Manchester C_p
+Manchester U_2-1_Liverpool_p
+Birmingham_1-1_Arsenal_p
+Bolton_0-4_Manchester U_p
+Chelsea_7-1_Aston Villa_p
+Hull_2-0_Fulham_p
+Tottenham_2-0_Portsmouth_p
+West Ham_0-1_Stoke_p
+Wolverhampton_0-0_Everton_p
+Burnley_0-1_Blackburn_p
+Liverpool_3-0_Sunderland_p
+Manchester C_3-0_Wigan_p
+Arsenal_1-0_Wolverhampton_p
+Bolton_0-1_Aston Villa_p
+Burnley_1-6_Manchester C_p
+Manchester U_1-2_Chelsea_p
+Portsmouth_0-0_Blackburn_p
+Stoke_2-0_Hull_p
+Sunderland_3-1_Tottenham_p
+Birmingham_1-1_Liverpool_p
+Everton_2-2_West Ham_p
+Fulham_2-1_Wigan_p
+Hull_1-4_Burnley_p
+West Ham_1-0_Sunderland_p
+Blackburn_0-0_Manchester U_p
+Liverpool_0-0_Fulham_p
+Manchester C_5-1_Birmingham_p
+Wolverhampton_0-0_Stoke_p
+Chelsea_1-0_Bolton_p
+Aston Villa_2-2_Everton_p
+Tottenham_2-1_Arsenal_p
+Wigan_0-0_Portsmouth_p
+Birmingham_0-0_Hull_p
+Blackburn_2-3_Everton_p
+Fulham_0-0_Wolverhampton_p
+Manchester C_0-1_Manchester U_p
+Stoke_1-2_Bolton_p
+Sunderland_2-1_Burnley_p
+Tottenham_2-1_Chelsea_p
+Portsmouth_1-2_Aston Villa_p
+Wigan_3-2_Arsenal_p
+Liverpool_3-0_West Ham_p
+Arsenal_0-0_Manchester C_p
+Bolton_2-2_Portsmouth_p
+Hull_0-1_Sunderland_p
+Manchester U_3-1_Tottenham_p
+West Ham_3-2_Wigan_p
+Wolverhampton_1-1_Blackburn_p
+Aston Villa_1-0_Birmingham_p
+Burnley_0-4_Liverpool_p
+Chelsea_7-0_Stoke_p
+Everton_2-1_Fulham_p
+Birmingham_2-1_Burnley_p
+Manchester C_3-1_Aston Villa_p
+Portsmouth_3-1_Wolverhampton_p
+Stoke_0-0_Everton_p
+Tottenham_1-0_Bolton_p
+Fulham_3-2_West Ham_p
+Liverpool_0-2_Chelsea_p
+Sunderland_0-1_Manchester U_p
+Blackburn_2-1_Arsenal_p
+Wigan_2-2_Hull_p
+Arsenal_4-0_Fulham_p
+Aston Villa_0-1_Blackburn_p
+Bolton_2-1_Birmingham_p
+Burnley_4-2_Tottenham_p
+Chelsea_8-0_Wigan_p
+Everton_1-0_Portsmouth_p
+Hull_0-0_Liverpool_p
+Manchester U_4-0_Stoke_p
+West Ham_1-1_Manchester C_p
+Wolverhampton_2-1_Sunderland_p
+Reading_1-1_Liverpool_c
+Chelsea_5-0_Watford_c
+Liverpool_1-2_Reading_c
+Portsmouth_2-1_Sunderland_p
+Reading_1-0_Burnley_c
+Reading_2-4_Aston Villa_c
+Aston Villa_0-3_Chelsea_p
+Chelsea_1-0_Portsmouth_p
+Nottingham_2-1_Middlesbrough_c
+Peterborough_2-1_Ipswich_c
+Preston_2-1_Leicester_c
+Swansea_1-2_Scunthorpe_c
+Blackpool_4-1_Wigan_c
+Doncaster_1-5_Tottenham_c
+Crystal P_0-2_Manchester C_c
+Arsenal_2-0_WBA_c
+Bolton_3-1_West Ham_p
+Nottingham_0-1_Blackburn_c
+Peterborough_2-0_Newcastle_c
+Stoke_4-3_Blackpool_c
+Sunderland_2-0_Birmingham_p
+Aston Villa_1-0_Cardiff_c
+Chelsea_1-0_QPR_c
+Hull_0-4_Everton_p
+Manchester C_2-1_Fulham_p
+Manchester U_1-0_Wolverhampton_p
+Preston_1-5_Tottenham_c
+Blackburn_5-2_Peterborough_c
+Portsmouth_4-0_Stoke_p
+Sunderland_0-0_Aston Villa_p
+Tottenham_2-0_Everton_p
+Arsenal_2-1_Liverpool_p
+Chelsea_4-0_Bolton_p
+Manchester C_5-1_Scunthorpe_c
+Manchester U_2-0_Tottenham_p
+Portsmouth_2-4_Aston Villa_p
+Blackburn_3-3_Chelsea_p
+Manchester C_3-0_Arsenal_p
+Blackburn_0-1_Aston Villa_p
+Manchester C_2-1_Manchester U_p
+Aston Villa_6-4_Blackburn_p
+Manchester U_3-1_Manchester C_p
+Aston Villa_1-2_Manchester U_p
+Middlesbrough_0-0_Sheffield U_c
+Cardiff_4-0_Scunthorpe_c
+Crystal P_1-1_Plymouth_c
+Derby_2-1_Peterborough_c
+Leicester_2-1_Swansea_c
+Preston_2-2_Bristol C_c
+QPR_1-1_Blackpool_c
+Reading_0-0_Nottingham_c
+Sheffield W_2-2_Barnley_c
+Watford_1-1_Doncaster_c
+WBA_1-1_Newcastle_c
+Coventry_2-1_Ipswich_c
+Blackpool_1-1_Cardiff_c
+Bristol C_1-0_Crystal P_c
+Doncaster_1-1_Preston_c
+Ipswich_0-0_Leicester_c
+Newcastle_3-0_Reading_c
+Nottingham_0-1_WBA_c
+Peterborough_1-1_Sheffield W_c
+Plymouth_1-1_QPR_c
+Scunthorpe_3-2_Derby_c
+Sheffield U_2-0_Watford_c
+Swansea_0-3_Middlesbrough_c
+Blackpool_0-0_Derby_c
+Bristol C_1-0_QPR_c
+Doncaster_0-0_Coventry_c
+Ipswich_1-3_Crystal P_c
+Nottingham_2-4_Watford_c
+Peterborough_2-3_WBA_c
+Plymouth_1-3_Cardiff_c
+Scunthorpe_0-2_Middlesbrough_c
+Sheffield U_1-1_Leicester_c
+Swansea_0-0_Reading_c
+Newcastle_1-0_Sheffield W_c
+Crystal P_0-2_Newcastle_c
+Coventry_0-1_Swansea_c
+Derby_2-1_Plymouth_c
+Middlesbrough_2-0_Doncaster_c
+Preston_2-0_Peterborough_c
+QPR_1-1_Nottingham_c
+Reading_1-3_Sheffield U_c
+Sheffield W_4-0_Scunthorpe_c
+Watford_2-2_Blackpool_c
+WBA_2-0_Ipswich_c
+Cardiff_3-0_Bristol C_c
+Blackpool_3-0_Coventry_c
+Bristol C_2-1_Middlesbrough_c
+Doncaster_2-0_Cardiff_c
+Ipswich_1-1_Preston_c
+Nottingham_3-2_Derby_c
+Plymouth_1-3_Sheffield W_c
+Scunthorpe_0-1_QPR_c
+Sheffield U_2-2_WBA_c
+Swansea_1-1_Watford_c
+Newcastle_1-0_Leicester_c
+Peterborough_1-1_Crystal P_c
+Coventry_1-1_Bristol C_c
+Crystal P_0-4_Scunthorpe_c
+Derby_0-1_Sheffield U_c
+Leicester_2-1_Blackpool_c
+Middlesbrough_3-1_Ipswich_c
+Preston_2-0_Swansea_c
+QPR_1-1_Peterborough_c
+Reading_0-0_Doncaster_c
+Sheffield W_1-1_Nottingham_c
+WBA_3-1_Plymouth_c
+Cardiff_0-1_Newcastle_c
+Coventry_3-2_Sheffield U_c
+Ipswich_1-1_Nottingham_c
+Leicester_1-1_Peterborough_c
+Plymouth_0-1_Watford_c
+Scunthorpe_3-1_Preston_c
+Sheffield W_1-3_Middlesbrough_c
+Swansea_0-0_Bristol C_c
+WBA_3-1_Doncaster_c
+Blackpool_2-1_Newcastle_c
+Reading_0-1_Cardiff_c
+QPR_1-1_Crystal P_c
+Sheffield U_3-2_Sheffield W_c
+Bristol C_1-1_Scunthorpe_c
+Crystal P_1-0_Derby_c
+Cardiff_0-2_QPR_c
+Doncaster_3-3_Ipswich_c
+Middlesbrough_0-5_WBA_c
+Newcastle_3-1_Plymouth_c
+Nottingham_0-1_Blackpool_c
+Peterborough_3-2_Reading_c
+Preston_3-2_Coventry_c
+Watford_3-3_Leicester_c
+Blackpool_2-0_Peterborough_c
+Coventry_2-2_Middlesbrough_c
+Derby_1-0_Bristol C_c
+Ipswich_0-4_Newcastle_c
+Leicester_1-2_Preston_c
+Reading_1-1_Watford_c
+Sheffield W_3-1_Cardiff_c
+Scunthorpe_2-2_Doncaster_c
+Swansea_2-1_Sheffield U_c
+WBA_0-1_Crystal P_c
+Plymouth_0-1_Nottingham_c
+Bristol C_2-0_Blackpool_c
+Cardiff_6-1_Derby_c
+Crystal P_0-0_Sheffield W_c
+Doncaster_0-0_Swansea_c
+Middlesbrough_0-1_Leicester_c
+Peterborough_1-2_Plymouth_c
+Preston_1-2_Reading_c
+Sheffield U_3-3_Ipswich_c
+Watford_2-3_Coventry_c
+Newcastle_1-1_QPR_c
+Nottingham_2-0_Scunthorpe_c
+Coventry_1-1_Leicester_c
+Crystal P_4-1_Blackpool_c
+Derby_3-0_Sheffield W_c
+Newcastle_0-0_Bristol C_c
+Peterborough_1-2_Nottingham_c
+Plymouth_2-1_Scunthorpe_c
+Preston_0-0_WBA_c
+Reading_0-2_Middlesbrough_c
+Sheffield U_1-1_Doncaster_c
+Swansea_2-0_QPR_c
+Watford_0-4_Cardiff_c
+Blackpool_2-0_Plymouth_c
+Bristol C_1-1_Peterborough_c
+Cardiff_1-1_Crystal P_c
+Ipswich_1-1_Swansea_c
+Leicester_0-0_Derby_c
+Middlesbrough_0-1_Watford_c
+Nottingham_1-0_Newcastle_c
+QPR_4-0_Preston_c
+Scunthorpe_3-1_Sheffield U_c
+Sheffield W_2-0_Coventry_c
+WBA_3-1_Reading_c
+Blackpool_3-0_Sheffield U_c
+Bristol C_3-1_Plymouth_c
+Cardiff_2-0_Coventry_c
+Doncaster_3-1_Peterborough_c
+Ipswich_1-1_Watford_c
+Leicester_2-0_Crystal P_c
+Middlesbrough_2-0_Derby_c
+QPR_4-1_Reading_c
+Scunthorpe_2-1_Newcastle_c
+Sheffield W_1-2_Preston_c
+WBA_0-1_Swansea_c
+Watford_4-1_Sheffield W_c
+Coventry_0-0_WBA_c
+Crystal P_1-1_Nottingham_c
+Derby_2-4_QPR_c
+Newcastle_2-1_Doncaster_c
+Peterborough_3-0_Scunthorpe_c
+Plymouth_1-1_Ipswich_c
+Preston_2-2_Middlesbrough_c
+Sheffield U_3-4_Cardiff_c
+Swansea_0-0_Blackpool_c
+Reading_0-1_Leicester_c
+QPR_1-2_Leicester_c
+Bristol C_1-1_Sheffield W_c
+Coventry_1-3_Reading_c
+Doncaster_3-3_Blackpool_c
+Ipswich_1-0_Derby_c
+Middlesbrough_0-1_Plymouth_c
+Preston_1-1_Crystal P_c
+Scunthorpe_0-2_Swansea_c
+WBA_5-0_Watford_c
+Cardiff_1-1_Nottingham_c
+Sheffield U_0-1_Newcastle_c
+Derby_2-1_Coventry_c
+Blackpool_4-1_Scunthorpe_c
+Crystal P_1-0_Middlesbrough_c
+Leicester_1-2_WBA_c
+Newcastle_3-1_Peterborough_c
+Nottingham_1-1_Bristol C_c
+Plymouth_2-1_Doncaster_c
+Reading_1-1_Ipswich_c
+Sheffield W_1-2_QPR_c
+Swansea_3-2_Cardiff_c
+Watford_2-0_Preston_c
+Swansea_1-0_Derby_c
+Coventry_1-1_Crystal P_c
+Doncaster_2-0_QPR_c
+Ipswich_0-0_Sheffield W_c
+Leicester_1-0_Plymouth_c
+Middlesbrough_1-1_Nottingham_c
+Reading_2-1_Blackpool_c
+Sheffield U_1-0_Peterborough_c
+Watford_3-0_Scunthorpe_c
+WBA_4-1_Bristol C_c
+Preston_0-1_Newcastle_c
+Bristol C_2-3_Sheffield U_c
+Crystal P_3-0_Watford_c
+Derby_2-1_Reading_c
+Newcastle_3-0_Swansea_c
+Nottingham_4-1_Doncaster_c
+Peterborough_2-2_Middlesbrough_c
+QPR_2-2_Coventry_c
+Scunthorpe_1-1_Leicester_c
+Sheffield W_0-4_WBA_c
+Cardiff_1-2_Ipswich_c
+Blackpool_1-1_Preston_c
+Bristol C_0-0_Ipswich_c
+Cardiff_1-0_Preston_c
+Crystal P_0-3_Doncaster_c
+Derby_2-2_WBA_c
+Newcastle_2-0_Watford_c
+Nottingham_5-1_Leicester_c
+Peterborough_2-2_Swansea_c
+Plymouth_0-1_Sheffield U_c
+QPR_1-5_Middlesbrough_c
+Sheffield W_0-2_Reading_c
+Scunthorpe_1-0_Coventry_c
+Watford_3-1_QPR_c
+Doncaster_1-0_Sheffield W_c
+Ipswich_0-0_Peterborough_c
+Leicester_1-3_Bristol C_c
+Middlesbrough_0-3_Blackpool_c
+Preston_0-0_Derby_c
+Reading_2-4_Crystal P_c
+Sheffield U_0-0_Nottingham_c
+Swansea_1-0_Plymouth_c
+WBA_0-2_Cardiff_c
+Coventry_0-2_Newcastle_c
+Coventry_3-2_Peterborough_c
+Doncaster_1-0_Bristol C_c
+Ipswich_3-1_Blackpool_c
+Leicester_3-0_Sheffield W_c
+Preston_2-0_Plymouth_c
+Reading_1-1_Scunthorpe_c
+Sheffield U_2-0_Crystal P_c
+Swansea_0-1_Nottingham_c
+Watford_0-1_Derby_c
+Middlesbrough_0-1_Cardiff_c
+WBA_2-2_QPR_c
+Bristol C_1-1_Reading_c
+Derby_0-2_Doncaster_c
+Nottingham_3-0_Preston_c
+Peterborough_2-1_Watford_c
+Plymouth_0-1_Coventry_c
+QPR_1-1_Sheffield U_c
+Sheffield W_0-2_Swansea_c
+Newcastle_2-0_Middlesbrough_c
+Blackpool_2-3_WBA_c
+Scunthorpe_1-1_Ipswich_c
+Cardiff_2-1_Leicester_c
+Cardiff_0-1_Plymouth_c
+Coventry_1-0_Doncaster_c
+Crystal P_3-1_Ipswich_c
+Derby_0-2_Blackpool_c
+Leicester_2-1_Sheffield U_c
+Middlesbrough_3-0_Scunthorpe_c
+Reading_1-1_Swansea_c
+Sheffield W_2-2_Newcastle_c
+QPR_2-1_Bristol C_c
+Watford_0-0_Nottingham_c
+WBA_2-0_Peterborough_c
+Bristol C_2-2_Watford_c
+Ipswich_3-0_QPR_c
+Newcastle_0-0_Derby_c
+Nottingham_2-0_Coventry_c
+Peterborough_4-4_Cardiff_c
+Plymouth_4-1_Reading_c
+Scunthorpe_1-3_WBA_c
+Sheffield U_1-0_Preston_c
+Swansea_0-0_Crystal P_c
+Blackpool_1-2_Sheffield W_c
+Doncaster_0-1_Leicester_c
+WBA_1-3_Nottingham_c
+Cardiff_1-1_Blackpool_c
+Derby_1-4_Scunthorpe_c
+Leicester_1-1_Ipswich_c
+Middlesbrough_1-1_Swansea_c
+Sheffield W_2-1_Peterborough_c
+Watford_3-0_Sheffield U_c
+Crystal P_0-1_Bristol C_c
+Preston_1-1_Doncaster_c
+QPR_2-0_Plymouth_c
+Reading_1-2_Newcastle_c
+Blackpool_2-2_QPR_c
+Bristol C_4-2_Preston_c
+Doncaster_2-1_Watford_c
+Ipswich_3-2_Coventry_c
+Nottingham_2-1_Reading_c
+Peterborough_0-3_Derby_c
+Plymouth_0-1_Crystal P_c
+Scunthorpe_1-1_Cardiff_c
+Sheffield U_1-0_Middlesbrough_c
+Swansea_1-0_Leicester_c
+Newcastle_2-2_WBA_c
+Blackpool_3-2_Watford_c
+Bristol C_0-6_Cardiff_c
+Doncaster_1-4_Middlesbrough_c
+Ipswich_1-1_WBA_c
+Nottingham_5-0_QPR_c
+Peterborough_0-1_Preston_c
+Plymouth_1-0_Derby_c
+Sheffield U_3-0_Reading_c
+Swansea_0-0_Coventry_c
+Newcastle_2-0_Crystal P_c
+Scunthorpe_2-0_Sheffield W_c
+Cardiff_2-1_Doncaster_c
+Coventry_1-1_Blackpool_c
+Crystal P_2-0_Peterborough_c
+Derby_1-0_Nottingham_c
+Leicester_0-0_Newcastle_c
+Middlesbrough_0-0_Bristol C_c
+Preston_2-0_Ipswich_c
+QPR_0-1_Scunthorpe_c
+Sheffield W_2-1_Plymouth_c
+WBA_3-1_Sheffield U_c
+Watford_0-1_Swansea_c
+Newcastle_5-1_Cardiff_c
+Blackpool_1-2_Leicester_c
+Bristol C_1-1_Coventry_c
+Doncaster_1-2_Reading_c
+Ipswich_1-1_Middlesbrough_c
+Nottingham_2-1_Sheffield W_c
+Peterborough_1-0_QPR_c
+Plymouth_0-1_WBA_c
+Scunthorpe_1-2_Crystal P_c
+Sheffield U_1-1_Derby_c
+Swansea_2-0_Preston_c
+Cardiff_2-0_Peterborough_c
+Coventry_1-0_Nottingham_c
+Crystal P_0-1_Swansea_c
+Derby_3-0_Newcastle_c
+Leicester_0-0_Doncaster_c
+Preston_2-1_Sheffield U_c
+QPR_1-2_Ipswich_c
+Reading_2-1_Plymouth_c
+Sheffield W_2-0_Blackpool_c
+Watford_2-0_Bristol C_c
+WBA_2-0_Scunthorpe_c
+Coventry_1-0_QPR_c
+Doncaster_1-0_Nottingham_c
+Leicester_5-1_Scunthorpe_c
+Middlesbrough_1-0_Peterborough_c
+Preston_0-0_Blackpool_c
+Sheffield U_2-0_Bristol C_c
+Swansea_1-1_Newcastle_c
+Ipswich_2-0_Cardiff_c
+WBA_1-0_Sheffield W_c
+Reading_4-1_Derby_c
+Watford_1-3_Crystal P_c
+Blackpool_2-0_Middlesbrough_c
+Bristol C_1-1_Leicester_c
+Cardiff_1-1_WBA_c
+Derby_5-3_Preston_c
+Nottingham_1-0_Sheffield U_c
+Peterborough_3-1_Ipswich_c
+Plymouth_1-1_Swansea_c
+Sheffield W_0-2_Doncaster_c
+Crystal P_1-3_Reading_c
+Newcastle_4-1_Coventry_c
+QPR_1-0_Watford_c
+Blackpool_2-0_Reading_c
+Crystal P_0-1_Coventry_c
+Derby_0-1_Swansea_c
+Newcastle_3-0_Preston_c
+Nottingham_1-0_Middlesbrough_c
+Plymouth_1-1_Leicester_c
+QPR_2-1_Doncaster_c
+Scunthorpe_2-2_Watford_c
+Sheffield W_0-1_Ipswich_c
+Bristol C_2-1_WBA_c
+Peterborough_1-0_Sheffield U_c
+Coventry_2-1_Scunthorpe_c
+Doncaster_1-1_Crystal P_c
+Ipswich_0-0_Bristol C_c
+Leicester_3-0_Nottingham_c
+Middlesbrough_2-0_QPR_c
+Preston_3-0_Cardiff_c
+Reading_5-0_Sheffield W_c
+Sheffield U_4-3_Plymouth_c
+Swansea_1-0_Peterborough_c
+Watford_1-2_Newcastle_c
+WBA_3-1_Derby_c
+Blackpool_1-0_Ipswich_c
+Bristol C_2-5_Doncaster_c
+Cardiff_1-0_Middlesbrough_c
+Crystal P_1-0_Sheffield U_c
+Derby_2-0_Watford_c
+Nottingham_1-0_Swansea_c
+Peterborough_0-1_Coventry_c
+Plymouth_1-1_Preston_c
+QPR_3-1_WBA_c
+Sheffield W_2-0_Leicester_c
+Scunthorpe_2-2_Reading_c
+Coventry_1-1_Plymouth_c
+Doncaster_2-1_Derby_c
+Ipswich_1-0_Scunthorpe_c
+Leicester_1-0_Cardiff_c
+Middlesbrough_2-2_Newcastle_c
+Preston_3-2_Nottingham_c
+Reading_2-0_Bristol C_c
+Sheffield U_1-1_QPR_c
+Swansea_0-0_Sheffield W_c
+Watford_0-1_Peterborough_c
+WBA_3-2_Blackpool_c
+Coventry_1-2_Cardiff_c
+Crystal P_0-1_Leicester_c
+Derby_2-2_Middlesbrough_c
+Peterborough_1-2_Doncaster_c
+Plymouth_3-2_Bristol C_c
+Preston_2-2_Sheffield W_c
+Reading_1-0_QPR_c
+Sheffield U_3-0_Blackpool_c
+Swansea_0-2_WBA_c
+Watford_2-1_Ipswich_c
+Newcastle_3-0_Scunthorpe_c
+Blackpool_2-2_Crystal P_c
+Bristol C_2-2_Newcastle_c
+Doncaster_1-1_Sheffield U_c
+Middlesbrough_1-1_Reading_c
+Nottingham_1-0_Peterborough_c
+QPR_1-1_Swansea_c
+Scunthorpe_2-1_Plymouth_c
+Sheffield W_0-0_Derby_c
+WBA_3-2_Preston_c
+Cardiff_3-1_Watford_c
+Leicester_2-2_Coventry_c
+Blackpool_5-1_Swansea_c
+Doncaster_0-1_Newcastle_c
+Ipswich_0-2_Plymouth_c
+Middlesbrough_2-0_Preston_c
+Nottingham_2-0_Crystal P_c
+QPR_1-1_Derby_c
+Scunthorpe_4-0_Peterborough_c
+Cardiff_1-1_Sheffield U_c
+Leicester_1-2_Reading_c
+Sheffield W_2-1_Watford_c
+WBA_1-0_Coventry_c
+Coventry_1-1_Sheffield W_c
+Crystal P_1-2_Cardiff_c
+Derby_1-0_Leicester_c
+Peterborough_0-1_Bristol C_c
+Plymouth_0-2_Blackpool_c
+Preston_2-2_QPR_c
+Reading_1-1_WBA_c
+Swansea_0-0_Ipswich_c
+Watford_1-1_Middlesbrough_c
+Sheffield U_0-1_Scunthorpe_c
+Newcastle_2-0_Nottingham_c
+Scunthorpe_2-4_Blackpool_c
+WBA_3-0_Leicester_c
+Bristol C_1-1_Nottingham_c
+Cardiff_2-1_Swansea_c
+Coventry_0-1_Derby_c
+Doncaster_1-2_Plymouth_c
+Ipswich_2-1_Reading_c
+Middlesbrough_1-1_Crystal P_c
+Peterborough_2-3_Newcastle_c
+Preston_1-1_Watford_c
+QPR_1-1_Sheffield W_c
+Blackpool_2-0_Doncaster_c
+Crystal P_3-1_Preston_c
+Derby_1-3_Ipswich_c
+Leicester_4-0_QPR_c
+Newcastle_2-1_Sheffield U_c
+Nottingham_0-0_Cardiff_c
+Plymouth_0-2_Middlesbrough_c
+Reading_3-0_Coventry_c
+Sheffield W_0-1_Bristol C_c
+Swansea_3-0_Scunthorpe_c
+Watford_1-1_WBA_c
+Bristol C_1-0_Swansea_c
+Cardiff_0-0_Reading_c
+Crystal P_0-2_QPR_c
+Doncaster_2-3_WBA_c
+Middlesbrough_1-0_Sheffield W_c
+Newcastle_4-1_Blackpool_c
+Nottingham_3-0_Ipswich_c
+Peterborough_1-2_Leicester_c
+Preston_3-2_Scunthorpe_c
+Sheffield U_1-0_Coventry_c
+Watford_1-0_Plymouth_c
+Blackpool_3-1_Nottingham_c
+Coventry_1-1_Preston_c
+Derby_1-1_Crystal P_c
+Ipswich_1-1_Doncaster_c
+Leicester_4-1_Watford_c
+QPR_0-1_Cardiff_c
+Reading_6-0_Peterborough_c
+Scunthorpe_3-0_Bristol C_c
+WBA_2-0_Middlesbrough_c
+Sheffield W_1-1_Sheffield U_c
+Plymouth_0-2_Newcastle_c
+Bristol C_2-1_Derby_c
+Cardiff_3-2_Sheffield W_c
+Doncaster_4-3_Scunthorpe_c
+Middlesbrough_1-1_Coventry_c
+Newcastle_2-2_Ipswich_c
+Nottingham_3-0_Plymouth_c
+Peterborough_0-1_Blackpool_c
+Preston_0-1_Leicester_c
+Sheffield U_2-0_Swansea_c
+Watford_3-0_Reading_c
+Crystal P_1-1_WBA_c
+Blackpool_1-1_Bristol C_c
+Coventry_0-4_Watford_c
+Derby_2-0_Cardiff_c
+Ipswich_0-3_Sheffield U_c
+Leicester_2-0_Middlesbrough_c
+Plymouth_1-2_Peterborough_c
+QPR_0-1_Newcastle_c
+Reading_4-1_Preston_c
+Scunthorpe_2-2_Nottingham_c
+Sheffield W_2-2_Crystal P_c
+Swansea_0-0_Doncaster_c
+Blackpool_2-1_Nottingham_c
+Leicester_0-1_Cardiff_c
+Nottingham_3-4_Blackpool_c
+Cardiff_2-3_Leicester_c
+Blackpool_3-2_Cardiff_c
