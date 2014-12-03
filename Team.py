@@ -18,3 +18,6 @@ class Team:
 	def historyVs(self,team):
 		return scoresDict[team]
 
+def makeTeam(name):
+	team = Team(name)
+	return team
