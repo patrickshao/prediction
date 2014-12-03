@@ -35,11 +35,15 @@ def run(year):
 		if not rTeam in teamList.keys():
 			tempTeam2 = team.makeTeam(rTeam)
 			teamList[rTeam] = tempTeam2
-		if not lTeam in teamList[lTeam].scoresDict.keys():
-			teamList[lTeam].scoresDict[rTeam] = list()			
-		if not rTeam in teamList[rTeam].scoresDict.keys():
-			teamList[rTeam].scoresDict[lTeam] = list()			
+		print (teamList[lTeam].scoresDict.keys(),"TSM")
+		if not lTeam in teamList[lTeam].scoresDict.keys() and not rTeam in teamList[lTeam].scoresDict.keys():
+			teamList[lTeam].scoresDict[rTeam] = list()
+			print "booyah"			
+		if not rTeam in teamList[rTeam].scoresDict.keys() and not lTeam in teamList[rTeam].scoresDict.keys():
+			teamList[rTeam].scoresDict[lTeam] = list()
+		#print teamList[lTeam].scoresDict[rTeam]
 		teamList[lTeam].scoresDict[rTeam].append(lTup)
+		#print teamList[lTeam].scoresDict[rTeam]
 		teamList[rTeam].scoresDict[lTeam].append(rTup)
 		teamList[lTeam].scoresList.append([rTeam,lTup])
 		teamList[rTeam].scoresList.append([lTeam,rTup])
@@ -53,8 +57,8 @@ def run(year):
 
 blah = team.makeTeam("blah")
 print blah.name
-print("Testing")
-run(9)
+print("Testing1")
+run(99)
 
 print "----------------------------------"
 for name in teamList:
