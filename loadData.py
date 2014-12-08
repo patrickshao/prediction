@@ -56,6 +56,9 @@ def run(year):
                 if line[2] == "p":
                         teamDict[lTeam].premier = True
                         teamDict[rTeam].premier = True
+                if line[2] == "c":
+                        teamDict[lTeam].premier = False
+                        teamDict[rTeam].premier = False
 
 
 #blah = team.makeTeam("blah")
