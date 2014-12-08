@@ -2,7 +2,7 @@ import string
 import team
 
 
-teamList = dict()
+teamDict = dict()
 
 def run(year):
 	if year<10:
@@ -29,42 +29,42 @@ def run(year):
 		rScore = scores[1]
 		lTup = (lScore,rScore)
 		rTup = (rScore,lScore)
-		if not lTeam in teamList.keys():
+		if not lTeam in teamDict.keys():
 			tempTeam = team.makeTeam(lTeam)
-			teamList[lTeam] = tempTeam
-		if not rTeam in teamList.keys():
+			teamDict[lTeam] = tempTeam
+		if not rTeam in teamDict.keys():
 			tempTeam2 = team.makeTeam(rTeam)
-			teamList[rTeam] = tempTeam2
-		print (teamList[lTeam].scoresDict.keys(),"TSM")
-		if not lTeam in teamList[lTeam].scoresDict.keys() and not rTeam in teamList[lTeam].scoresDict.keys():
-			teamList[lTeam].scoresDict[rTeam] = list()
-			print "booyah"			
-		if not rTeam in teamList[rTeam].scoresDict.keys() and not lTeam in teamList[rTeam].scoresDict.keys():
-			teamList[rTeam].scoresDict[lTeam] = list()
-		#print teamList[lTeam].scoresDict[rTeam]
-		teamList[lTeam].scoresDict[rTeam].append(lTup)
-		#print teamList[lTeam].scoresDict[rTeam]
-		teamList[rTeam].scoresDict[lTeam].append(rTup)
-		teamList[lTeam].scoresList.append([rTeam,lTup])
-		teamList[rTeam].scoresList.append([lTeam,rTup])
-		teamList[lTeam].totalGames+=1 
-		teamList[rTeam].totalGames+=1
+			teamDict[rTeam] = tempTeam2
+		#print (teamDict[lTeam].scoresDict.keys(),"TSM")
+		if not lTeam in teamDict[lTeam].scoresDict.keys() and not rTeam in teamDict[lTeam].scoresDict.keys():
+			teamDict[lTeam].scoresDict[rTeam] = list()
+			#print "booyah"			
+		if not rTeam in teamDict[rTeam].scoresDict.keys() and not lTeam in teamDict[rTeam].scoresDict.keys():
+			teamDict[rTeam].scoresDict[lTeam] = list()
+		#print teamDict[lTeam].scoresDict[rTeam]
+		teamDict[lTeam].scoresDict[rTeam].append(lTup)
+		#print teamDict[lTeam].scoresDict[rTeam]
+		teamDict[rTeam].scoresDict[lTeam].append(rTup)
+		teamDict[lTeam].scoresList.append([rTeam,lTup])
+		teamDict[rTeam].scoresList.append([lTeam,rTup])
+		teamDict[lTeam].totalGames+=1 
+		teamDict[rTeam].totalGames+=1
 		if lScore > rScore:
-			teamList[lTeam].totalWins+=1
+			teamDict[lTeam].totalWins+=1
 		else:
-			teamList[rTeam].totalWins+=1
+			teamDict[rTeam].totalWins+=1
 
 
-blah = team.makeTeam("blah")
-print blah.name
-print("Testing1")
-run(99)
+#blah = team.makeTeam("blah")
+#print blah.name
+#print("Testing1")
+#run(99)
 
-print "----------------------------------"
-for name in teamList:
-	team = teamList[name]
-	print team.name
-	print team.scoresDict
-	print team.scoresList
-	print team.totalGames
-	print team.totalWins
+#print "----------------------------------"
+#for name in teamDict:
+#	team = teamDict[name]
+#	print team.name
+#	print team.scoresDicts
+#	print team.scoresList
+#	print team.totalGames
+#	print team.totalWins
