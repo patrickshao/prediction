@@ -62,7 +62,8 @@ def run(year):
 #print blah.name
 #print("Testing1")
 run(7)
-print teamDict["Chelsea"].wins(4)
+#print teamDict["Chelsea"].wins(4)
+print teamDict["Chelsea"].historyVs("Arsenal")
 #print "----------------------------------"
 #for name in teamDict:
 #	team = teamDict[name]

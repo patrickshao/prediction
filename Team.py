@@ -17,8 +17,12 @@ class Team:
         return temp
 
     def historyVs(self,team):
-        print self.scoresDict
-        return self.scoresDict[team]
+        print "asldkjfsadklf"
+        temp = list()
+        for teamScore in self.scoresList:
+            if teamScore[0] == team:
+                temp.append(teamScore[1])
+        return temp
 
     def wins(self,current):
         tempWin = 0
