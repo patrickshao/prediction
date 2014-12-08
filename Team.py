@@ -12,18 +12,18 @@ class Team:
     def getRecentGames(self,num):
         temp = list()
         if len(self.scoresList)-1 > num:
-            for i in range(num,len(scoresList)):
-                temp.append(scoresList(i))
+            for i in range(num,len(self.scoresList)):
+                temp.append(self.scoresList(i))
         return temp
 
     def historyVs(self,team):
-        print scoresDict
+        print self.scoresDict
         return self.scoresDict[team]
 
     def wins(self,current):
         tempWin = 0
         for r in range(0,current):
-            (opponent,scoreTup) = scoresList[r]
+            (opponent,scoreTup) = self.scoresList[r]
             (tScore,oScore) = scoreTup
             if tScore > oScore:
                 tempWin+=1
