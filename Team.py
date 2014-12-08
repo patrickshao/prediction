@@ -7,6 +7,7 @@ class Team:
 		self.scoresList = list()
 		self.totalGames = 0
 		self.totalWins = 0
+		self.premier = False
 
 	def getRecentGames(self,num):
 		temp = list()
