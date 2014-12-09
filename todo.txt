@@ -1,0 +1,10 @@
+AI Project to-do list, edit as you see fit.
+
+Have good data, need...
+ modify team.py to accomodate additional features
+ modify loaddata to read from csv's ('year raw')
+ update functions for team.py
+ load historical data into team.py, such that it can output results based on history (basically all games
+  need a time tag so that function calls (with a time tag input) can only return historical data)
+ write script to take team.py output and write it to new .csv files
+*Use scikit ai tools on formatted csvs.

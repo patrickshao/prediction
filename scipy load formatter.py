@@ -31,6 +31,9 @@ def readLabels(r):
     (labellist[-1])=(labellist[-1][:-1])
     return labellist
 
+#starting features needed: ht index, at index, ht goals, at goals, ft result (label)
+#                       
+
 #format csv to standardized label order
 #convert strings to numbers
 def formatData(r,w):
