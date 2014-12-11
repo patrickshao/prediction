@@ -7,6 +7,7 @@ information.
 """
 
 import numpy as np
+global clf
 
 def gaussNB():
     """
@@ -50,18 +51,17 @@ def multNB():
     clf = MultinomialNB()
     clf.fit(X, y)
     MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True)
-    print "x: ", X
-    print "y: ", y
+    print "Training Data: ", X
+    print "Training Labels: ", y
     for x in range(10):
         a = np.random.randint(2)
         b = np.random.randint(2)
         z = np.array([a,b])
-        print "Given score: ", z, "Best prediction: ",
-            clf.predict(z), "Probabilities: ", clf.predict_proba(z)
+        print "Given score: ", z, "Best prediction: ",  clf.predict(z), "Probabilities: ", clf.predict_proba(z)
 
-def classify(switch):
+def chooseClassifier(switch):
     """
-    classify() is the main method that will call different
+    chooseClassifier() is the main method that will call different
     machine learning algorithms. The algorithm is based on what 
     'switch' value is passed in.
     """
@@ -72,4 +72,14 @@ def classify(switch):
         #We can add more if's if we want later...
     #if switch == 3:
 
-classify(2)
+def classify(filename,switch):
+    dataset = np.loadtxt(filename, delimiter=",")
+    trainingData = []
+    trainingLabels = []
+    for x in range(len(dataset)):
+        trainingLabels.append(dataset[x][0])
+        trainingData.append(dataset[x][1:])
+        print trainingData, trainingLabels
+
+classify("temp.csv",2)
+chooseClassifier(2)
