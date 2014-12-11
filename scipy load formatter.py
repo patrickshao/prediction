@@ -44,10 +44,11 @@ for line in r:
     words=line.split(',')
     teamlist=words
     break
-keys=['FTHG','FTAG','HS','AS','HST','AST','HHW','AHW','HC','AC','HF','AF',
-      'HO','AO','HY','AY','HR','AR']
-completekeys=['res','team','oteam','day','mon','yea','gs','ogs','st','ost',
-              'co','oco','fo','ofo','of','oof','ye','oye','re','ore']
+keys=['FTHG','FTAG','HS','AS','HST','AST','HC','AC','HF','AF',
+      'HY','AY','HR','AR']
+completekeys=['res','team','oteam','day','mon','yea','gs','ogs','sh','osho',
+              'st','ost','co','oco','fo','ofo','ye','oye','re','ore']
+oddskeys=['IWH', 'IWD', 'IWA', 'LBH', 'LBD', 'LBA', 'WHH', 'WHD', 'WHA']
 
 #format csv to standardized label order
 #convert strings to numbers
