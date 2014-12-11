@@ -1,19 +1,41 @@
 class Team:
     def __init__(self,name):
         self.name = name
-        #scoresDict[opposing team] = [(team score, opposing score)...]
+        #scoresDict[opposing team] = [[result, team, 
+        # opposing team, day, month, year, goals scored, opposing goal scored]...]
         self.scoresDict = dict() 
-        #scoresList[chronological by time] = [[team, (team score, opposing score)]...]
+        #scoresList[chronological by time] = [[result, team, opposing team, day, 
+        #  month, year, goals scored, opposing score]...]
         self.scoresList = list()
         self.totalGames = 0
         self.totalWins = 0
         self.premier = False
 
-    def getRecentGames(self,num):
+    """def getRecentGames(self,num):
         temp = list()
         if len(self.scoresList)-1 > num:
             for i in range(num,len(self.scoresList)):
                 temp.append(self.scoresList(i))
+        return temp"""
+
+    def getRecentGamesVS(self,d,m,y,num,opposing):
+        temp = list()
+        i = len(self.scoresList)-1
+        while i >= 0 and num >= 0:
+            if scoresList[i][5] <= y:
+                #3 = d , 4 = m, 5 = y
+                #5th day of 3 month of 2012
+                #start at 2014, find 2012.
+                if scoresList[i][4] <= m or not scoresList[i][5] == y: 
+                #find 3 month
+                #find games BEFORE 5th day
+                    if scoresList[i][3] <=d or not scoresList[i][4] == m:
+                        if scoresList[i][2] == opposing:
+                            temp.append(scoresList[i])
+                #check if opposing is correct
+                #add into list
+                #otherwise decrement
+            i-=1
         return temp
 
     def historyVs(self,team):
