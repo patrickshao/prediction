@@ -15,8 +15,8 @@ def run():
                         #print scores
                         lTeam = row["team"]
                         rTeam = row["oteam"]
-                        #lScore = row["gs"]
-                        #rScore = row["ogs"]
+                        lScore = row["gs"]
+                        rScore = row["ogs"]
                         inputData = [row["res"],row["team"],row["oteam"],row["day"],row["mon"],row["yea"],row["gs"],row["ogs"]]
                         if not lTeam in teamDict.keys():
                                 tempTeam = team.makeTeam(lTeam)
@@ -46,21 +46,20 @@ def run():
                                 teamDict[rTeam].premier = False"""
 
 def makeCSV(team,opposing,day,month,year):
-        #run()
-        teamObj = teamDict[team] 
-        gamesList = teamObj.scoresDict[opposing]
-        tempL = teamObj.scoresDict[len(teamObj.scoresDict)-1]
-        tempG = tempL[0]
         with open('temp.csv', 'wb') as csvfile:
-                w = csv.writer(csvfile, delimiter=',')
-                #w.writerow(['Spam'] * 5 + ['asdkfladsjlf Beans'])
-                w.writerow([tempG[0]]+[teamG[6]],[tempG[7]])
+                run()
+                teamObj = teamDict[team] 
+                gamesList = teamObj.scoresDict[opposing]
+                for i in range(0,len(gamesList)):
+                        tempG = gamesList[i]
+                        w = csv.writer(csvfile, delimiter=',')
+                        w.writerow([tempG[0],tempG[6],tempG[7]])
 
 
 #inputData = [row["res"],row["team"],row["oteam"],row["day"],row["mon"],row["yea"],row["gs"],row["ogs"]]
                         
 
-makeCSV()
+makeCSV("1","2",4,3,2004)
 #run()
 #blah = team.makeTeam("blah")
 #print blah.name
