@@ -46,12 +46,14 @@ for line in r:
     break
 keys=['FTHG','FTAG','HS','AS','HST','AST','HHW','AHW','HC','AC','HF','AF',
       'HO','AO','HY','AY','HR','AR']
+completekeys=['res','team','oteam','day','mon','yea','gs','ogs']
 
 #format csv to standardized label order
 #convert strings to numbers
 def formatData(rcsv,wcsv):
     reader=csv.DictReader(rcsv)
     writer=csv.writer(wcsv)
+    writer.writerow(completekeys)
     error=False
     for row in reader:
         writelist=[]#list of strings to write to the file.
