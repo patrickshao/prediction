@@ -45,23 +45,36 @@ def run():
                                 teamDict[lTeam].premier = False
                                 teamDict[rTeam].premier = False"""
 
-def makeCSV(team,opposing,day,month,year):
+#team = the current team
+#opposing = the opposition team
+#day,month,year are self explanatory
+#numIter is the number of times that we generate new iterations
+#numPast is how many games for every iteration you go back in the past
+def makeCSV(team,opposing,day,month,year,numIter,numPast):
         with open('temp.csv', 'wb') as csvfile:
                 run()
                 teamObj = teamDict[team] 
                 #gamesList = teamObj.scoresDict[opposing]
-                gamesList = teamObj.getRecentGamesVS(day,month,year,5,opposing)
-                print gamesList
+                tm = month
+                ty = year
+                td = day
+                gamesList = list()
+                for i in range (0,numIter):
+                        #currently gets the recent games vs another team
+                        temp = teamObj.getRecentGamesVS(td,tm,ty,numPast,opposing)
+                        gamesList.append(temp)
+                        tm = temp[3]
+                        ty = temp[4]
+                        td = temp[2]
+
+                w = csv.writer(csvfile, delimiter=',')
                 for i in range(0,len(gamesList)):
-                        tempG = gamesList[i]
-                        w = csv.writer(csvfile, delimiter=',')
-                        #w.writerow([tempG[0],tempG[6],tempG[7]])
-
-
+                        w.writerow([gamesList[i][0]]+gamesList[i][1])
+                        
 #inputData = [row["res"],row["team"],row["oteam"],row["day"],row["mon"],row["yea"],row["gs"],row["ogs"]]
                         
 
-makeCSV("1","2",4,3,2004)
+makeCSV("1","2",4,3,2010,10,5)
 #run()
 #blah = team.makeTeam("blah")
 #print blah.name
