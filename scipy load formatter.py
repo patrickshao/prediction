@@ -73,13 +73,20 @@ def formatData(rcsv,wcsv):
                 a=i
             if a!=None and h!=None:
                 break
-        if a==None or h==None:
-            error=True
+##        if a==None or h==None:
+##            error=True
+##            break
+        if a==None:
+            error=row['AwayTeam']
             break
-        writelist.append(str(h))
-        writelist.append(str(a))
-        awritelist.append(str(a))
-        awritelist.append(str(h))
+        elif h==None:
+            error=row['HomeTeam']
+            break
+        add(writelist,awritelist,str(h),str(a))
+##        writelist.append(str(h))
+##        writelist.append(str(a))
+##        awritelist.append(str(a))
+##        awritelist.append(str(h))
         
         #format date
         date= row['Date']
@@ -94,29 +101,44 @@ def formatData(rcsv,wcsv):
         #writelist.append('0')
 
         #write goals scored
-        writelist.append(row['FTHG'])
-        writelist.append(row['FTAG'])
-        awritelist.append(row['FTAG'])
-        awritelist.append(row['FTHG'])
+        add(writelist,awritelist,row['FTHG'],row['FTAG'])
+##        writelist.append(row['FTHG'])
+##        writelist.append(row['FTAG'])
+##        awritelist.append(row['FTAG'])
+##        awritelist.append(row['FTHG'])
 
         #write shots, shots on target, shots on woodwork
         #writelist.append(row['HS'])
 
         #write
-        print writelist
+        #print writelist
         writer.writerow(writelist)
         writer.writerow(awritelist)
+    if error != False:
+        print row['HomeTeam'],row['AwayTeam'],date
+
+def add(hlist,alist,hitem,aitem):
+    hlist.append(hitem)
+    hlist.append(aitem)
+    alist.append(aitem)
+    alist.append(hitem)
             
-
-            
-                
-
-
 #main method
-def run(year):
-    fname="raw/"+str(year)+" raw.csv"
-    with open(fname,'r') as f:
-        with open('alldata.csv','w') as g:
-            formatData(f,g)
-    #labellist=readLabels(r)
+YEAR_START = 2000
+YEAR_END = 2013
+def run():
+    #empty alldata.csv
+    w=open('alldata.csv','w')
+    w.close()
+    
+    with open('alldata.csv','a') as g:
+        for year in range(YEAR_START, YEAR_END+1):
+            print "doing year", year
+            fname="raw/"+str(year)+" raw.csv"
+            with open(fname,'r') as f:
+                formatData(f,g)
+                f.close()
+        pass
+    g.close()
+    #labellist=readLabels(r)5
     #print labellist
