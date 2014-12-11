@@ -46,7 +46,8 @@ for line in r:
     break
 keys=['FTHG','FTAG','HS','AS','HST','AST','HHW','AHW','HC','AC','HF','AF',
       'HO','AO','HY','AY','HR','AR']
-completekeys=['res','team','oteam','day','mon','yea','gs','ogs']
+completekeys=['res','team','oteam','day','mon','yea','gs','ogs','st','ost',
+              'co','oco','fo','ofo','of','oof','ye','oye','re','ore']
 
 #format csv to standardized label order
 #convert strings to numbers
@@ -104,13 +105,14 @@ def formatData(rcsv,wcsv):
 
         #write goals scored
         add(writelist,awritelist,row['FTHG'],row['FTAG'])
-##        writelist.append(row['FTHG'])
-##        writelist.append(row['FTAG'])
-##        awritelist.append(row['FTAG'])
-##        awritelist.append(row['FTHG'])
 
-        #write shots, shots on target, shots on woodwork
-        #writelist.append(row['HS'])
+        #write shots, shots on target, corners, fouls, yellows, reds
+        add(writelist,awritelist,row['HS'],row['AS'])
+        add(writelist,awritelist,row['HST'],row['AST'])
+        add(writelist,awritelist,row['HC'],row['AC'])
+        add(writelist,awritelist,row['HF'],row['AF'])
+        add(writelist,awritelist,row['HY'],row['AY'])
+        add(writelist,awritelist,row['HR'],row['AR'])
 
         #write
         #print writelist
