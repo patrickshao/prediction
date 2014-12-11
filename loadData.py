@@ -49,38 +49,15 @@ def makeCSV(team,opposing,day,month,year):
         #run()
         teamObj = teamDict[team] 
         gamesList = teamObj.scoresDict[opposing]
-        """recD = gamesList[0][3]
-        recM = gamesList[0][4]
-        recY = gamesList[0][5]
-        for i in range(1,len(gamesList))
-                d = gamesList[i][3]
-                m = gamesList[i][4] 
-                y = gamesList[i][5]
-                if y > recY:
-                        recD = d
-                        recM = m
-                        recY = y
-                else:
-                        if m > recM:
-                                recD = d
-                                recM = m
-                                recY = y
-                        else:
-                                if d > recM:
-                                        recD = d
-                                        recM = m
-                                        recY = y                   
-                                        """
-
         tempL = teamObj.scoresDict[len(teamObj.scoresDict)-1]
         tempG = tempL[0]
         with open('temp.csv', 'wb') as csvfile:
                 w = csv.writer(csvfile, delimiter=',')
                 #w.writerow(['Spam'] * 5 + ['asdkfladsjlf Beans'])
-                w.writerow(tempG[0],teamG[6],tempG[7])
+                w.writerow([tempG[0]]+[teamG[6]],[tempG[7]])
 
 
-inputData = [row["res"],row["team"],row["oteam"],row["day"],row["mon"],row["yea"],row["gs"],row["ogs"]]
+#inputData = [row["res"],row["team"],row["oteam"],row["day"],row["mon"],row["yea"],row["gs"],row["ogs"]]
                         
 
 makeCSV()
