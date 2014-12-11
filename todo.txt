@@ -8,3 +8,7 @@ Have good data, need...
   need a time tag so that function calls (with a time tag input) can only return historical data)
  write script to take team.py output and write it to new .csv files
 *Use scikit ai tools on formatted csvs.
+
+
+team.py have functions that can get relevant info based off date. 
+	last x games against y team 

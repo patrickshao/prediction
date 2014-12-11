@@ -10,19 +10,17 @@ def run(year):
         fname="raw/"+year+" raw.csv"
         #r=open(fname)
         with open(fname,'r') as f:
-                reader = csv.reader(f)
+                reader = csv.DictReader(f)
                 for row in reader:
                         #Use to print out the row
                         #line = ",".join(row)
-                        print row
-                         
-                        """line=line.strip()
-                        line = line.split('_')
+                        print row[""],row["AwayTeam"]
+                        
                         scores = line.pop(1).split('-')
                         #print line
                         #print scores
-                        lTeam = line[0]
-                        rTeam = line[1]
+                        lTeam = row["HomeTeam"]
+                        rTeam = row["AwayTeam"]
                         lScore = scores[0]
                         rScore = scores[1]
                         lTup = (lScore,rScore)
