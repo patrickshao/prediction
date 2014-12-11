@@ -20,23 +20,31 @@ class Team:
 
     def getRecentGamesVS(self,d,m,y,num,opposing):
         temp = list()
+        store = 9999
         i = len(self.scoresList)-1
+        first = True
         while i >= 0 and num >= 0:
-            if scoresList[i][5] <= y:
+            print self.scoresList[i][4],self.scoresList[i][5],self.scoresList[i][6]
+            #print self.scoresList[i][4]
+            if self.scoresList[i][5] <= y:
                 #3 = d , 4 = m, 5 = y
                 #5th day of 3 month of 2012
                 #start at 2014, find 2012.
-                if scoresList[i][4] <= m or not scoresList[i][5] == y: 
+                if self.scoresList[i][4] <= m or not self.scoresList[i][5] == y: 
                 #find 3 month
                 #find games BEFORE 5th day
-                    if scoresList[i][3] <=d or not scoresList[i][4] == m:
-                        if scoresList[i][2] == opposing:
-                            temp.append(scoresList[i])
+                    if self.scoresList[i][3] <=d or not self.scoresList[i][4] == m:
+                        if self.scoresList[i][2] == opposing:
+                            temp.append(self.scoresList[i])
+                            num-=1
+                            if first:
+                                store = self.scoresList[i+1][0]
+                                first = False
                 #check if opposing is correct
                 #add into list
                 #otherwise decrement
             i-=1
-        return temp
+        return store,temp
 
     def historyVs(self,team):
         print "asldkjfsadklf"

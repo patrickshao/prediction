@@ -49,11 +49,13 @@ def makeCSV(team,opposing,day,month,year):
         with open('temp.csv', 'wb') as csvfile:
                 run()
                 teamObj = teamDict[team] 
-                gamesList = teamObj.scoresDict[opposing]
+                #gamesList = teamObj.scoresDict[opposing]
+                gamesList = teamObj.getRecentGamesVS(day,month,year,5,opposing)
+                print gamesList
                 for i in range(0,len(gamesList)):
                         tempG = gamesList[i]
                         w = csv.writer(csvfile, delimiter=',')
-                        w.writerow([tempG[0],tempG[6],tempG[7]])
+                        #w.writerow([tempG[0],tempG[6],tempG[7]])
 
 
 #inputData = [row["res"],row["team"],row["oteam"],row["day"],row["mon"],row["yea"],row["gs"],row["ogs"]]
