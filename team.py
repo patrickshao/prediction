@@ -27,14 +27,13 @@ class Team:
         i = len(self.scoresList)-1
         first = True
         while i >= 0 and num > 0:
-            #print self.scoresList[i][4],self.scoresList[i][5],self.scoresList[i][6]
-            #print m,d,y
-            print self.scoresList[i]
+            #hacky way to prevent the mon error
+            if self.scoresList[i][4] == "mon":
+                return None
             mon = int(self.scoresList[i][4])
             day = int(self.scoresList[i][3])
             yea = int(self.scoresList[i][5])
-            #print mon,day,yea,m,d,y
-            #print self.scoresList[i][4]
+
             y = int(y)
             m = int(m)
             d = int(d)
@@ -42,7 +41,6 @@ class Team:
                 #3 = d , 4 = m, 5 = y
                 #5th day of 3 month of 2012
                 #start at 2014, find 2012.
-                #print "case1"
                 if mon <= m or yea != y: 
                 #find 3 month
                 #find games BEFORE 5th day
