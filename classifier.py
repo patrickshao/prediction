@@ -7,7 +7,7 @@ information.
 """
 
 import numpy as np
-global clf
+import copy
 
 def gaussNB():
     """
@@ -37,49 +37,64 @@ def gaussNB():
     print "Labels for Training Data: ", Y
     print(clf.predict([[-0.8, -1]]))
 
-def multNB():
+def multNB(trainingData,trainingLabels):
     """
-    Uses Multinomial Naive Bayes, which takes in training data i nthe from
-    of vectors.
+    Uses Multinomial Naive Bayes, which takes in 
+    training data in the from of vectors, and returns a
+    classifier. Note: The size of trainingLabels and 
+    trainingData should bethe same size
+    """
 
-    ---Note--- At the moment, it is only using dummy variables. Need to
-    take in vector parameters instead!
-    """
-    X = np.array([[1,0],[0,0],[1,1],[0,1]])
-    y = np.array([2,1,1,0])
+    #Check to ensure same size
+    if not(len(trainingLabels) == len(trainingData)):
+        print "Error: Labels and Data are of different sizes: cannot train."
+        return;
+
+    #Import from scikit and fit the data into the algorithm
     from sklearn.naive_bayes import MultinomialNB
     clf = MultinomialNB()
-    clf.fit(X, y)
+    clf.fit(trainingData, trainingLabels)
     MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True)
-    print "Training Data: ", X
-    print "Training Labels: ", y
-    for x in range(10):
-        a = np.random.randint(2)
-        b = np.random.randint(2)
-        z = np.array([a,b])
-        print "Given score: ", z, "Best prediction: ",  clf.predict(z), "Probabilities: ", clf.predict_proba(z)
+    return clf
 
-def chooseClassifier(switch):
+def chooseClassifier(switch, trainingData,trainingLabels):
     """
     chooseClassifier() is the main method that will call different
     machine learning algorithms. The algorithm is based on what 
-    'switch' value is passed in.
+    'switch' value is passed in. Returns a classifier
     """
     if switch == 1:
         gaussNB()
     if switch == 2:
-        multNB()
+        return multNB(trainingData,trainingLabels)
         #We can add more if's if we want later...
     #if switch == 3:
 
-def classify(filename,switch):
-    dataset = np.loadtxt(filename, delimiter=",")
-    trainingData = []
-    trainingLabels = []
-    for x in range(len(dataset)):
-        trainingLabels.append(dataset[x][0])
-        trainingData.append(dataset[x][1:])
-        print trainingData, trainingLabels
+def predict(switch, clf, newData):
+    """
+    Takes in a classifier and data and returns a prediction
+    """
+    return clf.predict(newData)
 
-classify("temp.csv",2)
-chooseClassifier(2)
+
+def extractFile(filename):
+    """
+    Takes in a filename holding the training data and
+    returns a tuple of the trainingLabels and the trainingData.
+    Assumes that the first value of each row is the label.
+    """
+    dataset = np.loadtxt(filename, delimiter=",")
+    tempData = []
+    tempLabels = []
+    for x in range(len(dataset)):
+        tempLabels.append(dataset[x][0])
+        tempData.append(dataset[x][1:])
+    return (np.array(tempData),np.array(tempLabels))
+
+#Testing code 
+data = np.array([])
+labels = np.array([])
+(data,labels) = extractFile("temp.csv")
+clf = chooseClassifier(2,data,labels)
+p = predict(2,clf,np.array([2,5,0,1,0,0]))
+print p 
