@@ -48,14 +48,47 @@ def multNB(trainingData,trainingLabels):
     #Check to ensure same size
     if not(len(trainingLabels) == len(trainingData)):
         print "Error: Labels and Data are of different sizes: cannot train."
-        return;
+        return
 
     #Import from scikit and fit the data into the algorithm
     from sklearn.naive_bayes import MultinomialNB
     clf = MultinomialNB()
     clf.fit(trainingData, trainingLabels)
     MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True)
-    print "Multinomial Naive Bayes Classifer has been generated with a training set size of ",len(trainingLabels) ,"."
+
+    print "Multinomial Naive Bayes Classifier has been generated with a training set size of ",len(trainingLabels) ,"."
+    return clf
+
+def svmClassifier(trainingData,trainingLabels):
+    """
+    Uses Support Vector Machine (SVM) as the algorithm as
+    the classifier. The 'kernel' param is used to determine
+    which kernel function to use. We are currently using rbf, the default.
+    """
+    #Check to ensure same size
+    if not(len(trainingLabels) == len(trainingData)):
+        print "Error: Labels and Data are of different sizes: cannot train."
+        return
+    #Import svm from scikit and fit the data into the classifier
+    from sklearn.svm import SVC
+    k = 'rbf'
+    clf = SVC()
+    clf.fit(trainingData, trainingLabels)  
+    SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0, degree=3,
+    gamma=0.0, kernel=k, max_iter=-1, probability=False, random_state=None,
+    shrinking=True, tol=0.001, verbose=False)
+
+    print "Support Vector Classifier with kernel: ",k ," has been generated with a training set size of ",len(trainingLabels) ,"."
+    return clf
+
+def perceptron(trainingData,trainingLabels):
+    from sklearn.linear_model import Perceptron
+    clf = Perceptron()
+    clf.fit(trainingData,trainingLabels)
+    Perceptron(penalty=None, alpha=0.0001, fit_intercept=True, n_iter=5,
+    shuffle=False, verbose=0, eta0=1.0, n_jobs=1, random_state=0,
+    class_weight=None, warm_start=False)
+    print "Perceptron has been generated with a training set size of ",len(trainingLabels) ,"."
     return clf
 
 def chooseClassifier(switch, trainingData,trainingLabels):
@@ -65,11 +98,17 @@ def chooseClassifier(switch, trainingData,trainingLabels):
     'switch' value is passed in. Returns a classifier
     """
     if switch == 1:
+        print "Switch 1: Running a Sample Classifier."
         gaussNB()
     if switch == 2:
+        print "Switch 2: Running a Multinomial Bayes Classifier."
         return multNB(trainingData,trainingLabels)
-        #We can add more if's if we want later...
-    #if switch == 3:
+    if switch == 3:
+        print "Switch 3: Running an SVM Classifier."
+        return svmClassifier(trainingData,trainingLabels)
+    if switch == 4:
+        print "Switch 4: Running a Perceptron."
+        return perceptron(trainingData,trainingLabels)
 
 def predict(clf, newData):
     """
@@ -78,22 +117,22 @@ def predict(clf, newData):
     return clf.predict(newData)
 
 def testAccuracy(clf,validationData,validationLabels):
-	"""
-	Given a declared classifer and validation data, run the
-	classifier on these sample values and record the accuracy.
-	Prints out the final accuracy at the end.
-	"""
-	size = len(validationLabels)
-	correct = 0.0
-	for x in range(size):
-		tru = validationLabels[x]
-		est = clf.predict(validationData[x])
-		if int(est) == int(tru):
-			correct += 1
-		else:
-			print "Estimation failed: ", est, " when correct label is ", tru
-			print "Classifier's Guesses: ", clf.predict_proba(validationData[x])
-	print "Number correct: ", correct, " out of ", size, "; Accuracy: ", correct/size, "%"
+    """
+    Given a declared classifier and validation data, run the
+    classifier on these sample values and record the accuracy.
+    Prints out the final accuracy at the end.
+    """
+    size = len(validationLabels)
+    correct = 0.0
+    for x in range(size):
+        tru = validationLabels[x]
+        est = clf.predict(validationData[x])
+        if int(est) == int(tru):
+            correct += 1
+        else:
+            print "Estimation failed: ", est, " when correct label is ", tru
+            #print "Classifier's Guesses: ", clf.predict_proba(validationData[x])
+    print "Number correct: ", correct, " out of ", size, "; Accuracy: ", correct/size, "%"
 
 def extractFile(filename):
     """
@@ -112,5 +151,5 @@ def extractFile(filename):
 #Testing code 
 (data,labels) = extractFile("train.csv")
 (valData,valLabels) = extractFile("validate.csv")
-clf = chooseClassifier(2,data,labels)
+clf = chooseClassifier(4,data,labels)
 testAccuracy(clf,valData,valLabels)
