@@ -70,12 +70,29 @@ def chooseClassifier(switch, trainingData,trainingLabels):
         #We can add more if's if we want later...
     #if switch == 3:
 
-def predict(switch, clf, newData):
+def predict(clf, newData):
     """
     Takes in a classifier and data and returns a prediction
     """
     return clf.predict(newData)
 
+def testAccuracy(clf,validationData,validationLabels):
+	"""
+	Given a declared classifer and validation data, run the
+	classifier on these sample values and record the accuracy.
+	Prints out the final accuracy at the end.
+	"""
+	size = len(validationLabels)
+	correct = 0.0
+	for x in range(size):
+		tru = validationLabels[x]
+		est = clf.predict(validationData[x])
+		if int(est) == int(tru):
+			correct += 1
+		else:
+			print "Estimation failed: ", est, " when correct label is ", tru
+			print "Classifier's Guesses: ", clf.predict_proba(validationData[x])
+	print "Number correct: ", correct, " out of ", size, "; Accuracy: ", correct/size, "%"
 
 def extractFile(filename):
     """
@@ -92,9 +109,7 @@ def extractFile(filename):
     return (np.array(tempData),np.array(tempLabels))
 
 #Testing code 
-data = np.array([])
-labels = np.array([])
-(data,labels) = extractFile("temp.csv")
+(data,labels) = extractFile("train.csv")
+(valData,valLabels) = extractFile("validate.csv")
 clf = chooseClassifier(2,data,labels)
-p = predict(2,clf,np.array([2,5,0,1,0,0]))
-print p 
+testAccuracy(clf,valData,valLabels)
