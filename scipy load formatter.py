@@ -9,13 +9,14 @@ import string
 import csv
 
 #read the team names from file
-def readTeamList():
-    r=open("teamNames.txt")
+def readTeamList(filename):
+    r=open(filename)
     tlist=[]
     for line in r:
-        line=line.split(',')
-        for word in line:
-            tlist.append(word)
+        line=line.strip()
+        words=line.split(',')
+        tlist=words
+        break
     r.close()
     return tlist
 
@@ -37,13 +38,10 @@ def readLabels(r):
 #some necessary data structures
 FTRhdict={'H':'2','D':'1','A':'0'}
 FTRadict={'H':'0','D':'1','A':'2'}
-r=open('teamNames.txt')
-teamlist=[]
-for line in r:
-    line=line.strip()
-    words=line.split(',')
-    teamlist=words
-    break
+eplteamfile='teamNames.txt'
+spateamfile='spainteamNames.txt'
+eteamlist=readTeamList(eplteamfile)
+steamlist=readTeamList(spateamfile)
 keys=['FTHG','FTAG','HS','AS','HST','AST','HC','AC','HF','AF',
       'HY','AY','HR','AR']
 completekeys=['res','team','oteam','day','mon','yea','gs','ogs','sh','osho',
@@ -52,7 +50,7 @@ oddskeys=['IWH', 'IWD', 'IWA', 'LBH', 'LBD', 'LBA', 'WHH', 'WHD', 'WHA']
 
 #format csv to standardized label order
 #convert strings to numbers
-def formatData(rcsv,wcsv):
+def formatData(rcsv,wcsv,teamlist):
     reader=csv.DictReader(rcsv)
     writer=csv.writer(wcsv)
     writer.writerow(completekeys)
@@ -129,11 +127,11 @@ def add(hlist,alist,hitem,aitem):
     alist.append(hitem)
             
 #main method
-YEAR_TRAINING = 2005
-YEAR_VALIDATION = 2000
-YEAR_TESTING = 2010
+YEAR_TRAINING = (2000,2009)
+YEAR_VALIDATION = (1910,1914)
+YEAR_TESTING = (2010,2014)
 YEAR_END = 2014
-def write(filename, startyear, endyear):
+def write(filename, startyear, endyear,tlst):
     #empty alldata.csv
     w=open(filename,'w')
     w.close()
@@ -143,14 +141,14 @@ def write(filename, startyear, endyear):
             print "doing year", year
             fname="raw/"+str(year)+" raw.csv"
             with open(fname,'r') as f:
-                formatData(f,g)
+                formatData(f,g,tlst)
                 f.close()    
     g.close()
 
 
 def run():
-    write('trainingset.csv',YEAR_TRAINING,YEAR_TESTING-1)
-    write('validationset.csv',YEAR_VALIDATION,YEAR_TRAINING-1)
-    write('testingset.csv',YEAR_TESTING,YEAR_END)
+    write('trainingset.csv',YEAR_TRAINING[0],YEAR_TRAINING[1],eteamlist)
+    write('validationset.csv',YEAR_VALIDATION[0],YEAR_VALIDATION[1],steamlist)
+    write('testingset.csv',YEAR_TESTING[0],YEAR_TESTING[1],eteamlist)
     #labellist=readLabels(r)5
     #print labellist
