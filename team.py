@@ -32,6 +32,7 @@ class Team:
             mon = int(self.scoresList[i][4])
             day = int(self.scoresList[i][3])
             yea = int(self.scoresList[i][5])
+            print mon,day,yea,m,d,y
             #print self.scoresList[i][4]
             if yea <= y:
                 #3 = d , 4 = m, 5 = y
@@ -41,26 +42,27 @@ class Team:
                 #find 3 month
                 #find games BEFORE 5th day
                     if day <=d or not mon == m:
-                        if self.scoresList[i][2] == opposing:
-                            #temp.append(self.scoresList[i])
+                        if self.scoresList[i][2] == opposing and not first:
                             #Adding the result, game score, and opposing game score
                             temp+=self.scoresList[i][0],self.scoresList[i][6],self.scoresList[i][7]
                             num-=1
                             #if it is the first time, store the value and decrement the date
                             #used so that there is another iteration (currently risks potential
                             #errors in the fact that there could be repeats... need to be fixed)
-                            if first:
-                                store = self.scoresList[i+1][0]
-                                first = False
-                                nm = mon
-                                nd = day-1
-                                ny = yea
+                        elif first:
+                            store = self.scoresList[i][0]
+                            first = False
+                            nm = mon
+                            nd = day-1
+                            ny = yea
                 #check if opposing is correct
                 #add into list
                 #otherwise decrement
             i-=1
-        if not num == 0:
+        #if not num == 0:
             #print "Not enough data"
+        #    return None
+        if store == 9999 or temp == None:
             return None
         return store,temp,nd,nm,ny
 

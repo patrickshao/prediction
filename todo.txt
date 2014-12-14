@@ -12,3 +12,6 @@ Have good data, need...
 
 team.py have functions that can get relevant info based off date. 
 	last x games against y team 
+
+
+recent h2h, 5 recent games, [number of wins out of, number of goals for, number of goals against, of 38 games]

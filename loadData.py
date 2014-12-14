@@ -40,53 +40,77 @@ def addData(name):
                                 teamDict[lTeam].totalWins+=1
                         else:
                                 teamDict[rTeam].totalWins+=1
-
                         """if line[2] == "p":
                                 teamDict[lTeam].premier = True
                                 teamDict[rTeam].premier = True
                         if line[2] == "c":
                                 teamDict[lTeam].premier = False
                                 teamDict[rTeam].premier = False"""
-
 #team = the current team
 #opposing = the opposition team
 #day,month,year are self explanatory
 #numIter is the number of times that we generate new iterations
 #numPast is how many games for every iteration you go back in the past
-def makeCSV(inputName,outputName,team,opposing,day,month,year,numIter,numPast):
-        with open(outputName, 'wb') as csvfile:
-                addData(inputName)
-                #print teamDict
-                teamObj = teamDict[team] 
-                #gamesList = teamObj.scoresDict[opposing]
-                tm = month
-                ty = year
-                td = day
-                gamesList = list()
-                for i in range (0,numIter):
-                        #currently gets the recent games vs another team
-                        temp = teamObj.getRecentGamesVS(td,tm,ty,numPast,opposing)
-                        if not temp == None:
-                        	gamesList.append(temp)
-                        	tm = temp[3]
-                        	ty = temp[4]
-                        	td = temp[2]
-
-                w = csv.writer(csvfile, delimiter=',')
+def makeCSV(inputName,outputName,day,month,year,numIter,numPast):	
+    with open(outputName, 'w') as csvfile:
+        w = csv.writer(csvfile, delimiter=',')
+        addData(inputName)
+        for t1 in range(1,46):
+            if t1 == 45:
+                break
+            for t2 in range(t1+1,46):
+                team1 = str(t1)
+                team2 = str(t2)
+                #print team1,team2
+                gamesList = makeCSVHelper(inputName,outputName,team1,team2,day,month,year,numIter,numPast)
+                #teamDict = dict()
+				#makeCSV("validationset.csv","validate.csv",t1,t2,4,3,9999,100,2)
+				#teamDict = dict()
+				#makeCSV("testingset.csv","test.csv",t1,t2,4,3,9999,100,2)
+                if len(gamesList) != 0:
+                    print gamesList
                 for i in range(0,len(gamesList)):
-                        w.writerow([gamesList[i][0]]+gamesList[i][1])
-                        
+                    w.writerow([gamesList[i][0]]+gamesList[i][1])
+                
+
+def makeCSVHelper(inputName,outputName,team,opposing,day,month,year,numIter,numPast):
+    #addData(inputName)
+    #print teamDict
+    gamesList = list()
+    if team in teamDict.keys():
+        teamObj = teamDict[team] 
+        #gamesList = teamObj.scoresDict[opposing]
+        tm = month
+        ty = year
+        td = day
+        for i in range (0,numIter):
+            #currently gets the recent games vs another team
+            temp = teamObj.getRecentGamesVS(td,tm,ty,numPast,opposing)
+            print "temp",temp
+            if not temp == None:
+                gamesList.append(temp)
+                tm = temp[3]
+                ty = temp[4]
+                td = temp[2]
+                print "changed numbers",tm,ty,td
+    return gamesList
+                    
 #inputData = [row["res"],row["team"],row["oteam"],row["day"],row["mon"],row["yea"],row["gs"],row["ogs"]]
                         
 def run():
-	makeCSV("trainingset.csv","train.csv","1","2",4,3,9999,100,2)
-	teamDict = dict()
-	makeCSV("validationset.csv","validate.csv","1","2",4,3,9999,10,2)
-	teamDict = dict()
-	makeCSV("testingset.csv","test.csv","1","2",4,3,9999,10,2)
+	#a = open("train.csv",'w')
+	#a.close()
+	makeCSV("simpletest.csv","train.csv",4,3,9999,2,2)
+			#teamDict = dict()
+			#makeCSV("validationset.csv","validate.csv",t1,t2,4,3,9999,100,2)
+			#teamDict = dict()
+			#makeCSV("testingset.csv","test.csv",t1,t2,4,3,9999,100,2)
 	
 
 run()	
+
+
+
 #makeCSV("trainingset.csv","temp.csv","1","2",4,3,2010,10,5)
 #makeCSV("trainingset.csv","temp.csv","1","2",4,3,2010,10,5)
 #addData()
