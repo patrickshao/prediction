@@ -81,9 +81,9 @@ def makeCSV(inputName,outputName,team,opposing,day,month,year,numIter,numPast):
 def run():
 	makeCSV("trainingset.csv","train.csv","1","2",4,3,9999,100,2)
 	teamDict = dict()
-	makeCSV("validationset.csv","validate.csv","1","2",4,3,2010,10,5)
+	makeCSV("validationset.csv","validate.csv","1","2",4,3,9999,10,2)
 	teamDict = dict()
-	makeCSV("testingset.csv","test.csv","1","2",4,3,2010,10,5)
+	makeCSV("testingset.csv","test.csv","1","2",4,3,9999,10,2)
 	
 
 run()	
