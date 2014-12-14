@@ -120,7 +120,7 @@ def testAccuracy(clf,validationData,validationLabels):
     """
     Given a declared classifier and validation data, run the
     classifier on these sample values and record the accuracy.
-    Prints out the final accuracy at the end.
+    Prints out the final accuracy at the end and returns it.
     """
     size = len(validationLabels)
     correct = 0.0
@@ -132,7 +132,9 @@ def testAccuracy(clf,validationData,validationLabels):
         else:
             print "Estimation failed: ", est, " when correct label is ", tru
             #print "Classifier's Guesses: ", clf.predict_proba(validationData[x])
-    print "Number correct: ", correct, " out of ", size, "; Accuracy: ", correct/size, "%"
+    accuracy = correct/size
+    print "Number correct: ", correct, " out of ", size, "; Accuracy: ", accuracy, "%"
+    return accuracy
 
 def extractFile(filename):
     """
