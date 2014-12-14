@@ -55,6 +55,7 @@ def multNB(trainingData,trainingLabels):
     clf = MultinomialNB()
     clf.fit(trainingData, trainingLabels)
     MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True)
+    print "Multinomial Naive Bayes Classifer has been generated with a training set size of ",len(trainingLabels) ,"."
     return clf
 
 def chooseClassifier(switch, trainingData,trainingLabels):
