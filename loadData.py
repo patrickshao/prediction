@@ -51,29 +51,45 @@ def addData(name):
 #day,month,year are self explanatory
 #numIter is the number of times that we generate new iterations
 #numPast is how many games for every iteration you go back in the past
-def makeCSV(inputName,outputName,day,month,year,numIter,numPast):	
+def makeCSV(inputName,outputName,day,month,year,numIter,numPast):
+    #print "go"	
     with open(outputName, 'w') as csvfile:
-        w = csv.writer(csvfile, delimiter=',')
-        addData(inputName)
-        for t1 in range(1,46):
-            if t1 == 45:
-                break
-            for t2 in range(t1+1,46):
-                team1 = str(t1)
-                team2 = str(t2)
+        with open(inputName, 'r') as csvfile2:
+            #print "go"
+            w = csv.writer(csvfile)
+            r = csv.reader(csvfile2)
+            addData(inputName)
+            first = True
+            #print "go"
+            for row in r:
+                if first:
+                    first = False
+                    continue
+                d = row[3]
+                m = row[4]
+                y = row[5]
+                t1 = row[1]
+                t2 = row[2]
+                team = teamDict[t1]
+                gamesList = team.getRecentGamesVS(d,m,y,numPast,t2)
+                #print gamesList
+                if gamesList != None:
+                    w.writerow([gamesList[0]]+gamesList[1])
+                    
                 #print team1,team2
-                gamesList = makeCSVHelper(inputName,outputName,team1,team2,day,month,year,numIter,numPast)
+                #gamesList = makeCSVHelper(inputName,outputName,team1,team2,day,month,year,numIter,numPast)
                 #teamDict = dict()
 				#makeCSV("validationset.csv","validate.csv",t1,t2,4,3,9999,100,2)
 				#teamDict = dict()
 				#makeCSV("testingset.csv","test.csv",t1,t2,4,3,9999,100,2)
-                if len(gamesList) != 0:
+                """if len(gamesList) != 0:
                     print gamesList
-                for i in range(0,len(gamesList)):
-                    w.writerow([gamesList[i][0]]+gamesList[i][1])
+                    for i in range(0,len(gamesList)):
+                        if gamesList[i][1] != []:
+                            w.writerow([gamesList[i][0]]+gamesList[i][1])"""
                 
 
-def makeCSVHelper(inputName,outputName,team,opposing,day,month,year,numIter,numPast):
+"""def makeCSVHelper(inputName,outputName,team,opposing,day,month,year,numIter,numPast):
     #addData(inputName)
     #print teamDict
     gamesList = list()
@@ -93,14 +109,14 @@ def makeCSVHelper(inputName,outputName,team,opposing,day,month,year,numIter,numP
                 ty = temp[4]
                 td = temp[2]
                 print "changed numbers",tm,ty,td
-    return gamesList
+    return gamesList"""
                     
 #inputData = [row["res"],row["team"],row["oteam"],row["day"],row["mon"],row["yea"],row["gs"],row["ogs"]]
                         
 def run():
-	#a = open("train.csv",'w')
-	#a.close()
-	makeCSV("simpletest.csv","train.csv",4,3,9999,2,2)
+	a = open("train.csv",'w')
+	a.close()
+	makeCSV("trainingset.csv","train.csv",4,3,9999,2,2)
 			#teamDict = dict()
 			#makeCSV("validationset.csv","validate.csv",t1,t2,4,3,9999,100,2)
 			#teamDict = dict()

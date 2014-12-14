@@ -29,19 +29,24 @@ class Team:
         while i >= 0 and num > 0:
             #print self.scoresList[i][4],self.scoresList[i][5],self.scoresList[i][6]
             #print m,d,y
+            print self.scoresList[i]
             mon = int(self.scoresList[i][4])
             day = int(self.scoresList[i][3])
             yea = int(self.scoresList[i][5])
-            print mon,day,yea,m,d,y
+            #print mon,day,yea,m,d,y
             #print self.scoresList[i][4]
+            y = int(y)
+            m = int(m)
+            d = int(d)
             if yea <= y:
                 #3 = d , 4 = m, 5 = y
                 #5th day of 3 month of 2012
                 #start at 2014, find 2012.
-                if mon <= m or not yea == y: 
+                #print "case1"
+                if mon <= m or yea != y: 
                 #find 3 month
                 #find games BEFORE 5th day
-                    if day <=d or not mon == m:
+                    if day <=d or mon != m:
                         if self.scoresList[i][2] == opposing and not first:
                             #Adding the result, game score, and opposing game score
                             temp+=self.scoresList[i][0],self.scoresList[i][6],self.scoresList[i][7]
@@ -59,9 +64,9 @@ class Team:
                 #add into list
                 #otherwise decrement
             i-=1
-        #if not num == 0:
+        if not num == 0:
             #print "Not enough data"
-        #    return None
+            return None
         if store == 9999 or temp == None:
             return None
         return store,temp,nd,nm,ny
