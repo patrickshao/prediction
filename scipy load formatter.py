@@ -129,21 +129,28 @@ def add(hlist,alist,hitem,aitem):
     alist.append(hitem)
             
 #main method
-YEAR_START = 2000
-YEAR_END = 2013
-def run():
+YEAR_TRAINING = 2005
+YEAR_VALIDATION = 2000
+YEAR_TESTING = 2010
+YEAR_END = 2014
+def write(filename, startyear, endyear):
     #empty alldata.csv
-    w=open('alldata.csv','w')
+    w=open(filename,'w')
     w.close()
     
-    with open('alldata.csv','a') as g:
-        for year in range(YEAR_START, YEAR_END+1):
+    with open(filename,'a') as g:
+        for year in range(startyear, endyear+1):
             print "doing year", year
             fname="raw/"+str(year)+" raw.csv"
             with open(fname,'r') as f:
                 formatData(f,g)
-                f.close()
-        pass
+                f.close()    
     g.close()
+
+
+def run():
+    write('trainingset.csv',YEAR_TRAINING,YEAR_TESTING-1)
+    write('validationset.csv',YEAR_VALIDATION,YEAR_TRAINING-1)
+    write('testingset.csv',YEAR_TESTING,YEAR_END)
     #labellist=readLabels(r)5
     #print labellist
