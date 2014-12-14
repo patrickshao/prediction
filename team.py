@@ -20,12 +20,15 @@ class Team:
 
     def getRecentGamesVS(self,d,m,y,num,opposing):
         temp = list()
-        store = 9999
+        #ensures values are initialized
+        label = 9999
         nm = 9999
         nd = 9999
         ny = 9999
         i = len(self.scoresList)-1
         first = True
+        #decrements from the back, as well as checking for the
+        #number of head to head games planned to record
         while i >= 0 and num > 0:
             #hacky way to prevent the mon error
             if self.scoresList[i][4] == "mon":
@@ -53,7 +56,7 @@ class Team:
                             #used so that there is another iteration (currently risks potential
                             #errors in the fact that there could be repeats... need to be fixed)
                         elif first:
-                            store = self.scoresList[i][0]
+                            label = self.scoresList[i][0]
                             first = False
                             nm = mon
                             nd = day-1
@@ -65,9 +68,9 @@ class Team:
         if not num == 0:
             #print "Not enough data"
             return None
-        if store == 9999 or temp == None:
+        if label == 9999 or temp == None:
             return None
-        return store,temp,nd,nm,ny
+        return label,temp,nd,nm,ny
 
     def historyVs(self,team):
         temp = list()
