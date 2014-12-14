@@ -59,6 +59,9 @@ class Team:
                 #add into list
                 #otherwise decrement
             i-=1
+        if not num == 0:
+            #print "Not enough data"
+            return None
         return store,temp,nd,nm,ny
 
     def historyVs(self,team):

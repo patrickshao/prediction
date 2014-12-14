@@ -5,8 +5,10 @@ import csv
 #Dictionary teamDict[teamname] = team object
 teamDict = dict()
 
-def run():
-        fname="alldata.csv"
+def addData(name):
+        #fname="alldata.csv"
+        #teamDict = dict()
+        fname = name
         #r=open(fname)
         with open(fname,'r') as f:
                 reader = csv.DictReader(f)
@@ -38,6 +40,7 @@ def run():
                                 teamDict[lTeam].totalWins+=1
                         else:
                                 teamDict[rTeam].totalWins+=1
+
                         """if line[2] == "p":
                                 teamDict[lTeam].premier = True
                                 teamDict[rTeam].premier = True
@@ -50,9 +53,10 @@ def run():
 #day,month,year are self explanatory
 #numIter is the number of times that we generate new iterations
 #numPast is how many games for every iteration you go back in the past
-def makeCSV(team,opposing,day,month,year,numIter,numPast):
-        with open('temp.csv', 'wb') as csvfile:
-                run()
+def makeCSV(inputName,outputName,team,opposing,day,month,year,numIter,numPast):
+        with open(outputName, 'wb') as csvfile:
+                addData(inputName)
+                #print teamDict
                 teamObj = teamDict[team] 
                 #gamesList = teamObj.scoresDict[opposing]
                 tm = month
@@ -62,10 +66,11 @@ def makeCSV(team,opposing,day,month,year,numIter,numPast):
                 for i in range (0,numIter):
                         #currently gets the recent games vs another team
                         temp = teamObj.getRecentGamesVS(td,tm,ty,numPast,opposing)
-                        gamesList.append(temp)
-                        tm = temp[3]
-                        ty = temp[4]
-                        td = temp[2]
+                        if not temp == None:
+                        	gamesList.append(temp)
+                        	tm = temp[3]
+                        	ty = temp[4]
+                        	td = temp[2]
 
                 w = csv.writer(csvfile, delimiter=',')
                 for i in range(0,len(gamesList)):
@@ -73,13 +78,19 @@ def makeCSV(team,opposing,day,month,year,numIter,numPast):
                         
 #inputData = [row["res"],row["team"],row["oteam"],row["day"],row["mon"],row["yea"],row["gs"],row["ogs"]]
                         
+def run():
+	makeCSV("allData.csv","temp.csv","1","2",4,3,9999,100,2)
+	teamDict = dict()
+	#makeCSV("allData.csv","temp.csv","1","2",4,3,2010,10,5)
 
-makeCSV("1","2",4,3,2010,10,5)
-#run()
+run()	
+#makeCSV("trainingset.csv","temp.csv","1","2",4,3,2010,10,5)
+#makeCSV("trainingset.csv","temp.csv","1","2",4,3,2010,10,5)
+#addData()
 #blah = team.makeTeam("blah")
 #print blah.name
 #print("Testing1")
-#run(7)
+#addData(7)
 #print teamDict["Chelsea"].wins(4)
 #print teamDict["Chelsea"].historyVs("Arsenal")
 #print "----------------------------------"
