@@ -73,6 +73,8 @@ def makeCSV(inputName,outputName,numPast):
 #inputData = [row["res"],row["team"],row["oteam"],row["day"],row["mon"],row["yea"],row["gs"],row["ogs"]]
                         
 def run():
+    print "Reading Simple Set"
+    makeCSV("simpletest.csv","simple.csv",2)
     print "Reading Training Set"
     makeCSV("trainingset.csv","train.csv",2)
     print "Reading Validation Set"
