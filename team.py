@@ -11,12 +11,13 @@ class Team:
         self.totalWins = 0
         self.premier = False
 
-    """def getRecentGames(self,num):
+    def getRecentGames(self,num):
         temp = list()
+        back = num
         if len(self.scoresList)-1 > num:
-            for i in range(num,len(self.scoresList)):
-                temp.append(self.scoresList(i))
-        return temp"""
+            while back > 0:
+                temp+=self.scoresList[back][0],self.scoresList[back][6],self.scoresList[back][7]
+        return temp
 
     def getRecentGamesVS(self,d,m,y,num,opposing):
         temp = list()
@@ -70,6 +71,9 @@ class Team:
             return None
         if label == 9999 or temp == None:
             return None
+
+        #Adding scores of recent five games.
+        temp+=self.getRecentGames(5)
         return label,temp,nd,nm,ny
 
     def historyVs(self,team):
