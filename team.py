@@ -13,10 +13,18 @@ class Team:
 
     def getRecentGames(self,num):
         temp = list()
-        back = num
-        if len(self.scoresList)-1 > num:
-            while back > 0:
-                temp+=self.scoresList[back][0],self.scoresList[back][6],self.scoresList[back][7]
+        back = 0
+        listLength = len(self.scoresList)
+        if listLength-1 > num:
+            while num > back:
+                i = listLength-1-back
+                temp+=self.scoresList[i][0],self.scoresList[i][6],self.scoresList[i][7]
+                back+=1
+        else:
+            while num > back:
+                i = listLength-back
+                temp+=0,0,0
+                back+=1
         return temp
 
     def getRecentGamesVS(self,d,m,y,num,opposing):

@@ -1,8 +1,8 @@
 Results 1:
 12/14/2014
 Features: Result Team Score and Opposing Score of 2 recent head to head games
-SVM Classifier: 1290/2394 (53.8847% accuracy)
 Multinomial Bayes Classifier: 1270/2394 (53.0492% accuracy)
+SVM Classifier: 1290/2394 (53.8847% accuracy)
 Perceptron: 1185/2394 (49.4876% accuracy)
 
 Data sets used:

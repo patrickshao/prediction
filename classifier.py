@@ -129,11 +129,11 @@ def testAccuracy(clf,validationData,validationLabels):
         est = clf.predict(validationData[x])
         if int(est) == int(tru):
             correct += 1
-        else:
-            print "Estimation failed: ", est, " when correct label is ", tru
+        #else:
+            #print "Estimation failed: ", est, " when correct label is ", tru
             #print "Classifier's Guesses: ", clf.predict_proba(validationData[x])
     accuracy = correct/size
-    print "Number correct: ", correct, " out of ", size, "; Accuracy: ", accuracy, "%"
+    print "Number correct: ", correct, " out of ", size, "; Accuracy: ", accuracy*100, "%"
     return accuracy
 
 def extractFile(filename):
@@ -153,5 +153,9 @@ def extractFile(filename):
 #Testing code 
 (data,labels) = extractFile("train.csv")
 (valData,valLabels) = extractFile("validate.csv")
+clf = chooseClassifier(2,data,labels)
+testAccuracy(clf,valData,valLabels)
+clf = chooseClassifier(3,data,labels)
+testAccuracy(clf,valData,valLabels)
 clf = chooseClassifier(4,data,labels)
 testAccuracy(clf,valData,valLabels)
