@@ -57,6 +57,114 @@ class Team:
         #print "------"
         return temp
 
+    def getRecentTotalScores(self,num,d,m,y):
+        temp = list()
+        back = 0
+        first = True
+        successes = 0
+        listLength = len(self.scoresList)
+        y = int(y)
+        m = int(m)
+        d = int(d)-1
+        tScored = 0
+        tScoredAgainst = 0
+        if listLength-1 > num: #useless if statement
+            if num > back:
+                #temp+=self.scoresList[i][0],self.scoresList[i][6],self.scoresList[i][7]
+                #back+=1
+                i = listLength-1-back
+                while back < num and i >=0:
+                    #print self.scoresList[i]
+                    mon = int(self.scoresList[i][4])
+                    day = int(self.scoresList[i][3]) 
+                    yea = int(self.scoresList[i][5])
+                    #print "Current",mon,day,yea,"Finding",m,d,y
+                    if yea <= y:
+                        #print "Passed year"
+                        #3 = d , 4 = m, 5 = y
+                        #5th day of 3 month of 2012
+                        #start at 2014, find 2012.
+                        if mon <= m or yea != y:
+                            #print "Passed Month" 
+                        #find 3 month
+                        #find games BEFORE 5th day
+                            if day <=d or mon != m or yea != y:
+                                #print "Passed day"
+                                #Adding the result, game score, and opposing game score
+                                #print "Matched"
+                                #temp+=self.scoresList[i][0],self.scoresList[i][6],self.scoresList[i][7]
+                                tScored+=int(self.scoresList[i][6])
+                                tScoredAgainst+=int(self.scoresList[i][7])
+                                successes+=1
+                                back+=1
+                                #if it is the first time, store the value and decrement the date
+                                #used so that there is another iteration (currently risks potential
+                                #errors in the fact that there could be repeats... need to be fixed)
+                    i-=1
+        temp+=tScored,tScoredAgainst
+        #print "------"
+        return temp
+
+    def currentStats(self,num,d,m,y):
+        temp = list()
+        back = 0
+        first = True
+        successes = 0
+        listLength = len(self.scoresList)
+        y = int(y)
+        m = int(m)
+        d = int(d)-1
+        win = 0.0
+        loss = 0.0
+        tie = 0.0
+        total = 0.0
+        if listLength-1 > num: #useless if statement
+            if num > back:
+                #temp+=self.scoresList[i][0],self.scoresList[i][6],self.scoresList[i][7]
+                #back+=1
+                i = listLength-1-back
+                while back < num and i >=0:
+                    #print self.scoresList[i]
+                    mon = int(self.scoresList[i][4])
+                    day = int(self.scoresList[i][3]) 
+                    yea = int(self.scoresList[i][5])
+                    #print "Current",mon,day,yea,"Finding",m,d,y
+                    if yea <= y:
+                        #print "Passed year"
+                        #3 = d , 4 = m, 5 = y
+                        #5th day of 3 month of 2012
+                        #start at 2014, find 2012.
+                        if mon <= m or yea != y:
+                            #print "Passed Month" 
+                        #find 3 month
+                        #find games BEFORE 5th day
+                            if day <=d or mon != m or yea != y:
+                                #print "Passed day"
+                                #Adding the result, game score, and opposing game score
+                                #print "Matched"
+                                #temp+=self.scoresList[i][0],self.scoresList[i][6],self.scoresList[i][7]
+                                res = int(self.scoresList[i][0])
+                                if res == 2:
+                                    win+=1
+                                elif res == 1:
+                                    tie+=1
+                                elif res == 0:
+                                    loss+=1
+                                total+=1
+                                successes+=1
+                                back+=1
+                                #if it is the first time, store the value and decrement the date
+                                #used so that there is another iteration (currently risks potential
+                                #errors in the fact that there could be repeats... need to be fixed)
+                    i-=1
+        if total != 0:
+            temp+=win/total,loss/total,tie/total
+        else:
+            temp+=0,0,0
+        #print "------"
+        return temp
+
+
     def getRecentGamesVS(self,d,m,y,num,opposing):
         temp = list()
         #ensures values are initialized
@@ -111,7 +219,10 @@ class Team:
             return None
 
         #Adding scores of recent five games.
-        #temp+=self.getRecentGames(5,d,m,y) CODE NEEDED TO ADD NEW DATA
+        #temp+=self.getRecentGames(5,d,m,y) 
+        #temp+=self.getRecentTotalScores(10,d,m,y) #3 was good
+        temp = list()
+        temp+=self.currentStats(5,d,m,y)
         return label,temp,nd,nm,ny
 
     def historyVs(self,team):
