@@ -74,13 +74,13 @@ def makeCSV(inputName,outputName,numPast):
                         
 def run():
     print "Reading Simple Set"
-    makeCSV("simpletest.csv","simple.csv",2)
+    makeCSV("simpletest.csv","simple.csv",1)
     print "Reading Training Set"
-    makeCSV("trainingset.csv","train.csv",2)
+    makeCSV("trainingset.csv","train.csv",1)
     print "Reading Validation Set"
-    makeCSV("validationset.csv","validate.csv",2)
+    makeCSV("validationset.csv","validate.csv",1)
     print "Reading Testing Set"
-    makeCSV("testingset.csv","test.csv",2)
+    makeCSV("testingset.csv","test.csv",1)
 	
 
 run()	
