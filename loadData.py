@@ -72,15 +72,16 @@ def makeCSV(inputName,outputName,numPast):
                     
 #inputData = [row["res"],row["team"],row["oteam"],row["day"],row["mon"],row["yea"],row["gs"],row["ogs"]]
                         
-def run():
+def run(comp):
     print "Reading Simple Set"
     makeCSV("simpletest.csv","simple.csv",1)
-    print "Reading Training Set"
-    makeCSV("trainingset.csv","train.csv",1)
-    print "Reading Validation Set"
-    makeCSV("validationset.csv","validate.csv",1)
-    print "Reading Testing Set"
-    makeCSV("testingset.csv","test.csv",1)
-	
+    if comp:
+        print "Reading Training Set"
+        makeCSV("trainingset.csv","train.csv",1)
+        print "Reading Validation Set"
+        makeCSV("validationset.csv","validate.csv",1)
+        print "Reading Testing Set"
+        makeCSV("testingset.csv","test.csv",1)
+    	
 
-run()	
+run(True)	

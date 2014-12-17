@@ -105,7 +105,7 @@ class Team:
         #print "------"
         return temp
 
-    def currentStats(self,num,d,m,y):
+    def currentStats(self,num,d,m,y): #fix off by one date error. no -1 for d
         temp = list()
         back = 0
         first = True
@@ -113,7 +113,7 @@ class Team:
         listLength = len(self.scoresList)
         y = int(y)
         m = int(m)
-        d = int(d)-1
+        d = int(d)
         win = 0.0
         loss = 0.0
         tie = 0.0
@@ -141,15 +141,19 @@ class Team:
                             if day <=d or mon != m or yea != y:
                                 #print "Passed day"
                                 #Adding the result, game score, and opposing game score
-                                #print "Matched"
+                                
                                 #temp+=self.scoresList[i][0],self.scoresList[i][6],self.scoresList[i][7]
                                 res = int(self.scoresList[i][0])
+                                #print "Matched",res
                                 if res == 2:
                                     win+=1
+                                    #print "won",win
                                 elif res == 1:
                                     tie+=1
+                                    #print "tie",tie
                                 elif res == 0:
                                     loss+=1
+                                    #print "loss",loss
                                 total+=1
                                 successes+=1
                                 back+=1
@@ -157,10 +161,12 @@ class Team:
                                 #used so that there is another iteration (currently risks potential
                                 #errors in the fact that there could be repeats... need to be fixed)
                     i-=1
-        if total != 0:
-            temp+=win/total,loss/total,tie/total
+        #print successes
+        #print win,tie,total
+        if successes == num and total != 0:
+            temp+=[(win+(tie/2))/total]
         else:
-            temp+=0,0,0
+            return None
         #print "------"
         return temp
 
@@ -174,44 +180,59 @@ class Team:
         ny = 9999
         i = len(self.scoresList)-1
         first = True
+        if self.scoresList[i][4] == "mon" or self.scoresList[i][5] == "yea":
+            return None
+        y = int(y)
+        m = int(m)
+        d = int(d)
         #decrements from the back, as well as checking for the
         #number of head to head games planned to record
         while i >= 0 and num > 0:
             #hacky way to prevent the mon error, does not read the mon line
-            if self.scoresList[i][4] == "mon":
-                return None
             mon = int(self.scoresList[i][4])
             day = int(self.scoresList[i][3])
             yea = int(self.scoresList[i][5])
 
-            y = int(y)
-            m = int(m)
-            d = int(d)
+            #print m,d,y,mon,day,yea
             if yea <= y:
                 #3 = d , 4 = m, 5 = y
                 #5th day of 3 month of 2012
                 #start at 2014, find 2012.
-                if mon <= m or yea != y: 
+                #print "pass y"
+                if mon <= m or yea != y:
+                    #print "pass m" 
                 #find 3 month
                 #find games BEFORE 5th day
                     if day <=d or mon != m or yea != y:
+                        #print "pass d"
+                        #print self.scoresList[i][2],opposing
                         if self.scoresList[i][2] == opposing and not first:
                             #Adding the result, game score, and opposing game score
-                            temp+=self.scoresList[i][0],self.scoresList[i][6],self.scoresList[i][7]
+                            #temp+=self.scoresList[i][0],self.scoresList[i][6],self.scoresList[i][7]
+                            #print "match"
+                            temp+=self.scoresList[i][6],self.scoresList[i][7]
+                            #print "Adding for ",d,m,y,self.scoresList[i][6],self.scoresList[i][7]
                             num-=1
                             #if it is the first time, store the value and decrement the date
                             #used so that there is another iteration (currently risks potential
                             #errors in the fact that there could be repeats... need to be fixed)
-                        elif first:
+                        elif first and self.scoresList[i][2] == opposing:
+                            #print "got label"
                             label = self.scoresList[i][0]
+                            #print m,d,y,mon,day,yea
                             first = False
-                            nm = mon
-                            nd = day-1
-                            ny = yea
+                            m = mon
+                            d = day-1
+                            y = yea
+                            """if i-1>=0:
+                                m = int(self.scoresList[i-1][4])
+                                d = int(self.scoresList[i-1][3])
+                                y = int(self.scoresList[i-1][5])"""    
                 #check if opposing is correct
                 #add into list
                 #otherwise decrement
             i-=1
+        #print "================================"
         if not num == 0:
             #print "Not enough data"
             return None
@@ -221,16 +242,19 @@ class Team:
         #Adding scores of recent five games.
         #temp+=self.getRecentGames(5,d,m,y) 
         #temp+=self.getRecentTotalScores(10,d,m,y) #3 was good
-        temp = list()
-        temp+=self.currentStats(5,d,m,y)
-        return label,temp,nd,nm,ny
+        #temp = list()
+        #if self.currentStats(5,d,m,y) == None:
+        #    return None
+        #else:
+        #    temp+=self.currentStats(5,d,m,y)
+        return label,temp
 
-    def historyVs(self,team):
+    """def historyVs(self,team):
         temp = list()
         for teamScore in self.scoresList:
             if teamScore[0] == team:
                 temp.append(teamScore[1])
-        return temp
+        return temp"""
 
     """def wins(self,current):
         tempWin = 0
