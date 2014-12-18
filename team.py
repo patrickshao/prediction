@@ -52,9 +52,9 @@ class Team:
                                 #errors in the fact that there could be repeats... need to be fixed)
                     i-=1
             while successes < num:
-                temp+=0,0,0
-                successes+=1
+                return None
         #print "------"
+        #print temp
         return temp
 
     def getRecentTotalScores(self,num,d,m,y):
@@ -226,10 +226,7 @@ class Team:
                             m = mon
                             d = day-1
                             y = yea
-                            """if i-1>=0:
-                                m = int(self.scoresList[i-1][4])
-                                d = int(self.scoresList[i-1][3])
-                                y = int(self.scoresList[i-1][5])"""    
+                               
                 #check if opposing is correct
                 #add into list
                 #otherwise decrement
@@ -245,17 +242,23 @@ class Team:
         #temp+=self.getRecentGames(5,d,m,y) 
         #temp+=self.getRecentTotalScores(10,d,m,y) #3 was good
         
+        #clears out all the old data to isolate feature
         #temp = list()
         
-        #if self.currentStats(1,d,m,y) == None:
-        #    return None
-        #else:
-        #    temp+=self.currentStats(1,d,m,y)
+        if self.currentStats(1,d,m,y) == None:
+            return None
+        else:
+            temp+=self.currentStats(1,d,m,y)
         
         if self.getRecentTotalScores(5,d,m,y) == None:
             return None
         else:
             temp+=self.getRecentTotalScores(5,d,m,y)
+
+        if self.getRecentGames(1,d,m,y) == None:
+            return None
+        else:
+            temp+=self.getRecentGames(1,d,m,y)
 
         return label,temp
 

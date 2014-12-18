@@ -135,3 +135,47 @@ Number correct: 877.0 out of 1910 ; Accuracy: 45.9162303665 %
 Switch 4: Running a Perceptron.
 Perceptron has been generated with a training set size of 5564
 Number correct: 401.0 out of 1910 ; Accuracy: 20.9947643979 %
+------------------------------------------------------------------------
+Features: label, goal scored, opposing score of previous game
+
+C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
+Switch 2: Running a Multinomial Bayes Classifier.
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  5586 .
+Number correct: 766.0 out of 1912 ; Accuracy: 40.0627615063 %
+Switch 3: Running an SVM Classifier.
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 5586
+Number correct: 787.0 out of 1912 ; Accuracy: 41.1610878661 %
+Switch 4: Running a Perceptron.
+Perceptron has been generated with a training set size of 5586
+Number correct: 487.0 out of 1912 ; Accuracy: 25.4707112971 %
+----------------------------------------------------------------------------------
+Features: label, goal scored, opposing score of 5 previous games
+
+C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
+Switch 2: Running a Multinomial Bayes Classifier.
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  5586 .
+Number correct: 731.0 out of 1912 ; Accuracy: 38.2322175732 %
+Switch 3: Running an SVM Classifier.
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 5586
+Number correct: 793.0 out of 1912 ; Accuracy: 41.4748953975 %
+Switch 4: Running a Perceptron.
+Perceptron has been generated with a training set size of 5586
+Number correct: 432.0 out of 1912 ; Accuracy: 22.5941422594 %
+------------------------------------------------------------------------------------
+combined: 2 recent head to head, label of previous game, recent 5 game total scores, recent game all stats
+C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
+Switch 2: Running a Multinomial Bayes Classifier.
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  5564 .
+Number correct: 898.0 out of 1910 ; Accuracy: 47.0157068063 %
+Switch 3: Running an SVM Classifier.
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 5564
+Number correct: 853.0 out of 1910 ; Accuracy: 44.6596858639 %
+Switch 4: Running a Perceptron.
+Perceptron has been generated with a training set size of 5564
+Number correct: 400.0 out of 1910 ; Accuracy: 20.942408377 %
