@@ -51,6 +51,8 @@ def svmClassifier(trainingData,trainingLabels):
     Uses Support Vector Machine (SVM) as the algorithm as
     the classifier. The 'kernel' param is used to determine
     which kernel function to use. We are currently using rbf, the default.
+    Doesn't work as effectively when there are too many training samples
+    or too many features.
     """
     #Check to ensure same size
     if not(len(trainingLabels) == len(trainingData)):
@@ -80,7 +82,8 @@ def perceptron(trainingData,trainingLabels):
 def sgdClassifier(trainingData,trainingLabels):
     """
     Implements Stochastic Gradient Descent as a classifier
-    to use as the learning algorithm.
+    to use as the learning algorithm. Works best if there is
+    a lot of training data and a lot of features.
     """
     from sklearn.linear_model import SGDClassifier
     clf = SGDClassifier(loss="hinge", penalty="l2")
@@ -96,19 +99,19 @@ def chooseClassifier(switch, trainingData,trainingLabels):
     'switch' value is passed in. Returns a classifier
     """
     if switch == 1:
-        print "Switch 1: Running a Gaussian Bayes Classifier."
+        #Switch 1: Gaussian Bayes Classifier
         return gaussNB(trainingData,trainingLabels)
     if switch == 2:
-        print "Switch 2: Running a Multinomial Bayes Classifier."
+        #Switch 2: Multinomial Bayes Classifier
         return multNB(trainingData,trainingLabels)
     if switch == 3:
-        print "Switch 3: Running an SVM Classifier."
+        #Switch 3: SVM Classifier
         return svmClassifier(trainingData,trainingLabels)
     if switch == 4:
-        print "Switch 4: Running a Perceptron."
+        #Switch 4: Perceptron
         return perceptron(trainingData,trainingLabels)
     if switch == 5:
-        print "Switch 5: Running Stochastic Gradient Descent"
+        #Switch 5: Stochastic Gradient Descent
         return sgdClassifier(trainingData,trainingLabels)
 
 def predict(clf, newData):
