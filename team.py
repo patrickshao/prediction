@@ -218,10 +218,10 @@ class Team:
                             temp+=self.scoresList[i][0],self.scoresList[i][6],self.scoresList[i][7]
 
                             #shots opposing shots
-                            temp+=self.scoresList[i][8],self.scoresList[i][9]
+                            #temp+=self.scoresList[i][8],self.scoresList[i][9]
                             
                             #shots on target, opposing shots on target
-                            temp+=self.scoresList[i][10],self.scoresList[i][11]
+                            #temp+=self.scoresList[i][10],self.scoresList[i][11]
                             
 
                             num-=1
@@ -250,7 +250,7 @@ class Team:
 
         #clears out all the old data to isolate feature
         #temp = list()
-        
+        """
         if self.currentStats(5,d,m,y) == None:
             return None
         else:
@@ -264,7 +264,7 @@ class Team:
         if self.getRecentGames(5,d,m,y) == None:
             return None
         else:
-            temp+=self.getRecentGames(5,d,m,y)
+            temp+=self.getRecentGames(5,d,m,y)"""
 
         return label,temp
 

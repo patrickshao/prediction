@@ -464,25 +464,6 @@ Number correct: 773.0 out of 3012 ; Accuracy: 25.6640106242 %
 Stochastic Gradient Descent Classifier generated with a training set size of 558
 6
 Number correct: 770.0 out of 3012 ; Accuracy: 25.5644090305 %
----------------------------
-
-baseline - naive solution
-C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
-Gaussian Naive Bayes Classifier has been generated with a training set size of
-5586 .
-Number correct: 1331.0 out of 3012 ; Accuracy: 44.1899070385 %
-Multinomial Naive Bayes Classifier has been generated with a training set size o
-f  5586 .
-Number correct: 1311.0 out of 3012 ; Accuracy: 43.5258964143 %
-Support Vector Classifier with kernel: rbf  has been generated with a training s
-et size of 5586
-Number correct: 1335.0 out of 3012 ; Accuracy: 44.3227091633 %
-Perceptron has been generated with a training set size of 5586
-Number correct: 891.0 out of 3012 ; Accuracy: 29.5816733068 %
-Stochastic Gradient Descent Classifier generated with a training set size of 558
-6
-Number correct: 809.0 out of 3012 ; Accuracy: 26.8592297477 %
-
 
 
 ------------------------------
@@ -503,3 +484,21 @@ Number correct: 874.0 out of 3007 ; Accuracy: 29.0655138011 %
 Stochastic Gradient Descent Classifier generated with a training set size of 556
 4
 Number correct: 778.0 out of 3007 ; Accuracy: 25.8729630861 %
+===============================================================
+BASELINE CORRECTED VERSION
+
+C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
+Gaussian Naive Bayes Classifier has been generated with a training set size of
+6593 .
+Number correct: 1343.0 out of 3168 ; Accuracy: 42.3926767677 %
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  6593 .
+Number correct: 1343.0 out of 3168 ; Accuracy: 42.3926767677 %
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 6593
+Number correct: 1343.0 out of 3168 ; Accuracy: 42.3926767677 %
+Perceptron has been generated with a training set size of 6593
+Number correct: 1180.0 out of 3168 ; Accuracy: 37.2474747475 %
+Stochastic Gradient Descent Classifier generated with a training set size of 659
+3
+Number correct: 1046.0 out of 3168 ; Accuracy: 33.0176767677 %

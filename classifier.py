@@ -167,7 +167,7 @@ def extractFile(filename):
 
 #Testing code 
 (data,labels) = extractFile("train.csv")
-(valData,valLabels) = extractFile("validate.csv")
+(valData,valLabels) = extractFile("test.csv")
 clf = chooseClassifier(1,data,labels)
 testAccuracy(clf,valData,valLabels)
 clf = chooseClassifier(2,data,labels)
