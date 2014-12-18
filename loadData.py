@@ -72,16 +72,16 @@ def makeCSV(inputName,outputName,numPast):
                     
 #inputData = [row["res"],row["team"],row["oteam"],row["day"],row["mon"],row["yea"],row["gs"],row["ogs"]]
                         
-def run(comp):
+def run(comp,numberBack):
     print "Reading Simple Set"
-    makeCSV("simpletest.csv","simple.csv",1)
+    makeCSV("simpletest.csv","simple.csv",numberBack)
     if comp:
         print "Reading Training Set"
-        makeCSV("trainingset.csv","train.csv",1)
+        makeCSV("trainingset.csv","train.csv",numberBack)
         print "Reading Validation Set"
-        makeCSV("validationset.csv","validate.csv",1)
+        makeCSV("validationset.csv","validate.csv",numberBack)
         print "Reading Testing Set"
-        makeCSV("testingset.csv","test.csv",1)
+        makeCSV("testingset.csv","test.csv",numberBack)
     	
 
-run(True)	
+run(True,2)	#3 previous games optimum
