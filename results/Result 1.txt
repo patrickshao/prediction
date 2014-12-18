@@ -327,3 +327,179 @@ Number correct: 57.0 out of 174 ; Accuracy: 32.7586206897 %
 Stochastic Gradient Descent Classifier generated with a training set size of 174
 5
 Number correct: 58.0 out of 174 ; Accuracy: 33.3333333333 %
+
+-----------------------------------------
+Features: shots opposing shots of past 2 games
+
+C:\Users\Patrick Shao\Documents\Github\prediction>python loadData.py
+Reading Simple Set
+Reading Training Set
+Reading Validation Set
+
+C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
+Gaussian Naive Bayes Classifier has been generated with a training set size of
+5586 .
+Number correct: 889.0 out of 1912 ; Accuracy: 46.4958158996 %
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  5586 .
+Number correct: 884.0 out of 1912 ; Accuracy: 46.2343096234 %
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 5586
+Number correct: 799.0 out of 1912 ; Accuracy: 41.7887029289 %
+Perceptron has been generated with a training set size of 5586
+Number correct: 483.0 out of 1912 ; Accuracy: 25.2615062762 %
+Stochastic Gradient Descent Classifier generated with a training set size of 558
+6
+Number correct: 416.0 out of 1912 ; Accuracy: 21.7573221757 %
+
+------------------------------------------------
+Features: shots on target op shots on target of past 2 games
+
+C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
+Gaussian Naive Bayes Classifier has been generated with a training set size of
+5586 .
+Number correct: 936.0 out of 1912 ; Accuracy: 48.9539748954 %
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  5586 .
+Number correct: 968.0 out of 1912 ; Accuracy: 50.6276150628 %
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 5586
+Number correct: 889.0 out of 1912 ; Accuracy: 46.4958158996 %
+Perceptron has been generated with a training set size of 5586
+Number correct: 406.0 out of 1912 ; Accuracy: 21.2343096234 %
+Stochastic Gradient Descent Classifier generated with a training set size of 558
+6
+Number correct: 400.0 out of 1912 ; Accuracy: 20.9205020921 %
+--------------------------------------------------
+Features: shots on target op shots on target of past 1 games
+
+C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
+Gaussian Naive Bayes Classifier has been generated with a training set size of
+6593 .
+Number correct: 1157.0 out of 2598 ; Accuracy: 44.5342571209 %
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  6593 .
+Number correct: 1158.0 out of 2598 ; Accuracy: 44.5727482679 %
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 6593
+Number correct: 1160.0 out of 2598 ; Accuracy: 44.649730562 %
+Perceptron has been generated with a training set size of 6593
+Number correct: 1023.0 out of 2598 ; Accuracy: 39.376443418 %
+Stochastic Gradient Descent Classifier generated with a training set size of 659
+3
+Number correct: 1023.0 out of 2598 ; Accuracy: 39.376443418 %
+---------------------------------------------------
+Features: shots on target op shots on target of past 3 games
+
+C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
+Gaussian Naive Bayes Classifier has been generated with a training set size of
+4907 .
+Number correct: 630.0 out of 1336 ; Accuracy: 47.1556886228 %
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  4907 .
+Number correct: 626.0 out of 1336 ; Accuracy: 46.8562874251 %
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 4907
+Number correct: 613.0 out of 1336 ; Accuracy: 45.8832335329 %
+Perceptron has been generated with a training set size of 4907
+Number correct: 318.0 out of 1336 ; Accuracy: 23.8023952096 %
+Stochastic Gradient Descent Classifier generated with a training set size of 490
+7
+Number correct: 290.0 out of 1336 ; Accuracy: 21.7065868263 %
+---------------------------------------------------
+everything with 2 
+C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
+Gaussian Naive Bayes Classifier has been generated with a training set size of
+5105 .
+Number correct: 851.0 out of 1770 ; Accuracy: 48.0790960452 %
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  5105 .
+Number correct: 855.0 out of 1770 ; Accuracy: 48.3050847458 %
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 5105
+Number correct: 804.0 out of 1770 ; Accuracy: 45.4237288136 %
+Perceptron has been generated with a training set size of 5105
+Number correct: 402.0 out of 1770 ; Accuracy: 22.7118644068 %
+Stochastic Gradient Descent Classifier generated with a training set size of 510
+5
+Number correct: 457.0 out of 1770 ; Accuracy: 25.8192090395 %
+------------------------------------------------
+everything with 5
+EVERYTHING - all features
+C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
+Gaussian Naive Bayes Classifier has been generated with a training set size of
+5564 .
+Number correct: 920.0 out of 1910 ; Accuracy: 48.167539267 %
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  5564 .
+Number correct: 921.0 out of 1910 ; Accuracy: 48.219895288 %
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 5564
+Number correct: 899.0 out of 1910 ; Accuracy: 47.0680628272 %
+Perceptron has been generated with a training set size of 5564
+Number correct: 471.0 out of 1910 ; Accuracy: 24.6596858639 %
+Stochastic Gradient Descent Classifier generated with a training set size of 556
+4
+Number correct: 431.0 out of 1910 ; Accuracy: 22.5654450262 %
+
+
+=============================================================
+=============================================================
+TEST RESULTS!!!!
+
+fancy number - goals on target opposing on target
+
+C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
+Gaussian Naive Bayes Classifier has been generated with a training set size of
+5586 .
+Number correct: 1394.0 out of 3012 ; Accuracy: 46.2815405046 %
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  5586 .
+Number correct: 1427.0 out of 3012 ; Accuracy: 47.3771580345 %
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 5586
+Number correct: 1269.0 out of 3012 ; Accuracy: 42.1314741036 %
+Perceptron has been generated with a training set size of 5586
+Number correct: 773.0 out of 3012 ; Accuracy: 25.6640106242 %
+Stochastic Gradient Descent Classifier generated with a training set size of 558
+6
+Number correct: 770.0 out of 3012 ; Accuracy: 25.5644090305 %
+---------------------------
+
+baseline - naive solution
+C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
+Gaussian Naive Bayes Classifier has been generated with a training set size of
+5586 .
+Number correct: 1331.0 out of 3012 ; Accuracy: 44.1899070385 %
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  5586 .
+Number correct: 1311.0 out of 3012 ; Accuracy: 43.5258964143 %
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 5586
+Number correct: 1335.0 out of 3012 ; Accuracy: 44.3227091633 %
+Perceptron has been generated with a training set size of 5586
+Number correct: 891.0 out of 3012 ; Accuracy: 29.5816733068 %
+Stochastic Gradient Descent Classifier generated with a training set size of 558
+6
+Number correct: 809.0 out of 3012 ; Accuracy: 26.8592297477 %
+
+
+
+------------------------------
+EVERYTHING - all features with 5
+
+C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
+Gaussian Naive Bayes Classifier has been generated with a training set size of
+5564 .
+Number correct: 1443.0 out of 3007 ; Accuracy: 47.9880279348 %
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  5564 .
+Number correct: 1455.0 out of 3007 ; Accuracy: 48.3870967742 %
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 5564
+Number correct: 1352.0 out of 3007 ; Accuracy: 44.9617559029 %
+Perceptron has been generated with a training set size of 5564
+Number correct: 874.0 out of 3007 ; Accuracy: 29.0655138011 %
+Stochastic Gradient Descent Classifier generated with a training set size of 556
+4
+Number correct: 778.0 out of 3007 ; Accuracy: 25.8729630861 %

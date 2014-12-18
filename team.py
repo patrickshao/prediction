@@ -214,9 +214,14 @@ class Team:
 
                             #more complicated
                             #print self.scoresList[i]
+                            #label,goals scored,opposing goals scored
                             temp+=self.scoresList[i][0],self.scoresList[i][6],self.scoresList[i][7]
 
-                            temp+=self.scoresList[i][8],self.scoresList[i][9],self.scoresList[i][10],self.scoresList[i][11]
+                            #shots opposing shots
+                            temp+=self.scoresList[i][8],self.scoresList[i][9]
+                            
+                            #shots on target, opposing shots on target
+                            temp+=self.scoresList[i][10],self.scoresList[i][11]
                             
 
                             num-=1
@@ -243,14 +248,10 @@ class Team:
         if label == 9999 or temp == None:
             return None
 
-        #Adding scores of recent five games.
-        #temp+=self.getRecentGames(5,d,m,y) 
-        #temp+=self.getRecentTotalScores(10,d,m,y) #3 was good
-        
         #clears out all the old data to isolate feature
         #temp = list()
         
-        """if self.currentStats(5,d,m,y) == None:
+        if self.currentStats(5,d,m,y) == None:
             return None
         else:
             temp+=self.currentStats(5,d,m,y)
@@ -263,7 +264,7 @@ class Team:
         if self.getRecentGames(5,d,m,y) == None:
             return None
         else:
-            temp+=self.getRecentGames(5,d,m,y)"""
+            temp+=self.getRecentGames(5,d,m,y)
 
         return label,temp
 

@@ -81,8 +81,8 @@ def run(comp,numberBack):
         makeCSV("trainingset.csv","train.csv",numberBack)
         print "Reading Validation Set"
         makeCSV("validationset.csv","validate.csv",numberBack)
-        #print "Reading Testing Set"
-        #makeCSV("testingset.csv","test.csv",numberBack)
+        print "Reading Testing Set"
+        makeCSV("testingset.csv","test.csv",numberBack)
     	
 
-run(True,10)	#2 previous games optimum
+run(True,2)	#2 previous games optimum
