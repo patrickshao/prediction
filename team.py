@@ -101,6 +101,8 @@ class Team:
                                 #used so that there is another iteration (currently risks potential
                                 #errors in the fact that there could be repeats... need to be fixed)
                     i-=1
+        if tScored == 0 or tScoredAgainst == 0:
+            return None
         temp+=tScored,tScoredAgainst
         #print "------"
         return temp
@@ -242,11 +244,19 @@ class Team:
         #Adding scores of recent five games.
         #temp+=self.getRecentGames(5,d,m,y) 
         #temp+=self.getRecentTotalScores(10,d,m,y) #3 was good
+        
         #temp = list()
-        #if self.currentStats(5,d,m,y) == None:
+        
+        #if self.currentStats(1,d,m,y) == None:
         #    return None
         #else:
-        #    temp+=self.currentStats(5,d,m,y)
+        #    temp+=self.currentStats(1,d,m,y)
+        
+        if self.getRecentTotalScores(5,d,m,y) == None:
+            return None
+        else:
+            temp+=self.getRecentTotalScores(5,d,m,y)
+
         return label,temp
 
     """def historyVs(self,team):

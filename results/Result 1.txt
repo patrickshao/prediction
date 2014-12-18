@@ -1,16 +1,5 @@
-Result 1.txt
 Date: 12/17/2014
 Features Used: 1 Most Recent Head to Head Game (result,goals scored,opposing goals scored)
-
-
-Multinomial Bayes Classifier.
-Number correct: 1195.0 out of 2598 ; Accuracy: 45.9969207082 %
-SVM Classifier.
-Number correct: 1195.0 out of 2598 ; Accuracy: 45.9969207082 %
-Perceptron.
-Perceptron has been generated with a training set size of 6593
-Number correct: 1023.0 out of 2598 ; Accuracy: 39.376443418 %
-
 
 C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
 Switch 2: Running a Multinomial Bayes Classifier.
@@ -24,3 +13,125 @@ Number correct: 1195.0 out of 2598 ; Accuracy: 45.9969207082 %
 Switch 4: Running a Perceptron.
 Perceptron has been generated with a training set size of 6593
 Number correct: 1023.0 out of 2598 ; Accuracy: 39.376443418 %
+-------------------------------------------------------------------------------------
+Date: 12/17/2014
+Features Used: 2 Most Recent Head to Head Game (result,goals scored,opposing goals scored)
+
+Running a Multinomial Bayes Classifier.
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  5586 .
+Number correct: 913.0 out of 1912 ; Accuracy: 47.7510460251 %
+Switch 3: Running an SVM Classifier.
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 5586
+Number correct: 891.0 out of 1912 ; Accuracy: 46.60041841 %
+Switch 4: Running a Perceptron.
+Perceptron has been generated with a training set size of 5586
+Number correct: 412.0 out of 1912 ; Accuracy: 21.5481171548 %
+-------------------------------------------------------------------------------------
+Date: 12/17/2014
+Features Used: 3 Most Recent Head to Head Game (result,goals scored,opposing goals scored)
+
+Running a Multinomial Bayes Classifier.
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  4907 .
+Number correct: 613.0 out of 1336 ; Accuracy: 45.8832335329 %
+Running an SVM Classifier.
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 4907
+Number correct: 634.0 out of 1336 ; Accuracy: 47.4550898204 %
+Running a Perceptron.
+Perceptron has been generated with a training set size of 4907
+Number correct: 355.0 out of 1336 ; Accuracy: 26.5718562874 %
+-------------------------------------------------------------------------------------
+Date: 12/17/2014
+Features Used: Based purely on the result of the previous game (no score also not necessarily opponent)
+
+C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
+Switch 2: Running a Multinomial Bayes Classifier.
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  4907 .
+Number correct: 525.0 out of 1336 ; Accuracy: 39.2964071856 %
+Switch 3: Running an SVM Classifier.
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 4907
+Number correct: 550.0 out of 1336 ; Accuracy: 41.1676646707 %
+Switch 4: Running a Perceptron.
+Perceptron has been generated with a training set size of 4907
+Number correct: 286.0 out of 1336 ; Accuracy: 21.4071856287 %
+-------------------------------------------------------------------------------------
+Date 12/17/2014
+Features used: Based purely on result of two previous games (no score also not necessarily opponent)
+
+C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
+Switch 2: Running a Multinomial Bayes Classifier.
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  4907 .
+Number correct: 525.0 out of 1336 ; Accuracy: 39.2964071856 %
+Switch 3: Running an SVM Classifier.
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 4907
+Number correct: 525.0 out of 1336 ; Accuracy: 39.2964071856 %
+Switch 4: Running a Perceptron.
+Perceptron has been generated with a training set size of 4907
+Number correct: 286.0 out of 1336 ; Accuracy: 21.4071856287 %
+-------------------------------------------------------------------------------------
+Date 12/17/2014
+Features used. Result of 3 previous games (no score also not necessarily opponent)
+C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
+Switch 2: Running a Multinomial Bayes Classifier.
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  4907 .
+Number correct: 525.0 out of 1336 ; Accuracy: 39.2964071856 %
+Switch 3: Running an SVM Classifier.
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 4907
+Number correct: 521.0 out of 1336 ; Accuracy: 38.997005988 %
+Switch 4: Running a Perceptron.
+Perceptron has been generated with a training set size of 4907
+Number correct: 286.0 out of 1336 ; Accuracy: 21.4071856287 %
+-------------------------------------------------------------------------------------
+Features used Goal scored both sides in 5 recent games
+
+C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
+Switch 2: Running a Multinomial Bayes Classifier.
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  5564 .
+Number correct: 761.0 out of 1910 ; Accuracy: 39.8429319372 %
+Switch 3: Running an SVM Classifier.
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 5564
+Number correct: 844.0 out of 1910 ; Accuracy: 44.1884816754 %
+Switch 4: Running a Perceptron.
+Perceptron has been generated with a training set size of 5564
+Number correct: 400.0 out of 1910 ; Accuracy: 20.942408377 %
+-------------------------------------------------------------------------------------
+Features used Goal scored both sides in 1 recent games
+
+C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
+Switch 2: Running a Multinomial Bayes Classifier.
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  2727 .
+Number correct: 347.0 out of 928 ; Accuracy: 37.3922413793 %
+Switch 3: Running an SVM Classifier.
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 2727
+Number correct: 365.0 out of 928 ; Accuracy: 39.3318965517 %
+Switch 4: Running a Perceptron.
+Perceptron has been generated with a training set size of 2727
+Number correct: 199.0 out of 928 ; Accuracy: 21.4439655172 %
+---------------------------------------------------------------------
+Combined. Features: Goals of 5 recent game and 2 head to head label,goal,opposing goal
+
+C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
+Switch 2: Running a Multinomial Bayes Classifier.
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  5564 .
+Number correct: 913.0 out of 1910 ; Accuracy: 47.8010471204 %
+Switch 3: Running an SVM Classifier.
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 5564
+Number correct: 877.0 out of 1910 ; Accuracy: 45.9162303665 %
+Switch 4: Running a Perceptron.
+Perceptron has been generated with a training set size of 5564
+Number correct: 401.0 out of 1910 ; Accuracy: 20.9947643979 %
