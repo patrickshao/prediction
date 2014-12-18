@@ -84,4 +84,4 @@ def run(comp,numberBack):
         makeCSV("testingset.csv","test.csv",numberBack)
     	
 
-run(True,2)	#3 previous games optimum
+run(True,2)	#2 previous games optimum

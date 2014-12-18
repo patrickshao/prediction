@@ -1,0 +1,26 @@
+Result 1.txt
+Date: 12/17/2014
+Features Used: 1 Most Recent Head to Head Game (result,goals scored,opposing goals scored)
+
+
+Multinomial Bayes Classifier.
+Number correct: 1195.0 out of 2598 ; Accuracy: 45.9969207082 %
+SVM Classifier.
+Number correct: 1195.0 out of 2598 ; Accuracy: 45.9969207082 %
+Perceptron.
+Perceptron has been generated with a training set size of 6593
+Number correct: 1023.0 out of 2598 ; Accuracy: 39.376443418 %
+
+
+C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
+Switch 2: Running a Multinomial Bayes Classifier.
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  6593 .
+Number correct: 1195.0 out of 2598 ; Accuracy: 45.9969207082 %
+Switch 3: Running an SVM Classifier.
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 6593
+Number correct: 1195.0 out of 2598 ; Accuracy: 45.9969207082 %
+Switch 4: Running a Perceptron.
+Perceptron has been generated with a training set size of 6593
+Number correct: 1023.0 out of 2598 ; Accuracy: 39.376443418 %

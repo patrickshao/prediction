@@ -19,7 +19,7 @@ class Team:
         listLength = len(self.scoresList)
         y = int(y)
         m = int(m)
-        d = int(d)-1
+        d = int(d)
         if listLength-1 > num: #useless if statement
             if num > back:
                 #temp+=self.scoresList[i][0],self.scoresList[i][6],self.scoresList[i][7]
@@ -65,7 +65,7 @@ class Team:
         listLength = len(self.scoresList)
         y = int(y)
         m = int(m)
-        d = int(d)-1
+        d = int(d)
         tScored = 0
         tScoredAgainst = 0
         if listLength-1 > num: #useless if statement
@@ -105,7 +105,7 @@ class Team:
         #print "------"
         return temp
 
-    def currentStats(self,num,d,m,y): #fix off by one date error. no -1 for d
+    def currentStats(self,num,d,m,y): 
         temp = list()
         back = 0
         first = True
@@ -113,7 +113,7 @@ class Team:
         listLength = len(self.scoresList)
         y = int(y)
         m = int(m)
-        d = int(d)
+        d = int(d) #no need to subtract by one because done already by getRecentGamesVS()
         win = 0.0
         loss = 0.0
         tie = 0.0
