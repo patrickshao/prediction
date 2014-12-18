@@ -211,9 +211,14 @@ class Team:
                         if self.scoresList[i][2] == opposing and not first:
                             #Adding the result, game score, and opposing game score
                             #temp+=self.scoresList[i][0],self.scoresList[i][6],self.scoresList[i][7]
-                            #print "match"
-                            temp+=self.scoresList[i][6],self.scoresList[i][7]
-                            #print "Adding for ",d,m,y,self.scoresList[i][6],self.scoresList[i][7]
+
+                            #more complicated
+                            #print self.scoresList[i]
+                            temp+=self.scoresList[i][0],self.scoresList[i][6],self.scoresList[i][7]
+
+                            temp+=self.scoresList[i][8],self.scoresList[i][9],self.scoresList[i][10],self.scoresList[i][11]
+                            
+
                             num-=1
                             #if it is the first time, store the value and decrement the date
                             #used so that there is another iteration (currently risks potential
@@ -245,20 +250,20 @@ class Team:
         #clears out all the old data to isolate feature
         #temp = list()
         
-        if self.currentStats(1,d,m,y) == None:
+        """if self.currentStats(5,d,m,y) == None:
             return None
         else:
-            temp+=self.currentStats(1,d,m,y)
+            temp+=self.currentStats(5,d,m,y)
         
         if self.getRecentTotalScores(5,d,m,y) == None:
             return None
         else:
             temp+=self.getRecentTotalScores(5,d,m,y)
 
-        if self.getRecentGames(1,d,m,y) == None:
+        if self.getRecentGames(5,d,m,y) == None:
             return None
         else:
-            temp+=self.getRecentGames(1,d,m,y)
+            temp+=self.getRecentGames(5,d,m,y)"""
 
         return label,temp
 

@@ -14,7 +14,7 @@ def addData(name):
                         rTeam = row["oteam"]
                         lScore = row["gs"]
                         rScore = row["ogs"]
-                        inputData = [row["res"],row["team"],row["oteam"],row["day"],row["mon"],row["yea"],row["gs"],row["ogs"]]
+                        inputData = [row["res"],row["team"],row["oteam"],row["day"],row["mon"],row["yea"],row["gs"],row["ogs"],row["sh"],row["osho"],row["st"],row["ost"],]
                         #makes sure if team is not within the dict that
                         #there will be a new key instantiated
                         if not lTeam in teamDict.keys():
@@ -70,7 +70,8 @@ def makeCSV(inputName,outputName,numPast):
                     w.writerow([gamesList[0]]+gamesList[1])
 
                     
-#inputData = [row["res"],row["team"],row["oteam"],row["day"],row["mon"],row["yea"],row["gs"],row["ogs"]]
+#inputData = [row["res"],row["team"],row["oteam"],row["day"],row["mon"],row["yea"],row["gs"],row["ogs"] opposing shots, shots on target,
+#opp shots on target, corners,]
                         
 def run(comp,numberBack):
     print "Reading Simple Set"
@@ -84,4 +85,4 @@ def run(comp,numberBack):
         #makeCSV("testingset.csv","test.csv",numberBack)
     	
 
-run(True,2)	#2 previous games optimum
+run(True,10)	#2 previous games optimum

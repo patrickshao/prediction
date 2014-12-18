@@ -166,16 +166,164 @@ Switch 4: Running a Perceptron.
 Perceptron has been generated with a training set size of 5586
 Number correct: 432.0 out of 1912 ; Accuracy: 22.5941422594 %
 ------------------------------------------------------------------------------------
-combined: 2 recent head to head, label of previous game, recent 5 game total scores, recent game all stats
+combined: 2 recent head to head, 5 label of previous game, recent 5 game total scores, recent 5 games goal score opposing goal
 C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
-Switch 2: Running a Multinomial Bayes Classifier.
+Gaussian Naive Bayes Classifier has been generated with a training set size of
+5564 .
+Number correct: 887.0 out of 1910 ; Accuracy: 46.4397905759 %
 Multinomial Naive Bayes Classifier has been generated with a training set size o
 f  5564 .
-Number correct: 898.0 out of 1910 ; Accuracy: 47.0157068063 %
-Switch 3: Running an SVM Classifier.
+Number correct: 897.0 out of 1910 ; Accuracy: 46.9633507853 %
 Support Vector Classifier with kernel: rbf  has been generated with a training s
 et size of 5564
-Number correct: 853.0 out of 1910 ; Accuracy: 44.6596858639 %
-Switch 4: Running a Perceptron.
+Number correct: 897.0 out of 1910 ; Accuracy: 46.9633507853 %
 Perceptron has been generated with a training set size of 5564
-Number correct: 400.0 out of 1910 ; Accuracy: 20.942408377 %
+Number correct: 409.0 out of 1910 ; Accuracy: 21.4136125654 %
+Stochastic Gradient Descent Classifier generated with a training set size of 556
+4
+Number correct: 407.0 out of 1910 ; Accuracy: 21.3089005236 %
+------------------------------------------------------------------------------------------
+Features used: 2 h2h matchups INCLUDES LABEL goal scored and opposing goals scored EVERYTHING above does not include LABEL
+C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
+Gaussian Naive Bayes Classifier has been generated with a training set size of
+5586 .
+Number correct: 891.0 out of 1912 ; Accuracy: 46.60041841 %
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  5586 .
+Number correct: 917.0 out of 1912 ; Accuracy: 47.960251046 %
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 5586
+Number correct: 891.0 out of 1912 ; Accuracy: 46.60041841 %
+Perceptron has been generated with a training set size of 5586
+Number correct: 477.0 out of 1912 ; Accuracy: 24.9476987448 %
+Stochastic Gradient Descent Classifier generated with a training set size of 558
+6
+Number correct: 425.0 out of 1912 ; Accuracy: 22.2280334728 %
+----------------------------------------------------------------------------------------------
+Features: shots opposing shots shots on target op shots on target of 2 games
+
+C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
+Gaussian Naive Bayes Classifier has been generated with a training set size of
+5586 .
+Number correct: 922.0 out of 1912 ; Accuracy: 48.2217573222 %
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  5586 .
+Number correct: 915.0 out of 1912 ; Accuracy: 47.8556485356 %
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 5586
+Number correct: 807.0 out of 1912 ; Accuracy: 42.2071129707 %
+Perceptron has been generated with a training set size of 5586
+Number correct: 455.0 out of 1912 ; Accuracy: 23.7970711297 %
+Stochastic Gradient Descent Classifier generated with a training set size of 558
+6
+Number correct: 400.0 out of 1912 ; Accuracy: 20.9205020921 %
+-------------------------------------------------------------------------------------------------
+Features: shots opposing shots shots on target op shots on target previous 1 game
+
+C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
+Gaussian Naive Bayes Classifier has been generated with a training set size of
+6593 .
+Number correct: 1201.0 out of 2598 ; Accuracy: 46.2278675905 %
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  6593 .
+Number correct: 1198.0 out of 2598 ; Accuracy: 46.1123941493 %
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 6593
+Number correct: 1020.0 out of 2598 ; Accuracy: 39.2609699769 %
+Perceptron has been generated with a training set size of 6593
+Number correct: 1023.0 out of 2598 ; Accuracy: 39.376443418 %
+Stochastic Gradient Descent Classifier generated with a training set size of 659
+3
+Number correct: 1023.0 out of 2598 ; Accuracy: 39.376443418 %
+
+-------------------------------------------------------------------------------------------------
+Features: shots opposing shots shots on target op shots on target previous 3 game
+
+C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
+Gaussian Naive Bayes Classifier has been generated with a training set size of
+4907 .
+Number correct: 642.0 out of 1336 ; Accuracy: 48.0538922156 %
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  4907 .
+Number correct: 636.0 out of 1336 ; Accuracy: 47.6047904192 %
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 4907
+Number correct: 587.0 out of 1336 ; Accuracy: 43.9371257485 %
+Perceptron has been generated with a training set size of 4907
+Number correct: 288.0 out of 1336 ; Accuracy: 21.5568862275 %
+Stochastic Gradient Descent Classifier generated with a training set size of 490
+7
+Number correct: 302.0 out of 1336 ; Accuracy: 22.6047904192 %
+-------------------------------------------------------------------------------------------------
+Features: label goal scored opposing score shots opposing shots shots on target op shots on target previous 3 game
+
+C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
+Gaussian Naive Bayes Classifier has been generated with a training set size of
+4907 .
+Number correct: 612.0 out of 1336 ; Accuracy: 45.8083832335 %
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  4907 .
+Number correct: 633.0 out of 1336 ; Accuracy: 47.380239521 %
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 4907
+Number correct: 648.0 out of 1336 ; Accuracy: 48.502994012 %
+Perceptron has been generated with a training set size of 4907
+Number correct: 313.0 out of 1336 ; Accuracy: 23.4281437126 %
+Stochastic Gradient Descent Classifier generated with a training set size of 490
+7
+Number correct: 311.0 out of 1336 ; Accuracy: 23.2784431138 %
+----------------------------------------------------------------------------------------------------
+Features: label goal scored opposing score shots opposing shots shots on target op shots on target previous 2 game
+
+
+C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
+Gaussian Naive Bayes Classifier has been generated with a training set size of
+5586 .
+Number correct: 928.0 out of 1912 ; Accuracy: 48.5355648536 %
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  5586 .
+Number correct: 929.0 out of 1912 ; Accuracy: 48.5878661088 %
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 5586
+Number correct: 880.0 out of 1912 ; Accuracy: 46.0251046025 %
+Perceptron has been generated with a training set size of 5586
+Number correct: 453.0 out of 1912 ; Accuracy: 23.6924686192 %
+Stochastic Gradient Descent Classifier generated with a training set size of 558
+6
+Number correct: 407.0 out of 1912 ; Accuracy: 21.2866108787 %
+-----------------------------------------------------------------------------------------------------------
+Features: label goal scored opposing score shots opposing shots shots on target op shots on target previous 1 game
+
+C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
+Gaussian Naive Bayes Classifier has been generated with a training set size of
+6593 .
+Number correct: 1222.0 out of 2598 ; Accuracy: 47.0361816782 %
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  6593 .
+Number correct: 1218.0 out of 2598 ; Accuracy: 46.8822170901 %
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 6593
+Number correct: 1091.0 out of 2598 ; Accuracy: 41.9938414165 %
+Perceptron has been generated with a training set size of 6593
+Number correct: 1069.0 out of 2598 ; Accuracy: 41.1470361817 %
+Stochastic Gradient Descent Classifier generated with a training set size of 659
+3
+Number correct: 1197.0 out of 2598 ; Accuracy: 46.0739030023 %
+-------------------------------------------------------------------------------------------------
+Features: label goal scored opposing score shots opposing shots shots on target op shots on target previous 10 game
+
+C:\Users\Patrick Shao\Documents\Github\prediction>python classifier.py
+Gaussian Naive Bayes Classifier has been generated with a training set size of
+1745 .
+Number correct: 59.0 out of 174 ; Accuracy: 33.908045977 %
+Multinomial Naive Bayes Classifier has been generated with a training set size o
+f  1745 .
+Number correct: 56.0 out of 174 ; Accuracy: 32.183908046 %
+Support Vector Classifier with kernel: rbf  has been generated with a training s
+et size of 1745
+Number correct: 63.0 out of 174 ; Accuracy: 36.2068965517 %
+Perceptron has been generated with a training set size of 1745
+Number correct: 57.0 out of 174 ; Accuracy: 32.7586206897 %
+Stochastic Gradient Descent Classifier generated with a training set size of 174
+5
+Number correct: 58.0 out of 174 ; Accuracy: 33.3333333333 %

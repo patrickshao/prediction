@@ -46,6 +46,8 @@ keys=['FTHG','FTAG','HS','AS','HST','AST','HC','AC','HF','AF',
       'HY','AY','HR','AR']
 completekeys=['res','team','oteam','day','mon','yea','gs','ogs','sh','osho',
               'st','ost','co','oco','fo','ofo','ye','oye','re','ore']
+#[result, team, opposing team, day, month, year, goals scored, opposing goals scored, shots, opposing shots, shots on target,
+#opp shots on target, corners, opp corners, fouls, opp fouls, yellow cards, opp yellow cards, red cards, opp red cards]
 oddskeys=['IWH', 'IWD', 'IWA', 'LBH', 'LBD', 'LBA', 'WHH', 'WHD', 'WHA']
 
 #format csv to standardized label order
