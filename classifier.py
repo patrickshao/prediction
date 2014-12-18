@@ -9,33 +9,20 @@ information.
 import numpy as np
 import copy
 
-def gaussNB():
+def gaussNB(trainingData,trainingLabels):
     """
-    Sample code using Gaussian Naive Bayes. This code does not
-    actually apply to our problem. Use this as a reference.
-
-    X = the initial training set; The set is a vector (list)
-        of samples vectors to train the machine. This will used in fit()
-    y = the label vectors; Each value corresponds to the sample vector in X.
-        Therefore, the size of y MUST be the same size as the number of sample
-        vectors in X.
+    Implements a Gaussian Bayes Classifier to take in
+    the training data/labels and returns a classifier.
     """
 
-    from sklearn.naive_bayes import GaussianNB
-
-    #Set up the list values
-    X = np.array([[-1, -1], [-2, -1], [-3, -2], [1, 1], [2, 1], [3, 2]])
-    Y = np.array([1, 1, 1, 2, 2, 2])
-    
     #Initialize the Naive Bayes and start training
+    from sklearn.naive_bayes import GaussianNB
     clf = GaussianNB()
-    clf.fit(X, Y)
+    clf.fit(trainingData,trainingLabels)
     GaussianNB()
 
-    #Predict a value and print it out
-    print "Training Data: ", X
-    print "Labels for Training Data: ", Y
-    print(clf.predict([[-0.8, -1]]))
+    print "Gaussian Naive Bayes Classifier has been generated with a training set size of ",len(trainingLabels) ,"."
+    return clf
 
 def multNB(trainingData,trainingLabels):
     """
@@ -72,23 +59,34 @@ def svmClassifier(trainingData,trainingLabels):
     #Import svm from scikit and fit the data into the classifier
     from sklearn.svm import SVC
     k = 'rbf'
-    clf = SVC()
+    clf = SVC(kernel='rbf')
     clf.fit(trainingData, trainingLabels)  
-    SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0, degree=3,
-    gamma=0.0, kernel=k, max_iter=-1, probability=False, random_state=None,
-    shrinking=True, tol=0.001, verbose=False)
 
     print "Support Vector Classifier with kernel:", k," has been generated with a training set size of",len(trainingLabels)
     return clf
 
 def perceptron(trainingData,trainingLabels):
+    """
+    Implements a linear perceptron model as the
+    machine learning algorithm.
+    """
     from sklearn.linear_model import Perceptron
     clf = Perceptron()
     clf.fit(trainingData,trainingLabels)
-    Perceptron(penalty=None, alpha=0.0001, fit_intercept=True, n_iter=5,
-    shuffle=False, verbose=0, eta0=1.0, n_jobs=1, random_state=0,
-    class_weight=None, warm_start=False)
+    
     print "Perceptron has been generated with a training set size of",len(trainingLabels)
+    return clf
+
+def sgdClassifier(trainingData,trainingLabels):
+    """
+    Implements Stochastic Gradient Descent as a classifier
+    to use as the learning algorithm.
+    """
+    from sklearn.linear_model import SGDClassifier
+    clf = SGDClassifier(loss="hinge", penalty="l2")
+    clf.fit(trainingData, trainingLabels)
+    
+    print "Stochastic Gradient Descent Classifier generated with a training set size of",len(trainingLabels)
     return clf
 
 def chooseClassifier(switch, trainingData,trainingLabels):
@@ -98,8 +96,8 @@ def chooseClassifier(switch, trainingData,trainingLabels):
     'switch' value is passed in. Returns a classifier
     """
     if switch == 1:
-        print "Switch 1: Running a Sample Classifier."
-        gaussNB()
+        print "Switch 1: Running a Gaussian Bayes Classifier."
+        return gaussNB(trainingData,trainingLabels)
     if switch == 2:
         print "Switch 2: Running a Multinomial Bayes Classifier."
         return multNB(trainingData,trainingLabels)
@@ -109,6 +107,9 @@ def chooseClassifier(switch, trainingData,trainingLabels):
     if switch == 4:
         print "Switch 4: Running a Perceptron."
         return perceptron(trainingData,trainingLabels)
+    if switch == 5:
+        print "Switch 5: Running Stochastic Gradient Descent"
+        return sgdClassifier(trainingData,trainingLabels)
 
 def predict(clf, newData):
     """
@@ -117,7 +118,7 @@ def predict(clf, newData):
     return clf.predict(newData)
 
 #Less efficient version of testAccuracy
-def testAccuracy2(clf,validationData,validationLabels):
+def testAccuracy(clf,validationData,validationLabels):
     """
     Given a declared classifier and validation data, run the
     classifier on these sample values and record the accuracy.
@@ -137,7 +138,7 @@ def testAccuracy2(clf,validationData,validationLabels):
     print "Number correct:", correct, "out of", size,"; Accuracy:", accuracy*100, "%"
     return accuracy
 
-def testAccuracy(clf,validationData,validationLabels):
+def testAccuracy2(clf,validationData,validationLabels):
     """
     Given a declared classifier and validation data, run the
     classifier and print the accuracy of the classifier. Returns
@@ -164,9 +165,13 @@ def extractFile(filename):
 #Testing code 
 (data,labels) = extractFile("train.csv")
 (valData,valLabels) = extractFile("validate.csv")
+clf = chooseClassifier(1,data,labels)
+testAccuracy(clf,valData,valLabels)
 clf = chooseClassifier(2,data,labels)
-testAccuracy2(clf,valData,valLabels)
+testAccuracy(clf,valData,valLabels)
 clf = chooseClassifier(3,data,labels)
-testAccuracy2(clf,valData,valLabels)
+testAccuracy(clf,valData,valLabels)
 clf = chooseClassifier(4,data,labels)
-testAccuracy2(clf,valData,valLabels)
+testAccuracy(clf,valData,valLabels)
+clf = chooseClassifier(5,data,labels)
+testAccuracy(clf,valData,valLabels)
