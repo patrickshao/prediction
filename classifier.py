@@ -78,7 +78,7 @@ def svmClassifier(trainingData,trainingLabels):
     gamma=0.0, kernel=k, max_iter=-1, probability=False, random_state=None,
     shrinking=True, tol=0.001, verbose=False)
 
-    print "Support Vector Classifier with kernel: ",k ," has been generated with a training set size of ",len(trainingLabels) ,"."
+    print "Support Vector Classifier with kernel:", k," has been generated with a training set size of",len(trainingLabels)
     return clf
 
 def perceptron(trainingData,trainingLabels):
@@ -88,7 +88,7 @@ def perceptron(trainingData,trainingLabels):
     Perceptron(penalty=None, alpha=0.0001, fit_intercept=True, n_iter=5,
     shuffle=False, verbose=0, eta0=1.0, n_jobs=1, random_state=0,
     class_weight=None, warm_start=False)
-    print "Perceptron has been generated with a training set size of ",len(trainingLabels) ,"."
+    print "Perceptron has been generated with a training set size of",len(trainingLabels)
     return clf
 
 def chooseClassifier(switch, trainingData,trainingLabels):
@@ -116,7 +116,8 @@ def predict(clf, newData):
     """
     return clf.predict(newData)
 
-def testAccuracy(clf,validationData,validationLabels):
+#Less efficient version of testAccuracy
+def testAccuracy2(clf,validationData,validationLabels):
     """
     Given a declared classifier and validation data, run the
     classifier on these sample values and record the accuracy.
@@ -133,7 +134,17 @@ def testAccuracy(clf,validationData,validationLabels):
             #print "Estimation failed: ", est, " when correct label is ", tru
             #print "Classifier's Guesses: ", clf.predict_proba(validationData[x])
     accuracy = correct/size
-    print "Number correct: ", correct, " out of ", size, "; Accuracy: ", accuracy*100, "%"
+    print "Number correct:", correct, "out of", size,"; Accuracy:", accuracy*100, "%"
+    return accuracy
+
+def testAccuracy(clf,validationData,validationLabels):
+    """
+    Given a declared classifier and validation data, run the
+    classifier and print the accuracy of the classifier. Returns
+    the accuracy as a decimal at the end for comparison.
+    """
+    accuracy = clf.score(validationData,validationLabels)
+    print "Scoring classifier... Accuracy:", accuracy*100, "%"
     return accuracy
 
 def extractFile(filename):
